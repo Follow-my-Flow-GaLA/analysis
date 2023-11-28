@@ -1,0 +1,85 @@
+Generating Phase 1 dict ...
+Phase 1 dict length is  5169
+Modifying Phase 1 dict ...
+Modified Phase 1 dict length is  893894
+Generating Defined Value dict ...
+------------------ below is Defined Value dict stats ----------------
+total number of sites:  3737
+number of sites with more than 1 def_val:  3244
+max num of def_val:  10
+Generating Phase 2 dict ...
+cheapoair_com  WEBSITE NOTFOUND! 
+une_net.co  WEBSITE NOTFOUND! 
+photorank_me  WEBSITE NOTFOUND! 
+sportsnet_ca  WEBSITE NOTFOUND! 
+claro_com.co  WEBSITE NOTFOUND! 
+replicon_com  WEBSITE NOTFOUND! 
+indigo_ca  WEBSITE NOTFOUND! 
+gu-global_com  WEBSITE NOTFOUND! 
+tigo_com.co  WEBSITE NOTFOUND! 
+shopee_ph  WEBSITE NOTFOUND! 
+mytrip_com  WEBSITE NOTFOUND! 
+ntv_com.tr  WEBSITE NOTFOUND! 
+ysl_com  WEBSITE NOTFOUND! 
+dysoncanada_ca  WEBSITE NOTFOUND! 
+ionos_co.uk  WEBSITE NOTFOUND! 
+taager_com  WEBSITE NOTFOUND! 
+s7cdn_online  WEBSITE NOTFOUND! 
+lokalise_com  WEBSITE NOTFOUND! 
+alodokter_com  WEBSITE NOTFOUND! 
+anyword_com  WEBSITE NOTFOUND! 
+3amlabs_com  WEBSITE NOTFOUND! 
+ironman_com  WEBSITE NOTFOUND! 
+getemoji_com  WEBSITE NOTFOUND! 
+s7_ru  WEBSITE NOTFOUND! 
+marketiq_com  WEBSITE NOTFOUND! 
+vietjetair_com  WEBSITE NOTFOUND! 
+pib_gov.in  WEBSITE NOTFOUND! 
+creditonebank_com  WEBSITE NOTFOUND! 
+sweet_tv  WEBSITE NOTFOUND! 
+makeshop_co.kr  WEBSITE NOTFOUND! 
+tpg_com.au  WEBSITE NOTFOUND! 
+wedmegood_com  WEBSITE NOTFOUND! 
+shellshock_io  WEBSITE NOTFOUND! 
+reyrey_com  WEBSITE NOTFOUND! 
+1cont_ru  WEBSITE NOTFOUND! 
+oxfamamerica_org  WEBSITE NOTFOUND! 
+makeshop_com  WEBSITE NOTFOUND! 
+seoquake_com  WEBSITE NOTFOUND! 
+voyeur-house_tv  WEBSITE NOTFOUND! 
+muumuu-domain_com  WEBSITE NOTFOUND! 
+java_com  WEBSITE NOTFOUND! 
+shopee_co.th  WEBSITE NOTFOUND! 
+stevens_edu  WEBSITE NOTFOUND! 
+universalstudioshollywood_com  WEBSITE NOTFOUND! 
+jcu_edu.au  WEBSITE NOTFOUND! 
+servicetitan_com  WEBSITE NOTFOUND! 
+tractorsupply_com  WEBSITE NOTFOUND! 
+tallysolutions_com  WEBSITE NOTFOUND! 
+descubrapg_com.br  WEBSITE NOTFOUND! 
+bet9ja_com  WEBSITE NOTFOUND! 
+wlo_link  WEBSITE NOTFOUND! 
+animate-onlineshop_jp  WEBSITE NOTFOUND! 
+bb_com.br  WEBSITE NOTFOUND! 
+duluthtrading_com  WEBSITE NOTFOUND! 
+dyson_fr  WEBSITE NOTFOUND! 
+onetravel_com  WEBSITE NOTFOUND! 
+stores_jp  WEBSITE NOTFOUND! 
+snaptubeapp_com  WEBSITE NOTFOUND! 
+imvu_com  WEBSITE NOTFOUND! 
+camsonline_com  WEBSITE NOTFOUND! 
+shahid_net  WEBSITE NOTFOUND! 
+aircanada_com  WEBSITE NOTFOUND! 
+racv_com.au  WEBSITE NOTFOUND! 
+camp-fire_jp  WEBSITE NOTFOUND! 
+------------------ below is Phase 2 dict stats ----------------
+phase2_dict length is:  3673
+file_not_found_count is:  0
+error_count is:  0
+found_count is:  44218
+flow_not_found_count is:  12027
+web_not_found_count is:  64
+unterminated_log_count is:  132
+very_long_string_count is:  9
+Generating result (strict match) dict ...
+result_dict length is:  4443

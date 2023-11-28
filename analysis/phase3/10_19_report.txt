@@ -1,0 +1,25 @@
+-- Reading payload value from records -- 
+Number of sites:  22
+Number of payloads:  55
+-- Find payload value in value_data  -- 
+Number of sites (should be the same as the num above):  22
+Total number of element in value_data:  128706
+Number of found:  3930
+Number of not found:  124776
+Number of unique element:  8
+('beacon_url', '10', 'https://s.go-mpulse.net/boomerang/ULCF4-RBZRV-4JZ28-8X7RY-3TNU9')
+{'d'}
+('RT', '10', 'https://s.go-mpulse.net/boomerang/AZH8B-WP34K-EW2CF-6XVMH-NX5FB')
+{'d'}
+('integration', '1', 'https://static.ads-twitter.com/uwt.js')
+{'gtm'}
+('beacon_url', '10', 'https://s2.go-mpulse.net/boomerang/S9ASQ-G4N32-5WU5H-GLJH3-YANFZ')
+{'d'}
+('parentUrl', '6', 'https://capella.demdex.net/dest5.html?d_nsid=0')
+{'gtm'}
+('he', '1', 'https://s.yimg.com/wi/ytc.js')
+{'gtm'}
+('RT', '10', 'https://s.go-mpulse.net/boomerang/ULCF4-RBZRV-4JZ28-8X7RY-3TNU9')
+{'d'}
+('beacon_url', '10', 'https://s.go-mpulse.net/boomerang/AZH8B-WP34K-EW2CF-6XVMH-NX5FB')
+{'d'}

@@ -1,0 +1,3923 @@
+0it [00:00, ?it/s]31it [00:00, 309.20it/s]123it [00:00, 667.39it/s]196it [00:00, 692.99it/s]284it [00:00, 765.38it/s]365it [00:00, 773.20it/s]456it [00:00, 817.03it/s]538it [00:00, 812.37it/s]652it [00:00, 911.50it/s]773it [00:00, 1000.80it/s]877it [00:01, 1011.00it/s]979it [00:01, 991.73it/s] 1079it [00:01, 966.53it/s]1203it [00:01, 1040.31it/s]1308it [00:01, 1014.45it/s]1421it [00:01, 1045.41it/s]1526it [00:01, 1045.53it/s]1631it [00:01, 1026.83it/s]1734it [00:01, 960.58it/s] 1848it [00:01, 1009.76it/s]1950it [00:02, 1007.77it/s]2052it [00:02, 945.87it/s] 2148it [00:02, 945.36it/s]2261it [00:02, 995.08it/s]2385it [00:02, 1059.75it/s]2492it [00:02, 1030.53it/s]2596it [00:02, 977.64it/s] 2699it [00:02, 990.91it/s]2799it [00:02, 953.13it/s]2905it [00:03, 981.27it/s]3007it [00:03, 991.85it/s]3107it [00:03, 913.36it/s]3212it [00:03, 946.65it/s]3308it [00:03, 943.15it/s]3404it [00:03, 915.12it/s]3518it [00:03, 976.17it/s]3621it [00:03, 991.57it/s]3738it [00:03, 1022.99it/s]3841it [00:04, 1018.81it/s]3944it [00:04, 970.99it/s] 4042it [00:04, 935.30it/s]4151it [00:04, 978.35it/s]4251it [00:04, 980.82it/s]4350it [00:04, 971.72it/s]4448it [00:04, 891.79it/s]4568it [00:04, 970.97it/s]4685it [00:04, 1024.82it/s]4789it [00:04, 990.20it/s] 4890it [00:05, 919.93it/s]4995it [00:05, 955.16it/s]5092it [00:05, 920.56it/s]5189it [00:05, 931.24it/s]5301it [00:05, 980.53it/s]5401it [00:05, 980.40it/s]5500it [00:05, 957.26it/s]5597it [00:05, 924.85it/s]5699it [00:05, 951.62it/s]5795it [00:06, 914.72it/s]5888it [00:06, 857.55it/s]5984it [00:06, 884.69it/s]6097it [00:06, 952.21it/s]6200it [00:06, 967.32it/s]6308it [00:06, 997.13it/s]6409it [00:06, 944.85it/s]6523it [00:06, 993.68it/s]6630it [00:06, 962.57it/s]6728it [00:07, 923.36it/s]6822it [00:07, 926.76it/s]6916it [00:07, 905.13it/s]7007it [00:07, 894.18it/s]7109it [00:07, 927.76it/s]7203it [00:07, 918.77it/s]7302it [00:07, 936.97it/s]7396it [00:07, 917.32it/s]7488it [00:07, 908.53it/s]7579it [00:08, 884.12it/s]7687it [00:08, 936.14it/s]7781it [00:08, 850.43it/s]7872it [00:08, 865.23it/s]7972it [00:08, 902.80it/s]8069it [00:08, 921.77it/s]8163it [00:08, 912.77it/s]8257it [00:08, 909.12it/s]8349it [00:08, 895.61it/s]8439it [00:08, 875.86it/s]8527it [00:09, 840.43it/s]8612it [00:09, 781.51it/s]8697it [00:09, 798.96it/s]8778it [00:09, 790.45it/s]8858it [00:09, 740.40it/s]8976it [00:09, 850.49it/s]9074it [00:09, 885.62it/s]9164it [00:09, 793.58it/s]9256it [00:10, 765.19it/s]9346it [00:10, 799.92it/s]9441it [00:10, 840.14it/s]9547it [00:10, 900.95it/s]9639it [00:10, 897.37it/s]9730it [00:10, 866.19it/s]9818it [00:10, 863.71it/s]9935it [00:10, 940.00it/s]10030it [00:10, 905.60it/s]10139it [00:10, 955.20it/s]10241it [00:11, 973.18it/s]10339it [00:11, 967.61it/s]10437it [00:11, 926.38it/s]10531it [00:11, 927.38it/s]10648it [00:11, 995.07it/s]10749it [00:11, 951.45it/s]10845it [00:11, 914.64it/s]10960it [00:11, 977.27it/s]11059it [00:11, 935.68it/s]11175it [00:12, 997.99it/s]11276it [00:12, 954.46it/s]11387it [00:12, 992.05it/s]11488it [00:12, 972.41it/s]11586it [00:12, 951.50it/s]11682it [00:12, 886.15it/s]11772it [00:12, 846.77it/s]11883it [00:12, 914.16it/s]11976it [00:12, 911.74it/s]12074it [00:13, 925.88it/s]12168it [00:13, 790.51it/s]12259it [00:13, 816.09it/s]12353it [00:13, 846.59it/s]12450it [00:13, 876.36it/s]12565it [00:13, 945.28it/s]12662it [00:13, 931.77it/s]12757it [00:13, 916.87it/s]12854it [00:13, 931.86it/s]12948it [00:14, 909.38it/s]13040it [00:14, 909.76it/s]13132it [00:14, 881.53it/s]13221it [00:14, 848.56it/s]13307it [00:14, 774.79it/s]13397it [00:14, 801.94it/s]13482it [00:14, 814.40it/s]13574it [00:14, 844.03it/s]13675it [00:14, 891.42it/s]13766it [00:14, 896.55it/s]13857it [00:15, 838.09it/s]13947it [00:15, 853.39it/s]14038it [00:15, 869.42it/s]14126it [00:15, 787.18it/s]14215it [00:15, 815.09it/s]14299it [00:15, 815.92it/s]14382it [00:15, 733.62it/s]14472it [00:15, 776.21it/s]14570it [00:15, 832.01it/s]14668it [00:16, 871.20it/s]14757it [00:16, 850.82it/s]14845it [00:16, 851.29it/s]14931it [00:16, 794.20it/s]15032it [00:16, 853.23it/s]15124it [00:16, 868.98it/s]15212it [00:16, 871.41it/s]15300it [00:16, 817.00it/s]15394it [00:16, 826.01it/s]15478it [00:17, 803.90it/s]15559it [00:17, 787.43it/s]15661it [00:17, 846.34it/s]15747it [00:17, 765.02it/s]15827it [00:17, 771.39it/s]15906it [00:17, 772.14it/s]16004it [00:17, 827.88it/s]16088it [00:17, 677.40it/s]16161it [00:18, 648.41it/s]16230it [00:18, 589.29it/s]16330it [00:18, 688.70it/s]16441it [00:18, 791.81it/s]16525it [00:18, 796.74it/s]16608it [00:18, 776.87it/s]16697it [00:18, 804.85it/s]16780it [00:18, 811.88it/s]16866it [00:18, 790.77it/s]16959it [00:19, 827.44it/s]17044it [00:19, 833.17it/s]17128it [00:19, 772.75it/s]17207it [00:19, 757.01it/s]17298it [00:19, 798.77it/s]17381it [00:19, 803.49it/s]17463it [00:19, 807.14it/s]17545it [00:19, 803.95it/s]17629it [00:19, 813.91it/s]17711it [00:19, 769.54it/s]17789it [00:20, 548.98it/s]17853it [00:20, 508.62it/s]17911it [00:20, 512.21it/s]17967it [00:20, 453.12it/s]18019it [00:20, 464.30it/s]18080it [00:20, 499.64it/s]18153it [00:20, 558.65it/s]18218it [00:21, 579.78it/s]18292it [00:21, 623.15it/s]18357it [00:21, 625.07it/s]18476it [00:21, 783.02it/s]18568it [00:21, 816.69it/s]18656it [00:21, 834.42it/s]18741it [00:21, 780.87it/s]18821it [00:21, 721.96it/s]18933it [00:21, 825.46it/s]19018it [00:22, 804.53it/s]19124it [00:22, 871.05it/s]19220it [00:22, 893.62it/s]19311it [00:22, 888.81it/s]19401it [00:22, 874.24it/s]19503it [00:22, 913.35it/s]19595it [00:22, 850.46it/s]19686it [00:22, 860.97it/s]19787it [00:22, 900.72it/s]19878it [00:23, 839.07it/s]19964it [00:23, 774.48it/s]20063it [00:23, 831.61it/s]20149it [00:23, 789.83it/s]20230it [00:23, 743.20it/s]20306it [00:23, 722.65it/s]20394it [00:23, 764.29it/s]20481it [00:23, 793.44it/s]20578it [00:23, 838.36it/s]20666it [00:24, 839.68it/s]20751it [00:24, 835.80it/s]20857it [00:24, 897.57it/s]20970it [00:24, 958.41it/s]21067it [00:24, 922.71it/s]21160it [00:24, 911.43it/s]21252it [00:24, 854.24it/s]21340it [00:24, 858.74it/s]21446it [00:24, 905.15it/s]21553it [00:24, 952.02it/s]21649it [00:25, 896.06it/s]21740it [00:25, 829.68it/s]21843it [00:25, 879.09it/s]21933it [00:25, 849.53it/s]22020it [00:25, 661.42it/s]22108it [00:25, 702.78it/s]22195it [00:25, 742.42it/s]22295it [00:25, 805.97it/s]22380it [00:26, 743.25it/s]22488it [00:26, 822.94it/s]22592it [00:26, 879.19it/s]22684it [00:26, 866.36it/s]22773it [00:26, 835.89it/s]22859it [00:26, 813.84it/s]22983it [00:26, 916.23it/s]23085it [00:26, 936.08it/s]23209it [00:26, 1019.08it/s]23313it [00:27, 938.09it/s] 23420it [00:27, 954.02it/s]23517it [00:27, 952.58it/s]23628it [00:27, 994.68it/s]23730it [00:27, 1001.88it/s]23831it [00:27, 897.70it/s] 23937it [00:27, 939.94it/s]24034it [00:27, 912.17it/s]24127it [00:27, 891.47it/s]24218it [00:28, 861.20it/s]24311it [00:28, 876.34it/s]24427it [00:28, 948.08it/s]24529it [00:28, 968.28it/s]24627it [00:28, 700.71it/s]24718it [00:28, 745.25it/s]24817it [00:28, 805.40it/s]24915it [00:28, 848.11it/s]25017it [00:29, 885.60it/s]25110it [00:29, 887.23it/s]25208it [00:29, 913.19it/s]25302it [00:29, 915.34it/s]25396it [00:29, 868.18it/s]25485it [00:29, 858.49it/s]25572it [00:29, 826.36it/s]25668it [00:29, 861.85it/s]25756it [00:29, 864.06it/s]25844it [00:30, 759.24it/s]25923it [00:30, 764.91it/s]26022it [00:30, 825.85it/s]26127it [00:30, 887.62it/s]26218it [00:30, 865.07it/s]26306it [00:30, 787.26it/s]26394it [00:30, 810.40it/s]26487it [00:30, 843.33it/s]26578it [00:30, 860.58it/s]26666it [00:30, 849.76it/s]26753it [00:31, 854.23it/s]26839it [00:31, 851.53it/s]26925it [00:31, 847.22it/s]27010it [00:31, 845.44it/s]27105it [00:31, 876.13it/s]27204it [00:31, 909.41it/s]27296it [00:31, 807.98it/s]27380it [00:31, 756.32it/s]27475it [00:31, 804.75it/s]27587it [00:32, 887.46it/s]27687it [00:32, 911.13it/s]27789it [00:32, 940.31it/s]27885it [00:32, 925.84it/s]27981it [00:32, 935.64it/s]28076it [00:32, 897.74it/s]28167it [00:32, 808.21it/s]28250it [00:32, 813.68it/s]28333it [00:32, 794.81it/s]28414it [00:33, 759.49it/s]28497it [00:33, 770.29it/s]28588it [00:33, 807.56it/s]28670it [00:33, 784.94it/s]28750it [00:33, 701.03it/s]28839it [00:33, 748.60it/s]28925it [00:33, 773.93it/s]29016it [00:33, 807.80it/s]29107it [00:33, 835.77it/s]29206it [00:34, 876.75it/s]29295it [00:34, 865.39it/s]29383it [00:34, 816.15it/s]29472it [00:34, 823.69it/s]29556it [00:34, 821.93it/s]29666it [00:34, 899.53it/s]29757it [00:34, 835.21it/s]29855it [00:34, 869.31it/s]29944it [00:34, 869.31it/s]30032it [00:35, 850.48it/s]30128it [00:35, 869.06it/s]30216it [00:35, 869.16it/s]30304it [00:35, 810.97it/s]30425it [00:35, 919.13it/s]30546it [00:35, 986.67it/s]30652it [00:35, 983.42it/s]30753it [00:35, 989.90it/s]30853it [00:35, 890.29it/s]30973it [00:36, 970.38it/s]31073it [00:36, 940.25it/s]31173it [00:36, 954.34it/s]31270it [00:36, 938.01it/s]31366it [00:36, 942.81it/s]31461it [00:36, 932.93it/s]31555it [00:36, 922.65it/s]31651it [00:36, 911.48it/s]31753it [00:36, 941.59it/s]31848it [00:36, 922.61it/s]31941it [00:37, 922.38it/s]32038it [00:37, 934.08it/s]32132it [00:37, 887.30it/s]32222it [00:37, 860.37it/s]32309it [00:37, 824.36it/s]32392it [00:37, 785.32it/s]32475it [00:37, 794.66it/s]32571it [00:37, 840.29it/s]32670it [00:37, 878.36it/s]32759it [00:38, 867.96it/s]32847it [00:38, 813.37it/s]32930it [00:38, 779.47it/s]33024it [00:38, 822.08it/s]33110it [00:38, 801.29it/s]33191it [00:38, 683.98it/s]33264it [00:38, 693.55it/s]33336it [00:38, 692.95it/s]33411it [00:38, 705.27it/s]33483it [00:39, 688.21it/s]33584it [00:39, 777.85it/s]33664it [00:39, 782.48it/s]33786it [00:39, 907.18it/s]33878it [00:39, 879.38it/s]33975it [00:39, 904.09it/s]34070it [00:39, 917.18it/s]34179it [00:39, 966.17it/s]34277it [00:39, 897.49it/s]34387it [00:40, 954.03it/s]34484it [00:40, 868.62it/s]34574it [00:40, 860.44it/s]34662it [00:40, 769.69it/s]34742it [00:40, 776.38it/s]34822it [00:40, 738.10it/s]34921it [00:40, 797.44it/s]35003it [00:40, 803.49it/s]35092it [00:40, 826.19it/s]35197it [00:41, 886.65it/s]35287it [00:41, 792.43it/s]35377it [00:41, 819.56it/s]35461it [00:41, 814.54it/s]35563it [00:41, 867.05it/s]35653it [00:41, 875.66it/s]35747it [00:41, 889.74it/s]35842it [00:41, 904.46it/s]35933it [00:41, 895.32it/s]36026it [00:41, 897.96it/s]36117it [00:42, 900.50it/s]36210it [00:42, 904.65it/s]36301it [00:42, 898.10it/s]36397it [00:42, 881.84it/s]36486it [00:42, 796.87it/s]36597it [00:42, 868.98it/s]36686it [00:42, 863.90it/s]36775it [00:42, 868.71it/s]36864it [00:42, 872.24it/s]36952it [00:43, 873.06it/s]37040it [00:43, 816.03it/s]37125it [00:43, 818.37it/s]37208it [00:43, 801.88it/s]37298it [00:43, 825.38it/s]37403it [00:43, 888.72it/s]37493it [00:43, 855.95it/s]37583it [00:43, 866.16it/s]37671it [00:43, 865.58it/s]37758it [00:44, 860.25it/s]37846it [00:44, 842.81it/s]37960it [00:44, 927.58it/s]38054it [00:44, 901.41it/s]38149it [00:44, 911.26it/s]38241it [00:44, 912.74it/s]38333it [00:44, 893.90it/s]38349it [00:44, 858.67it/s]Generating Phase 1 dict ...
+Phase 1 dict length is  5169
+Modifying Phase 1 dict ...
+Modified Phase 1 dict length is  893894
+Generating Defined Value dict ...
+------------------ below is Defined Value dict stats ----------------
+total number of sites:  4541
+number of sites with more than 1 def_val:  2845
+max num of def_val:  16
+Generating Phase 2 dict ...
+cynet_com  NOTFOUND! 
+fordfoundation_org  NOTFOUND! 
+ahacdn_me  NOTFOUND! 
+statusinvest_com.br  NOTFOUND! 
+dibiz_com  NOTFOUND! 
+larazon_es  ERROR!  'NoneType' object has no attribute 'group' 72 ing[29]: fb.1.1695936607600.1346487664> this key||value has been marked as tainted! 
+
+flock_com  NOTFOUND! 
+adpushup_com  NOTFOUND! 
+itpro_co.uk  NOTFOUND! 
+calix_com  NOTFOUND! 
+triviatoday_com  NOTFOUND! 
+smsbump_com  NOTFOUND! 
+berniesanders_com  NOTFOUND! 
+scidev_net  NOTFOUND! 
+und_edu  NOTFOUND! 
+wcu_edu  NOTFOUND! 
+sdsu_edu  NOTFOUND! 
+desidime_com  NOTFOUND! 
+kandji_io  NOTFOUND! 
+daraz_com.bd  NOTFOUND! 
+go_to  NOTFOUND! 
+crayola_com  NOTFOUND! 
+holidify_com  NOTFOUND! 
+mizrahi-tefahot_co.il  NOTFOUND! 
+speechify_com  NOTFOUND! 
+q4inc_com  NOTFOUND! 
+animalpolitico_com  NOTFOUND! 
+spoonuniversity_com  NOTFOUND! 
+ballotpedia_org  NOTFOUND! 
+um_edu.mt  NOTFOUND! 
+uww_edu  NOTFOUND! 
+juneauempire_com  NOTFOUND! 
+angi_com  NOTFOUND! 
+voetbalprimeur_nl  NOTFOUND! 
+clickadu_com  NOTFOUND! 
+demandbase_com  NOTFOUND! 
+curator_io  NOTFOUND! 
+mdzol_com  NOTFOUND! 
+seattlechildrens_org  NOTFOUND! 
+blossomthemes_com  NOTFOUND! 
+tigo_com.co  NOTFOUND! 
+dyson_fr  NOTFOUND! 
+huffingtonpost_co.uk  NOTFOUND! 
+houstonpress_com  NOTFOUND! 
+globalwitness_org  NOTFOUND! 
+louisvuitton_com  NOTFOUND! 
+jumia_com.ng  NOTFOUND! 
+austrian_com  NOTFOUND! 
+gpk_eu  NOTFOUND! 
+rockefellerfoundation_org  NOTFOUND! 
+dallasobserver_com  NOTFOUND! 
+thoracic_org  NOTFOUND! 
+appcues_com  NOTFOUND! 
+benchmarkemail_com  NOTFOUND! 
+coachingfederation_org  NOTFOUND! 
+eiga_com  ERROR!  'NoneType' object has no attribute 'group' 28  fb.1.1695944347301.1984032730> this key||value has been marked as tainted! 
+
+saib_com.sa  ERROR!  'NoneType' object has no attribute 'group' 19 StartingLog... 0x11a3e61bea81 <String[1]: 0> || 0x1f5de37bf2a9 <String[6]: active> this key||value has been marked as tainted! 
+
+cred_club  NOTFOUND! 
+royallepage_ca  NOTFOUND! 
+sephora_com  ERROR!  'NoneType' object has no attribute 'group' 101 : label> || 0x2b2ba4c84079 <String[18]: cmet.Confirmation_> this key||value has been marked as tainted! 
+
+experts-exchange_com  NOTFOUND! 
+mypixieset_com  NOTFOUND! 
+designi_com.br  NOTFOUND! 
+cardconnect_com  NOTFOUND! 
+inspectlet_com  NOTFOUND! 
+debate_com.mx  NOTFOUND! 
+statisticbrain_com  NOTFOUND! 
+eventbrite_com.au  ERROR!  'NoneType' object has no attribute 'group' 26 /New_York> this key||value has been marked as tainted! 
+
+dazeddigital_com  NOTFOUND! 
+autolist_com  NOTFOUND! 
+newatlas_com  NOTFOUND! 
+simon_com  NOTFOUND! 
+doingbusiness_org  NOTFOUND! 
+zety_com  NOTFOUND! 
+revolve_com  NOTFOUND! 
+hitched_co.uk  NOTFOUND! 
+jackpotcitycasino_com  NOTFOUND! 
+garmtech_com  NOTFOUND! 
+wustl_edu  NOTFOUND! 
+flixier_com  NOTFOUND! 
+cc_com  NOTFOUND! 
+freshome_com  NOTFOUND! 
+tiscali_it  NOTFOUND! 
+primus_ca  NOTFOUND! 
+visionofhumanity_org  NOTFOUND! 
+realitysandwich_com  NOTFOUND! 
+midea_com  NOTFOUND! 
+insidehook_com  NOTFOUND! 
+fox_com.tr  NOTFOUND! 
+translate_com  NOTFOUND! 
+databox_com  NOTFOUND! 
+sleepycat_com  NOTFOUND! 
+expediaagents_com  NOTFOUND! 
+huffingtonpost_com.au  NOTFOUND! 
+lyzico_com  NOTFOUND! 
+thegrocer_co.uk  NOTFOUND! 
+profootballnetwork_com  NOTFOUND! 
+influence_co  NOTFOUND! 
+dynalias_com  NOTFOUND! 
+zohosites_com  NOTFOUND! 
+tvanouvelles_ca  NOTFOUND! 
+ecolab_com  NOTFOUND! 
+majorleaguegaming_com  NOTFOUND! 
+capitalfm_com  NOTFOUND! 
+cupofjo_com  NOTFOUND! 
+jivox_com  NOTFOUND! 
+schoolsfirstfcu_org  NOTFOUND! 
+hhs_gov  NOTFOUND! 
+pashabank_az  NOTFOUND! 
+voices_com  NOTFOUND! 
+dlive_tv  NOTFOUND! 
+viafoura_net  NOTFOUND! 
+powr_io  NOTFOUND! 
+dashhudson_com  NOTFOUND! 
+iai-system_com  NOTFOUND! 
+4wheelparts_com  NOTFOUND! 
+dyndns_biz  ERROR!  'NoneType' object has no attribute 'group' 32 a60b23b1a477f21c> this key||value has been marked as tainted! 
+
+brownpapertickets_com  NOTFOUND! 
+ulisboa_pt  NOTFOUND! 
+kiwify_com.br  NOTFOUND! 
+stackabuse_com  NOTFOUND! 
+onetravel_com  NOTFOUND! 
+bcbsla_com  NOTFOUND! 
+samsung_com.cn  NOTFOUND! 
+justthenews_com  NOTFOUND! 
+captioncall_com  NOTFOUND! 
+hm_com  NOTFOUND! 
+attentivemobile_com  NOTFOUND! 
+frontify_com  NOTFOUND! 
+syndigo_com  NOTFOUND! 
+president_gov.ua  ERROR!  'NoneType' object has no attribute 'group' 21  key||value has been marked as tainted! 
+
+servicenow_com  NOTFOUND! 
+texaschildrens_org  NOTFOUND! 
+princess_com  NOTFOUND! 
+fishbowlapp_com  NOTFOUND! 
+indiegala_com  NOTFOUND! 
+nj_gov  NOTFOUND! 
+picmonkey_com  NOTFOUND! 
+aia_org  NOTFOUND! 
+techhive_com  NOTFOUND! 
+hostpoint_ch  NOTFOUND! 
+yidio_com  NOTFOUND! 
+cocc_edu  NOTFOUND! 
+naturallycurly_com  NOTFOUND! 
+charter97_org  NOTFOUND! 
+snappa_com  NOTFOUND! 
+api_org  NOTFOUND! 
+wapo_st  NOTFOUND! 
+the-scientist_com  NOTFOUND! 
+crypterium_com  NOTFOUND! 
+mysynchrony_com  NOTFOUND! 
+webhosting_dk  NOTFOUND! 
+uhcl_edu  NOTFOUND! 
+ascii_jp  NOTFOUND! 
+xbit_jp  NOTFOUND! 
+indigo_ca  NOTFOUND! 
+dolap_com  NOTFOUND! 
+sellfy_com  NOTFOUND! 
+oberlin_edu  NOTFOUND! 
+lifeofpix_com  NOTFOUND! 
+grani_ru  NOTFOUND! 
+1cont_ru  NOTFOUND! 
+nku_edu  NOTFOUND! 
+redis_io  NOTFOUND! 
+warhammer-community_com  NOTFOUND! 
+dialoguecorp_com  NOTFOUND! 
+textnow_me  NOTFOUND! 
+zch-vip_com  NOTFOUND! 
+himss_org  NOTFOUND! 
+wichita_edu  NOTFOUND! 
+hackster_io  NOTFOUND! 
+uw_edu  NOTFOUND! 
+macys_com  NOTFOUND! 
+dnsalias_com  NOTFOUND! 
+uplabs_com  NOTFOUND! 
+ticketleap_com  NOTFOUND! 
+utoledo_edu  NOTFOUND! 
+mainwp_com  NOTFOUND! 
+sba_gov  NOTFOUND! 
+caremark_com  NOTFOUND! 
+homes_com  NOTFOUND! 
+tribuneindia_com  NOTFOUND! 
+uci_org  NOTFOUND! 
+penguin_com  NOTFOUND! 
+cronista_com  NOTFOUND! 
+journalism_org  NOTFOUND! 
+smu_edu.sg  NOTFOUND! 
+ashleyfurniture_com  NOTFOUND! 
+iht_com  NOTFOUND! 
+castbox_fm  NOTFOUND! 
+popbuzz_com  NOTFOUND! 
+london2012_com  NOTFOUND! 
+rumble_com  NOTFOUND! 
+cbn_net.id  NOTFOUND! 
+adtriba_com  NOTFOUND! 
+pantheon_io  NOTFOUND! 
+karl_com  NOTFOUND! 
+angieslist_com  NOTFOUND! 
+hypothes_is  NOTFOUND! 
+ecu_edu  NOTFOUND! 
+jumia_com.eg  NOTFOUND! 
+sbc_edu  NOTFOUND! 
+manulife_ca  NOTFOUND! 
+salesforce-scrt_com  NOTFOUND! 
+wta_org  NOTFOUND! 
+verkada_com  NOTFOUND! 
+atthost_pl  NOTFOUND! 
+easemytrip_com  NOTFOUND! 
+mixkit_co  NOTFOUND! 
+shoplineapp_com  NOTFOUND! 
+theoutnet_com  ERROR!  'NoneType' object has no attribute 'group' 135 ue has been marked as tainted! 
+
+spectrumvoip_com  NOTFOUND! 
+kupujemprodajem_com  NOTFOUND! 
+travelchannel_com  ERROR!  'NoneType' object has no attribute 'group' 76 String[10]: beacon_url> || 0x33a7067f88f1 <String[21]: //173bf110.akstat.io/> this key||value has been marked as tainted! 
+
+segway_com  NOTFOUND! 
+caixin_com  NOTFOUND! 
+eharmony_com  NOTFOUND! 
+aarp_org  NOTFOUND! 
+themoneytizer_com  NOTFOUND! 
+multacom_com  NOTFOUND! 
+sunset_com  NOTFOUND! 
+htcsense_com  NOTFOUND! 
+marketingprofs_com  NOTFOUND! 
+hydroonetelecom_com  NOTFOUND! 
+wacowla_com  NOTFOUND! 
+manta_com  NOTFOUND! 
+eet-china_com  NOTFOUND! 
+eaa_org  NOTFOUND! 
+chainstoreage_com  NOTFOUND! 
+sleeknote_com  NOTFOUND! 
+wku_edu  NOTFOUND! 
+colbertnation_com  NOTFOUND! 
+bart_gov  NOTFOUND! 
+voanews_com  NOTFOUND! 
+goodnewsnetwork_org  NOTFOUND! 
+raytheon_com  NOTFOUND! 
+cootek_com  NOTFOUND! 
+calacademy_org  NOTFOUND! 
+basis_net  NOTFOUND! 
+netlogicdc_com  NOTFOUND! 
+directvgo_com  NOTFOUND! 
+mobitel_lk  NOTFOUND! 
+iste_org  NOTFOUND! 
+lacoste_com  NOTFOUND! 
+covers_com  NOTFOUND! 
+lpl_com  NOTFOUND! 
+eventbrite_ca  NOTFOUND! 
+libertymutual_com  NOTFOUND! 
+hardwarezone_com.sg  NOTFOUND! 
+economictimes_com  NOTFOUND! 
+profitshare_ro  NOTFOUND! 
+cottonon_com  NOTFOUND! 
+nutritionfacts_org  NOTFOUND! 
+guitarcenter_com  NOTFOUND! 
+ewg_org  NOTFOUND! 
+mytuner_mobi  NOTFOUND! 
+valenciacollege_edu  NOTFOUND! 
+bard_edu  NOTFOUND! 
+elnuevodia_com  NOTFOUND! 
+ruten_com.tw  NOTFOUND! 
+playoverwatch_com  NOTFOUND! 
+projectmanagement_com  NOTFOUND! 
+earnbitmoon_club  NOTFOUND! 
+gheir_com  NOTFOUND! 
+weddingwire_in  NOTFOUND! 
+une_net.co  NOTFOUND! 
+kurzy_cz  NOTFOUND! 
+dea_gov  NOTFOUND! 
+ourmidland_com  NOTFOUND! 
+cifraclub_com.br  NOTFOUND! 
+tamucc_edu  NOTFOUND! 
+hollywoodreporter_com  NOTFOUND! 
+ebaumsworld_com  NOTFOUND! 
+theoremreach_com  NOTFOUND! 
+swiftkey_com  NOTFOUND! 
+ugent_be  NOTFOUND! 
+thirteen_org  NOTFOUND! 
+psychz_net  NOTFOUND! 
+raceroster_com  NOTFOUND! 
+lakeheadu_ca  NOTFOUND! 
+fairygodboss_com  NOTFOUND! 
+getintent_com  NOTFOUND! 
+budget_com  NOTFOUND! 
+inc42_com  NOTFOUND! 
+mini_de  NOTFOUND! 
+valentino_com  NOTFOUND! 
+dealerspike_com  NOTFOUND! 
+gungho_jp  NOTFOUND! 
+rakuten_com  NOTFOUND! 
+midfirst_com  NOTFOUND! 
+teradata_com  NOTFOUND! 
+packetstream_io  NOTFOUND! 
+synthesia_io  NOTFOUND! 
+motorcyclenews_com  NOTFOUND! 
+outeast_com  ERROR!  'NoneType' object has no attribute 'group' 73 -b73d02cf3ca2> this key||value has been marked as tainted! 
+
+cosmosmagazine_com  NOTFOUND! 
+stylist_co.uk  NOTFOUND! 
+discover_com  NOTFOUND! 
+nextdoor_de  NOTFOUND! 
+stifel_com  NOTFOUND! 
+cettire_com  NOTFOUND! 
+cookinglight_com  NOTFOUND! 
+bc_edu  NOTFOUND! 
+colombiahosting_com  NOTFOUND! 
+sheridancollege_ca  NOTFOUND! 
+fi_edu  NOTFOUND! 
+rsc_org  NOTFOUND! 
+elanco_com  NOTFOUND! 
+republic_ru  NOTFOUND! 
+telex_hu  NOTFOUND! 
+depositphotos_com  NOTFOUND! 
+nikkeibp_co.jp  NOTFOUND! 
+retn_net  NOTFOUND! 
+sematext_com  NOTFOUND! 
+canberra_edu.au  NOTFOUND! 
+lvmh_com  NOTFOUND! 
+designmodo_com  NOTFOUND! 
+naumen_ru  NOTFOUND! 
+newsroom_bi  NOTFOUND! 
+pitt_edu  NOTFOUND! 
+codycross-game_com  NOTFOUND! 
+draeger_com  NOTFOUND! 
+uk2_net  NOTFOUND! 
+nitrocdn_com  NOTFOUND! 
+pollstar_com  NOTFOUND! 
+slickstream_com  ERROR!  'NoneType' object has no attribute 'group' 39 [1]: 0> || 0x132c7bcf719 <String[27]: fb.1.1695948303315.59689353> this key||value has been marked as tainted! 
+
+conetix_com.au  NOTFOUND! 
+sdpnoticias_com  NOTFOUND! 
+snapcomms_com  NOTFOUND! 
+fundrazr_com  NOTFOUND! 
+ebates_com  NOTFOUND! 
+dable_io  NOTFOUND! 
+wou_edu  NOTFOUND! 
+parentsquare_com  NOTFOUND! 
+chambers_com  NOTFOUND! 
+mp_pl  NOTFOUND! 
+lacma_org  NOTFOUND! 
+postype_com  NOTFOUND! 
+busuu_com  NOTFOUND! 
+azercell_com  NOTFOUND! 
+metropolismag_com  NOTFOUND! 
+ultradns_info  NOTFOUND! 
+nitrotype_com  NOTFOUND! 
+pionline_com  NOTFOUND! 
+optumbank_com  NOTFOUND! 
+papercut_com  NOTFOUND! 
+onmilwaukee_com  NOTFOUND! 
+remotasks_com  NOTFOUND! 
+buy_com  NOTFOUND! 
+bcm_edu  NOTFOUND! 
+nikkan_co.jp  NOTFOUND! 
+atv_com.tr  NOTFOUND! 
+lifetime_life  NOTFOUND! 
+ironman_com  NOTFOUND! 
+speakingtree_in  NOTFOUND! 
+magzter_com  NOTFOUND! 
+submittable_com  NOTFOUND! 
+corning_com  NOTFOUND! 
+faithlife_com  NOTFOUND! 
+inkfrog_com  NOTFOUND! 
+commonwealthfund_org  NOTFOUND! 
+sephora_fr  ERROR!  'NoneType' object has no attribute 'group' 132 17f0e-6228-4afc-bee1-f063baed0b3a&ss=ln3sh5o9&sl=0&tt=0&bcn=%2F%2F173bf10b.akstat.io%2F> this key||value has been marked as tainted! 
+
+innity_com  NOTFOUND! 
+any_do  NOTFOUND! 
+lwolf_com  NOTFOUND! 
+mobilesyrup_com  NOTFOUND! 
+ganeshaspeaks_com  NOTFOUND! 
+gotdns_com  NOTFOUND! 
+haaretz_co.il  NOTFOUND! 
+bupa_com.au  NOTFOUND! 
+msha_ke  NOTFOUND! 
+healthychildren_org  NOTFOUND! 
+doprax_com  NOTFOUND! 
+peek_com  NOTFOUND! 
+maine_edu  NOTFOUND! 
+crainsdetroit_com  NOTFOUND! 
+clearbit_com  NOTFOUND! 
+cb2_com  NOTFOUND! 
+host-telecom_com  NOTFOUND! 
+unitedhealthgroup_com  NOTFOUND! 
+mangools_com  NOTFOUND! 
+tripleseat_com  NOTFOUND! 
+essex_ac.uk  NOTFOUND! 
+studocu_com  NOTFOUND! 
+lennar_com  NOTFOUND! 
+eventbrite_ie  NOTFOUND! 
+monmouth_edu  NOTFOUND! 
+fathomevents_com  NOTFOUND! 
+tastesbetterfromscratch_com  NOTFOUND! 
+culture_pl  NOTFOUND! 
+blitztesting_com  NOTFOUND! 
+managebac_com  NOTFOUND! 
+givesmart_com  NOTFOUND! 
+burton_com  ERROR!  'NoneType' object has no attribute 'group' 82 > this key||value has been marked as tainted! 
+
+warontherocks_com  NOTFOUND! 
+boxcast_com  NOTFOUND! 
+usp_org  NOTFOUND! 
+jobs2web_com  ERROR!  'NoneType' object has no attribute 'group' 84 lue has been marked as tainted! 
+
+readwise_io  NOTFOUND! 
+eab_com  NOTFOUND! 
+paralympic_org  NOTFOUND! 
+specialolympics_org  NOTFOUND! 
+jiomart_com  NOTFOUND! 
+dovepress_com  NOTFOUND! 
+touchofmodern_com  NOTFOUND! 
+fundingsocieties_com  NOTFOUND! 
+lashback_com  NOTFOUND! 
+study_com  NOTFOUND! 
+kareo_com  NOTFOUND! 
+tasteofhome_com  NOTFOUND! 
+uvfuns_com  NOTFOUND! 
+adobeprojectm_com  NOTFOUND! 
+shockwave_com  NOTFOUND! 
+samsungelectronics_com  ERROR!  'NoneType' object has no attribute 'group' 159 stat.io/> this key||value has been marked as tainted! 
+
+helpcrunch_com  NOTFOUND! 
+foodnetwork_com  NOTFOUND! 
+sunbeltsoftware_com  NOTFOUND! 
+enterprisedb_com  NOTFOUND! 
+360totalsecurity_com  NOTFOUND! 
+rlcarriers_com  NOTFOUND! 
+bookmark_com  NOTFOUND! 
+eliteprospects_com  NOTFOUND! 
+level27_eu  NOTFOUND! 
+vietjetair_com  NOTFOUND! 
+bn_by  NOTFOUND! 
+uncg_edu  NOTFOUND! 
+www_gob.mx  NOTFOUND! 
+themarker_com  NOTFOUND! 
+recdesk_com  NOTFOUND! 
+sphdigital_com  NOTFOUND! 
+konoyubitomare_jp  NOTFOUND! 
+singleplatform_com  NOTFOUND! 
+wellnessmama_com  NOTFOUND! 
+lob_com  NOTFOUND! 
+opinionstage_com  NOTFOUND! 
+acenet_edu  NOTFOUND! 
+grameenphone_com  NOTFOUND! 
+lazada_sg  NOTFOUND! 
+zigsaw_in  NOTFOUND! 
+thewhiskyexchange_com  NOTFOUND! 
+workplace_com  NOTFOUND! 
+replicon_com  NOTFOUND! 
+financesonline_com  NOTFOUND! 
+bbva_es  NOTFOUND! 
+crewapp_com  NOTFOUND! 
+dynamicquest_com  NOTFOUND! 
+bbcamerica_com  NOTFOUND! 
+charitynavigator_org  NOTFOUND! 
+salesforce-sites_com  NOTFOUND! 
+dfrobot_com  NOTFOUND! 
+anaplan_com  NOTFOUND! 
+plymouth_ac.uk  NOTFOUND! 
+nigella_com  NOTFOUND! 
+showtv_com.tr  NOTFOUND! 
+partsgeek_com  NOTFOUND! 
+drchrono_com  NOTFOUND! 
+copyright_com  NOTFOUND! 
+berkshireeagle_com  NOTFOUND! 
+arup_com  NOTFOUND! 
+insites_com  NOTFOUND! 
+onrocket_site  NOTFOUND! 
+queerty_com  NOTFOUND! 
+idealist_org  NOTFOUND! 
+network-n_com  NOTFOUND! 
+traileraddict_com  NOTFOUND! 
+loksatta_com  NOTFOUND! 
+codingame_com  NOTFOUND! 
+latercera_com  NOTFOUND! 
+svoboda_org  ERROR!  'NoneType' object has no attribute 'group' 11 StartingLog... 0x1c6a898203e1 <String[8]: pageName> || 0x3c22999ca349 <String[31]\: rfe:ru:r:homepage:\x440\x430\x434\x438\x43e \x441\x432\x43e\x431\x43e\x434\x430> this key||value has been marked as tainted! 
+
+affiliatelabz_com  NOTFOUND! 
+duluthtrading_com  NOTFOUND! 
+seths_blog  NOTFOUND! 
+ambito_com  NOTFOUND! 
+wu_com  NOTFOUND! 
+batteriesplus_com  NOTFOUND! 
+masterwebnet_com  NOTFOUND! 
+thefiscaltimes_com  NOTFOUND! 
+rescuetime_com  NOTFOUND! 
+comcastbusiness_net  NOTFOUND! 
+reserveamerica_com  NOTFOUND! 
+racv_com.au  NOTFOUND! 
+techcombank_com.vn  NOTFOUND! 
+portfoliobox_net  NOTFOUND! 
+uwstout_edu  NOTFOUND! 
+ipqualityscore_com  NOTFOUND! 
+contently_com  NOTFOUND! 
+ramnode_com  NOTFOUND! 
+pearljam_com  NOTFOUND! 
+pirateship_com  NOTFOUND! 
+swoogo_com  NOTFOUND! 
+srhc_com  NOTFOUND! 
+bostonglobe_com  NOTFOUND! 
+brusheezy_com  NOTFOUND! 
+rippling_com  NOTFOUND! 
+ncsu_edu  NOTFOUND! 
+iprimus_com.au  NOTFOUND! 
+globalfundforwomen_org  NOTFOUND! 
+edsurge_com  NOTFOUND! 
+thecentersquare_com  NOTFOUND! 
+chilis_com  NOTFOUND! 
+midphase_com  NOTFOUND! 
+joy_link  NOTFOUND! 
+sensortower_com  NOTFOUND! 
+prepscholar_com  NOTFOUND! 
+relevant-digital_com  NOTFOUND! 
+speaker_gov  NOTFOUND! 
+servicetitan_com  NOTFOUND! 
+umusic_com  NOTFOUND! 
+shareaholic_com  NOTFOUND! 
+esrb_org  NOTFOUND! 
+newsmax_com  NOTFOUND! 
+wpmudev_host  NOTFOUND! 
+invisionpower_com  NOTFOUND! 
+engenius_ai  NOTFOUND! 
+jiocinema_com  NOTFOUND! 
+codingrooms_com  NOTFOUND! 
+dailydot_com  NOTFOUND! 
+odt_co.nz  NOTFOUND! 
+hostpapa_com  NOTFOUND! 
+monocle_com  NOTFOUND! 
+auspost_com.au  ERROR!  'NoneType' object has no attribute 'group' 32 B352782F1E0A490D4C%40AdobeOrg=1> this key||value has been marked as tainted! 
+
+tempo_co  NOTFOUND! 
+thinkprogress_org  NOTFOUND! 
+guardian_ng  NOTFOUND! 
+imaging-resource_com  NOTFOUND! 
+journaldequebec_com  NOTFOUND! 
+pepperdine_edu  NOTFOUND! 
+lockheedmartin_com  NOTFOUND! 
+colorado_com  NOTFOUND! 
+uni_edu  NOTFOUND! 
+selectminds_com  ERROR!  'NoneType' object has no attribute 'group' 33 1eea296c156a6101db6> this key||value has been marked as tainted! 
+
+wunderkind_co  NOTFOUND! 
+dyson_hu  NOTFOUND! 
+rtx_com  NOTFOUND! 
+bravenet_com  NOTFOUND! 
+colostate_edu  NOTFOUND! 
+gac_edu  NOTFOUND! 
+sustainablebrands_com  NOTFOUND! 
+iefimerida_gr  NOTFOUND! 
+cda_pl  NOTFOUND! 
+whitney_org  NOTFOUND! 
+apasport_az  NOTFOUND! 
+radiofarda_com  ERROR!  'NoneType' object has no attribute 'group' 9 StartingLog... 0x9d2b01e0499 <String[8]: pageName> || 0x200898ba5211 <String[29]\: rfe:far:r:homepage:\x631\x627\x62f\x6cc\x648 \x641\x631\x62f\x627> this key||value has been marked as tainted! 
+
+australia_com  NOTFOUND! 
+xtramath_org  NOTFOUND! 
+engoo_com  NOTFOUND! 
+junkee_com  NOTFOUND! 
+nrc_gov  NOTFOUND! 
+agar_io  NOTFOUND! 
+radiopaedia_org  NOTFOUND! 
+inditexcareers_com  NOTFOUND! 
+t-mobile_com  NOTFOUND! 
+eska_pl  NOTFOUND! 
+vegasinsider_com  NOTFOUND! 
+sinoptik_bg  NOTFOUND! 
+silversingles_com  NOTFOUND! 
+gamenet_ru  NOTFOUND! 
+tripwire_com  NOTFOUND! 
+usherbrooke_ca  NOTFOUND! 
+owenscorning_com  NOTFOUND! 
+fing_io  NOTFOUND! 
+barstoolsportsbook_com  NOTFOUND! 
+cablecolor_hn  NOTFOUND! 
+uillinois_edu  NOTFOUND! 
+bebee_com  NOTFOUND! 
+mydevil_net  NOTFOUND! 
+shopmyexchange_com  NOTFOUND! 
+sentencingproject_org  NOTFOUND! 
+banco_bradesco  NOTFOUND! 
+lawrence_edu  NOTFOUND! 
+nova_bg  NOTFOUND! 
+lloydsbankinggroup_com  NOTFOUND! 
+5280_com  ERROR!  'NoneType' object has no attribute 'group' 62 e has been marked as tainted! 
+
+10play_com.au  NOTFOUND! 
+ereplacementparts_com  NOTFOUND! 
+skyandtelescope_com  NOTFOUND! 
+etf_com  NOTFOUND! 
+skyandtelescope_org  NOTFOUND! 
+komando_com  NOTFOUND! 
+ptc_com  NOTFOUND! 
+fanduel_com  NOTFOUND! 
+dubaiairports_ae  NOTFOUND! 
+sub2tech_com  NOTFOUND! 
+bnnbloomberg_ca  NOTFOUND! 
+chainalysis_com  NOTFOUND! 
+regions_com  NOTFOUND! 
+leaguelineup_com  NOTFOUND! 
+reproductiverights_org  NOTFOUND! 
+swinburne_edu.au  NOTFOUND! 
+builderonline_com  NOTFOUND! 
+mpaa_org  NOTFOUND! 
+newrepublic_com  NOTFOUND! 
+gcn_com  NOTFOUND! 
+shopee_com.mx  NOTFOUND! 
+aeserver_com  NOTFOUND! 
+obozrevatel_com  NOTFOUND! 
+udel_edu  NOTFOUND! 
+webflow_io  NOTFOUND! 
+bloombergquint_com  ERROR!  'NoneType' object has no attribute 'group' 180 0x287f703a379 <String[34]: _fbp=fb.1.1695940169234.1474847546> this key||value has been marked as tainted! 
+
+gigsalad_com  NOTFOUND! 
+design-milk_com  NOTFOUND! 
+irishcentral_com  NOTFOUND! 
+visitsingapore_com  NOTFOUND! 
+meross_com  NOTFOUND! 
+gamewith_jp  NOTFOUND! 
+kurir_rs  NOTFOUND! 
+boxever_com  NOTFOUND! 
+marketingcloud_com  NOTFOUND! 
+carousell_com.hk  NOTFOUND! 
+accuweather_com  NOTFOUND! 
+starryai_com  NOTFOUND! 
+loyola_edu  NOTFOUND! 
+oyindonesia_com  NOTFOUND! 
+papersowl_com  NOTFOUND! 
+adobe_ly  NOTFOUND! 
+zitomedia_net  NOTFOUND! 
+avvenire_it  NOTFOUND! 
+hotellook_com  NOTFOUND! 
+rwjf_org  NOTFOUND! 
+blr_com  NOTFOUND! 
+quinnipiac_edu  NOTFOUND! 
+gradle_org  NOTFOUND! 
+finder_com  NOTFOUND! 
+mcmaster_ca  NOTFOUND! 
+apex-football_com  NOTFOUND! 
+kidney_org  NOTFOUND! 
+kingarthurflour_com  NOTFOUND! 
+windowsazure_com  NOTFOUND! 
+illinoisstate_edu  NOTFOUND! 
+buymeacoffee_com  NOTFOUND! 
+lmco_com  NOTFOUND! 
+defenders_org  NOTFOUND! 
+hcamag_com  NOTFOUND! 
+studyinternational_com  NOTFOUND! 
+marketiq_com  NOTFOUND! 
+designhill_com  NOTFOUND! 
+zeustechnology_com  NOTFOUND! 
+howard_edu  NOTFOUND! 
+alaskaair_com  NOTFOUND! 
+filmarks_com  NOTFOUND! 
+theinformation_com  NOTFOUND! 
+ciudad_com.ar  NOTFOUND! 
+designbundles_net  NOTFOUND! 
+farmandfleet_com  NOTFOUND! 
+cedcommerce_com  NOTFOUND! 
+venus_com  NOTFOUND! 
+uonbi_ac.ke  NOTFOUND! 
+wannafind_dk  NOTFOUND! 
+bloomu_edu  NOTFOUND! 
+amf-france_org  NOTFOUND! 
+fiu_edu  NOTFOUND! 
+susu_ru  NOTFOUND! 
+voyeur-house_tv  NOTFOUND! 
+tailwindapp_com  ERROR!  'NoneType' object has no attribute 'group' 69 c491 <String[27]: fb.1.1695944814724.95521670> this key||value has been marked as tainted! 
+
+farmersinsurance_com  NOTFOUND! 
+earlham_edu  NOTFOUND! 
+redislabs_com  NOTFOUND! 
+newson6_com  NOTFOUND! 
+hbomax_com  NOTFOUND! 
+strapi_io  NOTFOUND! 
+shor_by  NOTFOUND! 
+manycam_com  NOTFOUND! 
+sciencemag_org  NOTFOUND! 
+elliman_com  NOTFOUND! 
+joomlart_com  NOTFOUND! 
+trademarkarea_com  NOTFOUND! 
+slate_fr  NOTFOUND! 
+lionsclubs_org  NOTFOUND! 
+insurancenewsnet_com  NOTFOUND! 
+sefaria_org  NOTFOUND! 
+ferragamo_com  NOTFOUND! 
+gitconnected_com  NOTFOUND! 
+econlib_org  NOTFOUND! 
+apu_edu  NOTFOUND! 
+thrivecart_com  NOTFOUND! 
+alertmedia_com  NOTFOUND! 
+musiciansfriend_com  NOTFOUND! 
+pfizer_com  NOTFOUND! 
+webhostinghub_com  NOTFOUND! 
+mhmedical_com  NOTFOUND! 
+valdosta_edu  NOTFOUND! 
+modernfarmer_com  NOTFOUND! 
+loox_io  NOTFOUND! 
+ontraport_com  NOTFOUND! 
+kingarthurbaking_com  NOTFOUND! 
+specialized_com  NOTFOUND! 
+success_com  NOTFOUND! 
+minted_com  NOTFOUND! 
+ninjatrader_com  NOTFOUND! 
+gust_com  NOTFOUND! 
+snaptubeapp_com  NOTFOUND! 
+kyivindependent_com  NOTFOUND! 
+vmwareidentity_com  ERROR!  'NoneType' object has no attribute 'group' 134 goz&hd=hg4> this key||value has been marked as tainted! 
+
+acs_org  NOTFOUND! 
+planview_com  ERROR!  'NoneType' object has no attribute 'group' 27 StartingLog... 0x131a7ab51749 <String[1]: 0> || 0x2536d49d941 <Very long string[1052]> this key||value has been marked as tainted! 
+
+bigstockphoto_com  NOTFOUND! 
+sciencetimes_com  NOTFOUND! 
+awm_gov.au  NOTFOUND! 
+timernet_ru  NOTFOUND! 
+astonmartin_com  NOTFOUND! 
+famsf_org  NOTFOUND! 
+derytele_com  NOTFOUND! 
+louisville_edu  NOTFOUND! 
+uvu_edu  NOTFOUND! 
+choosemyplate_gov  NOTFOUND! 
+anandtech_com  NOTFOUND! 
+woocommerce_com  NOTFOUND! 
+imaginecurve_com  NOTFOUND! 
+evergage_com  NOTFOUND! 
+vivino_com  NOTFOUND! 
+jcp_org  NOTFOUND! 
+chispa-app_com  NOTFOUND! 
+usga_org  NOTFOUND! 
+mox_tv  NOTFOUND! 
+bigoven_com  NOTFOUND! 
+atlantic_net  NOTFOUND! 
+letyshops_com  NOTFOUND! 
+mytrip_com  NOTFOUND! 
+blackplanet_com  NOTFOUND! 
+itnews_com.au  NOTFOUND! 
+ehiweb_it  NOTFOUND! 
+news_com  NOTFOUND! 
+rcpsych_ac.uk  NOTFOUND! 
+omahasteaks_com  NOTFOUND! 
+code_com  NOTFOUND! 
+10times_com  NOTFOUND! 
+directv_com  NOTFOUND! 
+reverbnation_com  NOTFOUND! 
+websitedemos_net  NOTFOUND! 
+wemakeprice_com  NOTFOUND! 
+riaa_com  NOTFOUND! 
+express_com  NOTFOUND! 
+t-nation_com  NOTFOUND! 
+csusb_edu  NOTFOUND! 
+aspeninstitute_org  NOTFOUND! 
+rca_ac.uk  NOTFOUND! 
+rockfin_com  NOTFOUND! 
+4travel_jp  NOTFOUND! 
+site123_me  NOTFOUND! 
+petmd_com  NOTFOUND! 
+mym_fans  NOTFOUND! 
+worldtimeserver_com  NOTFOUND! 
+moneygram_com  NOTFOUND! 
+dvrdns_org  ERROR!  'NoneType' object has no attribute 'group' 32 5911ee95cb75d55d2c99a3> this key||value has been marked as tainted! 
+
+bikewale_com  NOTFOUND! 
+pnc_com  NOTFOUND! 
+atptour_com  NOTFOUND! 
+costar_com  NOTFOUND! 
+rebtel_com  NOTFOUND! 
+topshop_com  NOTFOUND! 
+carecredit_com  NOTFOUND! 
+waikato_ac.nz  NOTFOUND! 
+cjdropshipping_com  NOTFOUND! 
+haier_com  NOTFOUND! 
+carid_com  NOTFOUND! 
+therecoveryvillage_com  NOTFOUND! 
+kredivo_com  NOTFOUND! 
+creditonebank_com  NOTFOUND! 
+weber_com  NOTFOUND! 
+forbes_com.mx  NOTFOUND! 
+ilstu_edu  NOTFOUND! 
+trendhunter_com  NOTFOUND! 
+aei_org  NOTFOUND! 
+leeent_net  NOTFOUND! 
+usip_org  NOTFOUND! 
+imagekit_io  NOTFOUND! 
+sportssignup_com  NOTFOUND! 
+alodokter_com  NOTFOUND! 
+austinchronicle_com  NOTFOUND! 
+textnow_com  NOTFOUND! 
+depor_com  NOTFOUND! 
+verticalresponse_com  NOTFOUND! 
+samsungmobile_com  NOTFOUND! 
+villanova_edu  NOTFOUND! 
+redcross_org  NOTFOUND! 
+blackbaud_com  NOTFOUND! 
+e-himart_co.kr  NOTFOUND! 
+mystrikingly_com  NOTFOUND! 
+jaguar_co.uk  NOTFOUND! 
+viewdeos_com  NOTFOUND! 
+unv_org  NOTFOUND! 
+adespresso_com  NOTFOUND! 
+safeco_com  NOTFOUND! 
+onlyinyourstate_com  NOTFOUND! 
+meteor_com  NOTFOUND! 
+cheapism_com  NOTFOUND! 
+braiins_com  NOTFOUND! 
+technologyreview_com  NOTFOUND! 
+tevapharm_com  NOTFOUND! 
+dlocal_com  NOTFOUND! 
+payhelm_com  NOTFOUND! 
+columbiamissourian_com  NOTFOUND! 
+leidos_com  NOTFOUND! 
+spiked-online_com  NOTFOUND! 
+vueling_com  NOTFOUND! 
+wpunj_edu  NOTFOUND! 
+crestron_com  NOTFOUND! 
+yousician_com  NOTFOUND! 
+businessworld_in  NOTFOUND! 
+fstoppers_com  NOTFOUND! 
+stevens_edu  NOTFOUND! 
+thedailystar_net  NOTFOUND! 
+deadline_com  NOTFOUND! 
+cuhk_edu.hk  NOTFOUND! 
+miamiherald_com  NOTFOUND! 
+costco_com  NOTFOUND! 
+cloudconformity_com  NOTFOUND! 
+heylink_me  NOTFOUND! 
+fujifilm-x_com  NOTFOUND! 
+listrak_com  NOTFOUND! 
+southpark_de  NOTFOUND! 
+architecture_com  NOTFOUND! 
+thairath_co.th  NOTFOUND! 
+launchora_com  NOTFOUND! 
+demandware_com  NOTFOUND! 
+1news_az  NOTFOUND! 
+stamps_com  NOTFOUND! 
+jetpens_com  NOTFOUND! 
+pilotflyingj_com  NOTFOUND! 
+nhm_org  NOTFOUND! 
+mayoclinichealthsystem_org  NOTFOUND! 
+rstyle_me  NOTFOUND! 
+dunkindonuts_com  NOTFOUND! 
+mastersportal_com  NOTFOUND! 
+cmt_com  NOTFOUND! 
+socialblade_com  NOTFOUND! 
+artdaily_com  NOTFOUND! 
+mathway_com  NOTFOUND! 
+playbill_com  NOTFOUND! 
+cu_edu  NOTFOUND! 
+yesware_com  NOTFOUND! 
+3com_com  ERROR!  'NoneType' object has no attribute 'group' 20 arname> || 0x1db8a257fec9 <String[4]: h.pg> this key||value has been marked as tainted! 
+
+patientpop_com  NOTFOUND! 
+restaurantbusinessonline_com  NOTFOUND! 
+educatorpages_com  NOTFOUND! 
+digitalcameraworld_com  NOTFOUND! 
+lezhinus_com  NOTFOUND! 
+tudocelular_com  NOTFOUND! 
+guard_io  NOTFOUND! 
+reyrey_com  NOTFOUND! 
+mitiendanube_com  NOTFOUND! 
+aerztezeitung_de  NOTFOUND! 
+osnplus_com  NOTFOUND! 
+brooklynmuseum_org  NOTFOUND! 
+theme_co  NOTFOUND! 
+happycolor_app  NOTFOUND! 
+pontofrio_com.br  NOTFOUND! 
+rpp_pe  NOTFOUND! 
+photorank_me  NOTFOUND! 
+style_com  NOTFOUND! 
+reviews_io  NOTFOUND! 
+starcraft2_com  NOTFOUND! 
+hikvision_com  NOTFOUND! 
+clausweb_ro  NOTFOUND! 
+journaldemontreal_com  NOTFOUND! 
+admin_net.pl  NOTFOUND! 
+wlu_edu  NOTFOUND! 
+realhomes_com  NOTFOUND! 
+openweb_com  NOTFOUND! 
+torontolife_com  NOTFOUND! 
+okaapps_com  NOTFOUND! 
+techbullion_com  NOTFOUND! 
+whyy_org  NOTFOUND! 
+servage_net  NOTFOUND! 
+semafor_com  NOTFOUND! 
+cvut_cz  NOTFOUND! 
+mbl_is  NOTFOUND! 
+reviewed_com  NOTFOUND! 
+flodesk_com  NOTFOUND! 
+s7cdn_online  NOTFOUND! 
+salsalabs_com  NOTFOUND! 
+911memorial_org  NOTFOUND! 
+westjet_com  NOTFOUND! 
+proprofs_com  NOTFOUND! 
+virtono_com  NOTFOUND! 
+levi_com  NOTFOUND! 
+eventsair_com  NOTFOUND! 
+dickinson_edu  NOTFOUND! 
+talkspace_com  ERROR!  'NoneType' object has no attribute 'group' 99 StartingLog... 0x26ab9d3f3b99 <String[1]: 0> || 0xd345aa95a51 <String[12]: slick-active> this key||value has been marked as tainted! 
+
+invesco_com  NOTFOUND! 
+storenvy_com  NOTFOUND! 
+knfilters_com  NOTFOUND! 
+viarail_ca  NOTFOUND! 
+alsa_org  NOTFOUND! 
+distrokid_com  NOTFOUND! 
+adafruit_com  NOTFOUND! 
+nexttv_com  NOTFOUND! 
+adlightning_com  NOTFOUND! 
+eagleeyenetworks_com  NOTFOUND! 
+espreso_co.rs  NOTFOUND! 
+apester_com  NOTFOUND! 
+sigmatic_fi  NOTFOUND! 
+manoramaonline_com  NOTFOUND! 
+mclaren_com  NOTFOUND! 
+gradesfixer_com  NOTFOUND! 
+ecount_com  NOTFOUND! 
+pjstar_com  NOTFOUND! 
+tile_com  NOTFOUND! 
+okendo_io  NOTFOUND! 
+skiddle_com  NOTFOUND! 
+nea-fast_com  NOTFOUND! 
+podcasts_com  NOTFOUND! 
+wmata_com  NOTFOUND! 
+ge_com  NOTFOUND! 
+architectmagazine_com  NOTFOUND! 
+workspaceoneaccess_com  NOTFOUND! 
+voka_tv  NOTFOUND! 
+pioneer_com  ERROR!  'NoneType' object has no attribute 'group' 15 StartingLog... 0x1d0c86ef5071 <String[1]: 0> || 0x16a7cc663151 <String[26]: select2-container--default> this key||value has been marked as tainted! 
+
+writemyessays_org  NOTFOUND! 
+thesmartlocal_com  NOTFOUND! 
+domenai_lt  NOTFOUND! 
+onepercentfortheplanet_org  NOTFOUND! 
+speedpay_com  NOTFOUND! 
+inleed_net  NOTFOUND! 
+cmjornal_pt  NOTFOUND! 
+kjzz_org  NOTFOUND! 
+autonews_com  NOTFOUND! 
+swiftype_com  NOTFOUND! 
+shopee_co.th  NOTFOUND! 
+joebiden_com  NOTFOUND! 
+atakdomain_com  NOTFOUND! 
+dhan_co  NOTFOUND! 
+speakol_com  NOTFOUND! 
+virginpulse_com  NOTFOUND! 
+uiowa_edu  NOTFOUND! 
+geniuslink_com  NOTFOUND! 
+guhsdaz_org  NOTFOUND! 
+sport24_gr  NOTFOUND! 
+ashp_org  NOTFOUND! 
+daraz_pk  NOTFOUND! 
+woothemes_com  NOTFOUND! 
+thereformation_com  NOTFOUND! 
+easywp_com  NOTFOUND! 
+bancamiga_com  NOTFOUND! 
+theaustralian_com.au  NOTFOUND! 
+nctm_org  NOTFOUND! 
+pdx_edu  NOTFOUND! 
+mg_co.za  NOTFOUND! 
+lawrence_com  NOTFOUND! 
+stc_com.sa  NOTFOUND! 
+mobihealthnews_com  NOTFOUND! 
+vanguard_com  NOTFOUND! 
+blockclubchicago_org  NOTFOUND! 
+csbsju_edu  NOTFOUND! 
+hull_ac.uk  NOTFOUND! 
+sellersprite_com  NOTFOUND! 
+dow_com  NOTFOUND! 
+shopee_sg  NOTFOUND! 
+utica_edu  NOTFOUND! 
+hoover_org  NOTFOUND! 
+uniba_sk  NOTFOUND! 
+gala_com  NOTFOUND! 
+shine_com  NOTFOUND! 
+haaretz_com  NOTFOUND! 
+thenorthface_com  NOTFOUND! 
+pdq_com  NOTFOUND! 
+thejakartapost_com  NOTFOUND! 
+uri_edu  NOTFOUND! 
+telegraf_rs  ERROR!  'NoneType' object has no attribute 'group' 54 c6d18f9 <String[14]: tId=2545996029> this key||value has been marked as tainted! 
+
+gettimely_com  NOTFOUND! 
+hostek_com  NOTFOUND! 
+mixhost_jp  NOTFOUND! 
+impel_io  NOTFOUND! 
+legion_org  NOTFOUND! 
+altema_jp  NOTFOUND! 
+videezy_com  NOTFOUND! 
+besoccer_com  NOTFOUND! 
+thesouthafrican_com  NOTFOUND! 
+pavietnam_net  NOTFOUND! 
+rehau_com  NOTFOUND! 
+dialhost_com.br  NOTFOUND! 
+shiksha_com  NOTFOUND! 
+adinplay_com  NOTFOUND! 
+aft_org  NOTFOUND! 
+winespectator_com  NOTFOUND! 
+currenttime_tv  ERROR!  'NoneType' object has no attribute 'group' 12 StartingLog... 0x155e25020411 <String[8]: pageName> || 0x12376c755469 <String[37]\: rfe-voa:ru:r:homepage:\x43d\x430\x441\x442\x43e\x44f\x449\x435\x435 \x432\x440\x435\x43c\x44f> this key||value has been marked as tainted! 
+
+msc_com  NOTFOUND! 
+textback_io  NOTFOUND! 
+mybluemix_net  NOTFOUND! 
+biz_net.id  NOTFOUND! 
+haikudeck_com  NOTFOUND! 
+marcus_com  ERROR!  'NoneType' object has no attribute 'group' 191 bda7faa9 <String[11]: cmet.Step1s> this key||value has been marked as tainted! 
+
+lovelywholesale_com  NOTFOUND! 
+lifeline_org.au  NOTFOUND! 
+feebee_com.tw  NOTFOUND! 
+flightglobal_com  NOTFOUND! 
+bridalguide_com  NOTFOUND! 
+yourdiy_com  NOTFOUND! 
+folger_edu  NOTFOUND! 
+educibly_com  NOTFOUND! 
+cpcc_edu  NOTFOUND! 
+artmajeur_com  NOTFOUND! 
+uco_es  NOTFOUND! 
+libertymutualgroup_com  NOTFOUND! 
+mojang_com  NOTFOUND! 
+verizon_net  NOTFOUND! 
+mines_edu  NOTFOUND! 
+une_edu  NOTFOUND! 
+jagran_com  NOTFOUND! 
+vidio_com  ERROR!  'NoneType' object has no attribute 'group' 23 ng[28]: fb.1.1695935996155.981436067> this key||value has been marked as tainted! 
+
+bentley_edu  NOTFOUND! 
+tribeplatform_com  NOTFOUND! 
+veve_me  NOTFOUND! 
+dhhs_gov  NOTFOUND! 
+delinea_com  NOTFOUND! 
+ipswitch_com  NOTFOUND! 
+lightricks_com  NOTFOUND! 
+avnet_com  ERROR!  'NoneType' object has no attribute 'group' 180 label> || 0x177e74c3c911 <String[16]: cmet.Rage_Clicks> this key||value has been marked as tainted! 
+
+timewarnercable_com  NOTFOUND! 
+uh_edu  NOTFOUND! 
+foodandwine_com  NOTFOUND! 
+listennotes_com  NOTFOUND! 
+theweathernetwork_com  NOTFOUND! 
+wlrn_org  NOTFOUND! 
+harrys_com  NOTFOUND! 
+rohde-schwarz_com  NOTFOUND! 
+flant_com  NOTFOUND! 
+li_me  NOTFOUND! 
+carmax_com  ERROR!  'NoneType' object has no attribute 'group' 28 gS/MgIVlmOgRtkAtAmnLQmrbWkcMG01Slr7+Q4emxBZVWF41zTN5nQ5fRF6WDOROfan1kxCCDRmrYIObmfEQkv9dbmNx42hVBNrS71O2mNS3IBAqPjNx41NpbUAuWVEku1EOUMA=~3748673~4602182> this key||value has been marked as tainted! 
+
+lovetoknow_com  ERROR!  'NoneType' object has no attribute 'group' 28 e05919 <String[29]: fb.1.1695943967326.1938618960> this key||value has been marked as tainted! 
+
+camp-fire_jp  NOTFOUND! 
+upworthy_com  NOTFOUND! 
+freedomforum_org  NOTFOUND! 
+stamfordadvocate_com  NOTFOUND! 
+rustoleum_com  NOTFOUND! 
+wpforms_com  NOTFOUND! 
+ithaca_edu  NOTFOUND! 
+eurosport_fr  NOTFOUND! 
+theyeshivaworld_com  NOTFOUND! 
+greentechmedia_com  NOTFOUND! 
+xero_com  NOTFOUND! 
+iberia_com  NOTFOUND! 
+oxy_edu  NOTFOUND! 
+whattoexpect_com  NOTFOUND! 
+piaproxy_com  NOTFOUND! 
+play-asia_com  NOTFOUND! 
+vu_lt  NOTFOUND! 
+expressvpn_com  NOTFOUND! 
+paycor_com  NOTFOUND! 
+gottman_com  NOTFOUND! 
+getemoji_com  NOTFOUND! 
+jta_org  NOTFOUND! 
+visenze_com  NOTFOUND! 
+cumulocity_com  NOTFOUND! 
+honestbrandreviews_com  NOTFOUND! 
+pokernews_com  NOTFOUND! 
+avis_com  NOTFOUND! 
+goldbelly_com  NOTFOUND! 
+asan_gov.az  NOTFOUND! 
+jimmychoo_com  NOTFOUND! 
+caixinglobal_com  NOTFOUND! 
+suspilne_media  NOTFOUND! 
+canterbury_ac.nz  NOTFOUND! 
+etisalat_com.eg  NOTFOUND! 
+succeed_net  NOTFOUND! 
+slu_edu  NOTFOUND! 
+wpml_org  NOTFOUND! 
+rp_pl  NOTFOUND! 
+eventticketscenter_com  NOTFOUND! 
+tnr_com  NOTFOUND! 
+geico_com  NOTFOUND! 
+rumahweb_com  NOTFOUND! 
+discoverfinancial_com  NOTFOUND! 
+insurancebusinessmag_com  NOTFOUND! 
+auanet_org  NOTFOUND! 
+tribe_so  NOTFOUND! 
+dyson_my  NOTFOUND! 
+thenationalnews_com  NOTFOUND! 
+buzzstream_com  NOTFOUND! 
+ubalt_edu  NOTFOUND! 
+volvogroup_com  NOTFOUND! 
+myforexfunds_com  NOTFOUND! 
+ninemsn_com.au  NOTFOUND! 
+uhd_edu  NOTFOUND! 
+dailyvoice_com  NOTFOUND! 
+4mjlixyhcc_com  NOTFOUND! 
+liu_edu  NOTFOUND! 
+iseecars_com  NOTFOUND! 
+smiirl_com  NOTFOUND! 
+widerplanet_com  NOTFOUND! 
+jcpenney_com  NOTFOUND! 
+xara_com  NOTFOUND! 
+nalpeiron_com  NOTFOUND! 
+cis_org  NOTFOUND! 
+avalara_com  NOTFOUND! 
+vuw_ac.nz  NOTFOUND! 
+utk_edu  NOTFOUND! 
+carousell_sg  NOTFOUND! 
+mybillie_com  NOTFOUND! 
+ledevoir_com  NOTFOUND! 
+priceoye_pk  NOTFOUND! 
+midwayusa_com  NOTFOUND! 
+calltouch_ru  NOTFOUND! 
+sunbeltrentals_com  NOTFOUND! 
+itau_cl  NOTFOUND! 
+brennancenter_org  NOTFOUND! 
+beyondmenu_com  NOTFOUND! 
+learnworlds_com  NOTFOUND! 
+greenbiz_com  NOTFOUND! 
+manhattan-institute_org  NOTFOUND! 
+tureng_com  NOTFOUND! 
+thecheesecakefactory_com  NOTFOUND! 
+spyfu_com  NOTFOUND! 
+touro_edu  NOTFOUND! 
+documentforce_com  NOTFOUND! 
+csn_edu  NOTFOUND! 
+unc_edu  NOTFOUND! 
+domain_by  NOTFOUND! 
+expediapartnersolutions_com  NOTFOUND! 
+discovery_com  NOTFOUND! 
+omk_ru  NOTFOUND! 
+w_tools  NOTFOUND! 
+luisaviaroma_com  NOTFOUND! 
+gold_ac.uk  NOTFOUND! 
+okmeter_io  NOTFOUND! 
+fis-ski_com  NOTFOUND! 
+lshtm_ac.uk  NOTFOUND! 
+superteacherworksheets_com  NOTFOUND! 
+caavo_com  NOTFOUND! 
+slideteam_net  NOTFOUND! 
+dipcon_com  NOTFOUND! 
+inline_app  NOTFOUND! 
+uwn_com  NOTFOUND! 
+acmethemes_com  NOTFOUND! 
+theamericanconservative_com  NOTFOUND! 
+sdstate_edu  NOTFOUND! 
+unaids_org  NOTFOUND! 
+tributearchive_com  NOTFOUND! 
+geniussis_com  NOTFOUND! 
+redditinc_com  NOTFOUND! 
+pilotonline_com  ERROR!  'NoneType' object has no attribute 'group' 96 StartingLog... 0x2f588e525291 <String[1]: 0> || 0x38b045f2f5a1 <String[12]: pushnav-left> this key||value has been marked as tainted! 
+
+shonenjumpplus_com  NOTFOUND! 
+wtatennis_com  NOTFOUND! 
+gigabyte_com  NOTFOUND! 
+stjude_org  NOTFOUND! 
+commonapp_org  NOTFOUND! 
+dynadot_com  NOTFOUND! 
+bezeqint_net  NOTFOUND! 
+mentalhelp_net  NOTFOUND! 
+westerndigital_com  NOTFOUND! 
+cylex-uk_co.uk  NOTFOUND! 
+adobeconnect_com  NOTFOUND! 
+jacobin_com  NOTFOUND! 
+wellness_com  NOTFOUND! 
+zuora_com  NOTFOUND! 
+vetstreet_com  NOTFOUND! 
+brooksrunning_com  ERROR!  'NoneType' object has no attribute 'group' 21 0]: beacon_url> || 0x2a36626f7c39 <String[21]: //68794907.akstat.io/> this key||value has been marked as tainted! 
+
+onegiantleap_com  NOTFOUND! 
+carnegieendowment_org  NOTFOUND! 
+adpartner_pro  NOTFOUND! 
+shopee_ph  NOTFOUND! 
+dailygazette_com  NOTFOUND! 
+sciencefriday_com  NOTFOUND! 
+signalfx_com  NOTFOUND! 
+cibil_com  NOTFOUND! 
+tilda_ws  NOTFOUND! 
+reviews_co.uk  NOTFOUND! 
+fasthosts_co.uk  NOTFOUND! 
+audible_co.uk  NOTFOUND! 
+gosquared_com  NOTFOUND! 
+airarabia_com  NOTFOUND! 
+daangn_com  NOTFOUND! 
+sandiego_edu  NOTFOUND! 
+craftsy_com  NOTFOUND! 
+hani_co.kr  NOTFOUND! 
+ansible_com  NOTFOUND! 
+castos_com  NOTFOUND! 
+has-to-be_com  NOTFOUND! 
+codester_com  NOTFOUND! 
+hachettebookgroup_com  NOTFOUND! 
+usq_edu.au  NOTFOUND! 
+simplified_com  NOTFOUND! 
+iuhealth_org  NOTFOUND! 
+futurity_org  NOTFOUND! 
+posta_com.tr  NOTFOUND! 
+truthout_org  NOTFOUND! 
+ariba_com  ERROR!  'NoneType' object has no attribute 'group' 84  has been marked as tainted! 
+
+technewsworld_com  NOTFOUND! 
+multihost_ru  NOTFOUND! 
+booksamillion_com  ERROR!  'NoneType' object has no attribute 'group' 944 b.1.1695946634822.972934094> this key||value has been marked as tainted! 
+
+uslegalforms_com  NOTFOUND! 
+vigbo_com  NOTFOUND! 
+tripit_com  NOTFOUND! 
+norton_com  NOTFOUND! 
+brusselsairlines_com  NOTFOUND! 
+thesimsresource_com  NOTFOUND! 
+massey_ac.nz  NOTFOUND! 
+govdeals_com  NOTFOUND! 
+eskimi_com  NOTFOUND! 
+asos_com  NOTFOUND! 
+ufc_com  NOTFOUND! 
+americanscientist_org  NOTFOUND! 
+bnsf_com  NOTFOUND! 
+skymail_net.br  NOTFOUND! 
+farfetch_com  NOTFOUND! 
+economipedia_com  NOTFOUND! 
+usonyx_net  NOTFOUND! 
+masterpapers_com  NOTFOUND! 
+brightside_me  NOTFOUND! 
+iq_com  NOTFOUND! 
+alamode_com  NOTFOUND! 
+digitalpacific_com  NOTFOUND! 
+graphene-theme_com  NOTFOUND! 
+mzv_cz  NOTFOUND! 
+cod_edu  NOTFOUND! 
+apartmenthomeliving_com  NOTFOUND! 
+historyhit_com  NOTFOUND! 
+swapcard_com  NOTFOUND! 
+carrefouruae_com  ERROR!  'NoneType' object has no attribute 'group' 18 af549209 <String[21]: //173bf10d.akstat.io/> this key||value has been marked as tainted! 
+
+princetonreview_com  ERROR!  'NoneType' object has no attribute 'group' 50 ring[14]: adTrack=%7B%7D> this key||value has been marked as tainted! 
+
+shop_pe  NOTFOUND! 
+livechatinc_com  NOTFOUND! 
+glaad_org  NOTFOUND! 
+getrockerbox_com  NOTFOUND! 
+antioch_edu  NOTFOUND! 
+stageit_com  NOTFOUND! 
+lastline_com  NOTFOUND! 
+weber_edu  NOTFOUND! 
+itworld_com  ERROR!  'NoneType' object has no attribute 'group' 133 819 <String[20]: fastlyCountryCode=US> this key||value has been marked as tainted! 
+
+barrett-jackson_com  NOTFOUND! 
+luminpdf_com  ERROR!  'NoneType' object has no attribute 'group' 48 bp=fb.1.1695948747247.1682716030> this key||value has been marked as tainted! 
+
+rotowire_com  NOTFOUND! 
+whmcs_com  NOTFOUND! 
+3m_com  NOTFOUND! 
+mediawayss_com  NOTFOUND! 
+cyclingnews_com  NOTFOUND! 
+thoughtcatalog_com  NOTFOUND! 
+capital_com  NOTFOUND! 
+popt_in  NOTFOUND! 
+nrdc_org  NOTFOUND! 
+tarnow_pl  NOTFOUND! 
+asb_by  NOTFOUND! 
+lastpass_com  NOTFOUND! 
+olympics_com  ERROR!  'NoneType' object has no attribute 'group' 40 ring[5]: label> || 0x29df9a8f5039 <String[17]: cdim.B2B_Language> this key||value has been marked as tainted! 
+
+freepikcompany_com  NOTFOUND! 
+maccosmetics_com  NOTFOUND! 
+handy_com  NOTFOUND! 
+butler_edu  NOTFOUND! 
+everbridge_net  NOTFOUND! 
+homelinux_net  NOTFOUND! 
+natrohost_com  NOTFOUND! 
+ucsb_edu  NOTFOUND! 
+whatfix_com  NOTFOUND! 
+thethemefoundry_com  NOTFOUND! 
+hotforex_com  NOTFOUND! 
+matrixhealth_net  NOTFOUND! 
+breezy_hr  NOTFOUND! 
+dyson_in  NOTFOUND! 
+ushmm_org  NOTFOUND! 
+islamicfinder_org  NOTFOUND! 
+ohou_se  NOTFOUND! 
+easel_ly  NOTFOUND! 
+omnicalculator_com  NOTFOUND! 
+fendi_com  NOTFOUND! 
+montefiore_org  NOTFOUND! 
+quickbooks_com  NOTFOUND! 
+willamette_edu  NOTFOUND! 
+esv_org  NOTFOUND! 
+asyst_co.id  NOTFOUND! 
+sedgwick_com  NOTFOUND! 
+sph_com.sg  NOTFOUND! 
+themoscowtimes_com  NOTFOUND! 
+drake_edu  NOTFOUND! 
+emeraldgrouppublishing_com  NOTFOUND! 
+iphonelife_com  NOTFOUND! 
+news-press_com  NOTFOUND! 
+einstein_com  NOTFOUND! 
+defenseone_com  NOTFOUND! 
+parenting_com  NOTFOUND! 
+uwlax_edu  NOTFOUND! 
+bitrix24_by  ERROR!  'NoneType' object has no attribute 'group' 34 0665.17920249> this key||value has been marked as tainted! 
+
+dorzeczy_pl  NOTFOUND! 
+thetyee_ca  NOTFOUND! 
+khinsider_com  NOTFOUND! 
+yolla_io  NOTFOUND! 
+payu_com  NOTFOUND! 
+iolo_net  NOTFOUND! 
+brp_com  NOTFOUND! 
+tokopedia_com  NOTFOUND! 
+emaar_ae  NOTFOUND! 
+udayton_edu  NOTFOUND! 
+oprah_com  NOTFOUND! 
+allfootballapp_com  NOTFOUND! 
+deltadentalins_com  NOTFOUND! 
+myplate_gov  NOTFOUND! 
+huffingtonpost_in  NOTFOUND! 
+bitshelter_com  NOTFOUND! 
+shopify_dev  NOTFOUND! 
+gu-global_com  NOTFOUND! 
+revcontent_com  NOTFOUND! 
+dtn_com  NOTFOUND! 
+splcenter_org  NOTFOUND! 
+bcorporation_net  NOTFOUND! 
+cochranelibrary_com  NOTFOUND! 
+shoppinggives_com  NOTFOUND! 
+av_by  NOTFOUND! 
+tomorrowland_com  NOTFOUND! 
+arrisi_com  NOTFOUND! 
+pushowl_com  NOTFOUND! 
+3dcart_com  NOTFOUND! 
+ctwant_com  NOTFOUND! 
+statmuse_com  NOTFOUND! 
+rcog_org.uk  NOTFOUND! 
+alberta_ca  NOTFOUND! 
+nxp_com  NOTFOUND! 
+wisegeek_com  NOTFOUND! 
+premiere_fr  NOTFOUND! 
+louisvuitton_cn  NOTFOUND! 
+newstatesman_com  NOTFOUND! 
+telegraphindia_com  NOTFOUND! 
+dailycaller_com  NOTFOUND! 
+drivethrurpg_com  NOTFOUND! 
+fanpage_it  NOTFOUND! 
+alastyr_com  NOTFOUND! 
+dissentmagazine_org  NOTFOUND! 
+gizmag_com  NOTFOUND! 
+macworld_co.uk  NOTFOUND! 
+katteb_com  NOTFOUND! 
+knewz_com  NOTFOUND! 
+shift4shop_com  NOTFOUND! 
+diia_gov.ua  NOTFOUND! 
+abc_com.py  NOTFOUND! 
+visper_tech  NOTFOUND! 
+eventective_com  NOTFOUND! 
+mirantis_com  NOTFOUND! 
+polyvore_com  NOTFOUND! 
+powtoon_com  NOTFOUND! 
+housing_com  NOTFOUND! 
+allnurses_com  NOTFOUND! 
+desales_edu  NOTFOUND! 
+stv_ee  NOTFOUND! 
+screendaily_com  NOTFOUND! 
+corgihomeplan_co.uk  NOTFOUND! 
+vitacost_com  NOTFOUND! 
+woorank_com  NOTFOUND! 
+humankinetics_com  NOTFOUND! 
+lmgtfy_com  NOTFOUND! 
+pmi_org  NOTFOUND! 
+zomato_com  NOTFOUND! 
+wifeo_com  NOTFOUND! 
+onemedical_com  NOTFOUND! 
+mdpi-res_com  NOTFOUND! 
+webempresa_eu  NOTFOUND! 
+williamhill_com  NOTFOUND! 
+ysl_com  NOTFOUND! 
+surgeongeneral_gov  NOTFOUND! 
+titan_co.in  NOTFOUND! 
+rubrik_com  NOTFOUND! 
+ssense_com  NOTFOUND! 
+ansys_com  ERROR!  'NoneType' object has no attribute 'group' 51 ng[6]: d-none> this key||value has been marked as tainted! 
+
+steelbrick_com  NOTFOUND! 
+salk_edu  NOTFOUND! 
+smartsupp_com  NOTFOUND! 
+olemiss_edu  NOTFOUND! 
+therange_co.uk  NOTFOUND! 
+whogohost_com  NOTFOUND! 
+garda_com  NOTFOUND! 
+etc_uz  NOTFOUND! 
+line6_com  NOTFOUND! 
+crateandbarrel_com  ERROR!  'NoneType' object has no attribute 'group' 67 ring[5]: label> || 0x1fc2d028c2b9 <String[15]: cmet.Conversion> this key||value has been marked as tainted! 
+
+daraz_lk  NOTFOUND! 
+stablehost_com  NOTFOUND! 
+sony_co.uk  NOTFOUND! 
+bankofbaroda_in  NOTFOUND! 
+guess_eu  ERROR!  'NoneType' object has no attribute 'group' 569 1695943145485.1448195452> this key||value has been marked as tainted! 
+
+stripo_email  NOTFOUND! 
+campaignmonitor_com  NOTFOUND! 
+examtopics_com  NOTFOUND! 
+asrock_com  NOTFOUND! 
+medpagetoday_com  NOTFOUND! 
+albacross_com  NOTFOUND! 
+imonomy_com  NOTFOUND! 
+hungryroot_com  NOTFOUND! 
+sprzedajemy_pl  NOTFOUND! 
+xpi_com.br  NOTFOUND! 
+cookingchanneltv_com  NOTFOUND! 
+unpri_org  NOTFOUND! 
+sunlife_com  NOTFOUND! 
+dyson_com.tr  NOTFOUND! 
+trustedform_com  NOTFOUND! 
+vccs_edu  NOTFOUND! 
+unomaha_edu  NOTFOUND! 
+hds_com  NOTFOUND! 
+rit_edu  NOTFOUND! 
+coconuts_co  NOTFOUND! 
+recurly_com  NOTFOUND! 
+binary_net  NOTFOUND! 
+saksoff5th_com  NOTFOUND! 
+usni_org  NOTFOUND! 
+newsbreak_com  NOTFOUND! 
+computerhistory_org  NOTFOUND! 
+afi_com  NOTFOUND! 
+mirapolis_ru  NOTFOUND! 
+channel5_com  NOTFOUND! 
+eurosport_com  NOTFOUND! 
+healthcarefinancenews_com  NOTFOUND! 
+allthingsd_com  NOTFOUND! 
+infowest_com  NOTFOUND! 
+centralreach_com  NOTFOUND! 
+pets4homes_co.uk  NOTFOUND! 
+sap_de  NOTFOUND! 
+hinet_net  NOTFOUND! 
+dodo_com.au  NOTFOUND! 
+familyzone_com  NOTFOUND! 
+oceanconservancy_org  NOTFOUND! 
+privacy_com.br  NOTFOUND! 
+realpython_com  NOTFOUND! 
+rightsignature_com  NOTFOUND! 
+score_org  NOTFOUND! 
+macobserver_com  NOTFOUND! 
+hvosting_ua  NOTFOUND! 
+files_com  NOTFOUND! 
+wellpoint_com  NOTFOUND! 
+aviationweek_com  NOTFOUND! 
+t3_com  NOTFOUND! 
+rotary_org  NOTFOUND! 
+muhlenberg_edu  NOTFOUND! 
+terago_cloud  NOTFOUND! 
+unraid_net  NOTFOUND! 
+afb_org  NOTFOUND! 
+cuantarazon_com  NOTFOUND! 
+proen_co.th  NOTFOUND! 
+sacurrent_com  NOTFOUND! 
+viacom_com  NOTFOUND! 
+lezhin_com  NOTFOUND! 
+gyazo_com  NOTFOUND! 
+real_com  NOTFOUND! 
+ritzcarlton_com  NOTFOUND! 
+toomics_com  NOTFOUND! 
+halifax_co.uk  ERROR!  'NoneType' object has no attribute 'group' 31 151 <String[21]: //173bf110.akstat.io/> this key||value has been marked as tainted! 
+
+mapbox_com  NOTFOUND! 
+charlotteobserver_com  ERROR!  'NoneType' object has no attribute 'group' 17 er.com&si=1ddb71b2-a735-4435-8204-7c03da81f3fe&ss=ln3u3sgc&sl=0&tt=0&bcn=%2F%2F173bf10a.akstat.io%2F> this key||value has been marked as tainted! 
+
+klevu_com  NOTFOUND! 
+zohohost_com  ERROR!  'NoneType' object has no attribute 'group' 14 StartingLog... 0xebb7b2442b9 <String[1]: 0> || 0x24ac10798db9 <String[6]: active> this key||value has been marked as tainted! 
+
+mothership_sg  NOTFOUND! 
+mhnet_com.br  NOTFOUND! 
+breitling_com  NOTFOUND! 
+hitta_se  NOTFOUND! 
+bannerflow_com  NOTFOUND! 
+placeit_net  NOTFOUND! 
+appbaqend_com  NOTFOUND! 
+bookshop_org  NOTFOUND! 
+turhost_com  NOTFOUND! 
+zennolab_com  NOTFOUND! 
+bmc_com  NOTFOUND! 
+obsev_com  NOTFOUND! 
+instant-gaming_com  NOTFOUND! 
+carousell_com.my  NOTFOUND! 
+lge_co.kr  NOTFOUND! 
+socalgas_com  NOTFOUND! 
+vipre_com  NOTFOUND! 
+iit_edu  NOTFOUND! 
+mathforum_org  NOTFOUND! 
+vnc_com  NOTFOUND! 
+calarts_edu  ERROR!  'NoneType' object has no attribute 'group' 74 0x222bab0803c1 <String[28]: fb.1.1695936606928.142534978> this key||value has been marked as tainted! 
+
+adwile_com  NOTFOUND! 
+msmagazine_com  NOTFOUND! 
+banquemisr_com  NOTFOUND! 
+cartercenter_org  NOTFOUND! 
+oscars_org  NOTFOUND! 
+marketingsherpa_com  NOTFOUND! 
+dyson_com.sg  NOTFOUND! 
+zoro_com  NOTFOUND! 
+agilixbuzz_com  NOTFOUND! 
+invisioncommunity_com  NOTFOUND! 
+arcpublishing_com  NOTFOUND! 
+uworld_com  NOTFOUND! 
+terracycle_com  NOTFOUND! 
+jkforum_net  NOTFOUND! 
+aaas_org  NOTFOUND! 
+snip_ly  NOTFOUND! 
+portfolio_hu  NOTFOUND! 
+nyti_ms  NOTFOUND! 
+maryville_edu  NOTFOUND! 
+mango_com  NOTFOUND! 
+addtocalendar_com  NOTFOUND! 
+historynet_com  NOTFOUND! 
+nanoleaf_me  NOTFOUND! 
+yucatan_com.mx  NOTFOUND! 
+riskified_com  NOTFOUND! 
+mazdausa_com  NOTFOUND! 
+beliefnet_com  NOTFOUND! 
+hypr_com  NOTFOUND! 
+deliveroo_ae  NOTFOUND! 
+exonhost_com  NOTFOUND! 
+admetricspro_com  NOTFOUND! 
+tomodoko_com  NOTFOUND! 
+cheapoair_com  NOTFOUND! 
+rechargeapps_com  NOTFOUND! 
+cashkaro_com  NOTFOUND! 
+irishnews_com  NOTFOUND! 
+worldwinner_com  NOTFOUND! 
+gcorelabs_com  NOTFOUND! 
+loopia_se  NOTFOUND! 
+shahid_net  NOTFOUND! 
+ms_com  NOTFOUND! 
+glasswire_com  NOTFOUND! 
+dimofinf_net  NOTFOUND! 
+safekids_org  NOTFOUND! 
+lb_ua  NOTFOUND! 
+anantara_com  NOTFOUND! 
+blacknightsolutions_com  NOTFOUND! 
+site123_com  NOTFOUND! 
+infoworld_com  NOTFOUND! 
+familydollar_com  NOTFOUND! 
+aveda_com  NOTFOUND! 
+getcloudapp_com  NOTFOUND! 
+dailytelegraph_com.au  NOTFOUND! 
+sproutvideo_com  NOTFOUND! 
+publitas_com  NOTFOUND! 
+freedomscientific_com  NOTFOUND! 
+rinet_ru  NOTFOUND! 
+interiordesign_net  NOTFOUND! 
+minnstate_edu  NOTFOUND! 
+wfmz_com  NOTFOUND! 
+kixeye_com  NOTFOUND! 
+timberland_com  NOTFOUND! 
+pcstore_com.tw  ERROR!  'NoneType' object has no attribute 'group' 49 iR9Z3ijzF1lpVz4VIfX4VTWXxco2TI8lDi> this key||value has been marked as tainted! 
+
+hosting_cl  NOTFOUND! 
+prothomalo_com  NOTFOUND! 
+wyzant_com  NOTFOUND! 
+hbonordic_com  NOTFOUND! 
+cameo_com  NOTFOUND! 
+coca-colacompany_com  NOTFOUND! 
+urv_cat  NOTFOUND! 
+tissotwatches_com  NOTFOUND! 
+fullsail_edu  NOTFOUND! 
+signalsciences_com  NOTFOUND! 
+heineken_com  NOTFOUND! 
+000webhost_com  NOTFOUND! 
+notionpress_com  NOTFOUND! 
+undeveloped_com  NOTFOUND! 
+atavi_com  NOTFOUND! 
+internet-webhosting_com  NOTFOUND! 
+forksoverknives_com  NOTFOUND! 
+inside-games_jp  NOTFOUND! 
+reedsy_com  NOTFOUND! 
+pen_org  NOTFOUND! 
+ubc_ca  NOTFOUND! 
+aafa_org  NOTFOUND! 
+surferseo_com  NOTFOUND! 
+thelott_com  NOTFOUND! 
+healthstream_com  NOTFOUND! 
+aubtu_biz  NOTFOUND! 
+roseltorg_ru  NOTFOUND! 
+thedailyshow_com  NOTFOUND! 
+starterstory_com  NOTFOUND! 
+vauto_com  NOTFOUND! 
+zaful_com  NOTFOUND! 
+dialpad_com  NOTFOUND! 
+choicehotels_com  NOTFOUND! 
+fibaro_com  NOTFOUND! 
+embibe_com  NOTFOUND! 
+programiz_com  NOTFOUND! 
+yoox_com  ERROR!  'NoneType' object has no attribute 'group' 53 url> || 0x9d69de06e11 <String[21]: //173bf10e.akstat.io/> this key||value has been marked as tainted! 
+
+lexipol_com  NOTFOUND! 
+jango_com  NOTFOUND! 
+creditkarma_com  NOTFOUND! 
+phemex_com  NOTFOUND! 
+razorpay_com  NOTFOUND! 
+wink_com  NOTFOUND! 
+sapsf_com  ERROR!  'NoneType' object has no attribute 'group' 82 ue has been marked as tainted! 
+
+getcatch_com  NOTFOUND! 
+privy_com  NOTFOUND! 
+laverdadnoticias_com  NOTFOUND! 
+live365_com  NOTFOUND! 
+joongang_co.kr  NOTFOUND! 
+edgenuity_com  NOTFOUND! 
+liveauctioneers_com  NOTFOUND! 
+floridapolitics_com  NOTFOUND! 
+cooperativa_cl  NOTFOUND! 
+bidgear_com  NOTFOUND! 
+sharefile_com  NOTFOUND! 
+bigw_com.au  NOTFOUND! 
+dyson_be  NOTFOUND! 
+mq_edu.au  NOTFOUND! 
+allears_net  NOTFOUND! 
+dyson_ch  NOTFOUND! 
+enguard_com  NOTFOUND! 
+harveynorman_com.au  NOTFOUND! 
+thron_com  NOTFOUND! 
+lightedge_com  NOTFOUND! 
+hersheys_com  NOTFOUND! 
+amco_me  NOTFOUND! 
+churchleaders_com  NOTFOUND! 
+maxim_com  NOTFOUND! 
+newbalance_com  NOTFOUND! 
+adobesign_com  NOTFOUND! 
+ashpublications_org  NOTFOUND! 
+getethos_com  NOTFOUND! 
+morganstanley_com  NOTFOUND! 
+bonprix_de  NOTFOUND! 
+visualforce_com  NOTFOUND! 
+laptopmag_com  NOTFOUND! 
+sitesell_com  NOTFOUND! 
+savethechildren_net  NOTFOUND! 
+niti_gov.in  NOTFOUND! 
+simplecast_com  NOTFOUND! 
+woobox_com  NOTFOUND! 
+mopar_com  NOTFOUND! 
+point2homes_com  ERROR!  'NoneType' object has no attribute 'group' 150 x21a081536269 <String[24]: ClientLocationId=2442431> this key||value has been marked as tainted! 
+
+broker_ru  NOTFOUND! 
+mountainproject_com  ERROR!  'NoneType' object has no attribute 'group' 55 AMw> this key||value has been marked as tainted! 
+
+timetreeapp_com  NOTFOUND! 
+ycharts_com  NOTFOUND! 
+orvis_com  NOTFOUND! 
+shellshock_io  NOTFOUND! 
+popsugar_com  NOTFOUND! 
+uml_edu  NOTFOUND! 
+couriermail_com.au  NOTFOUND! 
+menswearhouse_com  NOTFOUND! 
+wonderhowto_com  NOTFOUND! 
+uptime_com  NOTFOUND! 
+pap_pl  NOTFOUND! 
+tagdiv_com  NOTFOUND! 
+lifepointspanel_com  NOTFOUND! 
+netnut_io  NOTFOUND! 
+helpwire_com  NOTFOUND! 
+logmeininc_com  NOTFOUND! 
+motul_com  NOTFOUND! 
+tapas_io  NOTFOUND! 
+stonewall_org.uk  NOTFOUND! 
+hackaday_com  NOTFOUND! 
+projectveritas_com  NOTFOUND! 
+foresee_com  NOTFOUND! 
+squaretrade_com  NOTFOUND! 
+cca_edu  NOTFOUND! 
+fortex_ru  NOTFOUND! 
+fwrd_com  NOTFOUND! 
+setapp_com  NOTFOUND! 
+boatus_com  NOTFOUND! 
+heavy_com  NOTFOUND! 
+kevinmd_com  NOTFOUND! 
+kew_org  NOTFOUND! 
+tractorsupply_com  NOTFOUND! 
+inshorts_com  NOTFOUND! 
+thesundaytimes_co.uk  NOTFOUND! 
+fevo_com  NOTFOUND! 
+houstonpublicmedia_org  NOTFOUND! 
+bet9ja_com  NOTFOUND! 
+b3_com.br  NOTFOUND! 
+ionos_es  NOTFOUND! 
+azsos_gov  NOTFOUND! 
+medtronic_com  NOTFOUND! 
+komplett_no  NOTFOUND! 
+thimatic-apps_com  NOTFOUND! 
+moving_com  NOTFOUND! 
+lovense_com  NOTFOUND! 
+wantedly_com  NOTFOUND! 
+xavier_edu  NOTFOUND! 
+e-planet_ru  NOTFOUND! 
+come_to  NOTFOUND! 
+mdedge_com  NOTFOUND! 
+jeevansathi_com  NOTFOUND! 
+quotesgram_com  NOTFOUND! 
+animoto_com  NOTFOUND! 
+metooo_io  NOTFOUND! 
+msu_edu  NOTFOUND! 
+nextgov_com  NOTFOUND! 
+senecacollege_ca  NOTFOUND! 
+estrategiaconcursos_com.br  NOTFOUND! 
+imsph_sg  NOTFOUND! 
+claro_com.co  NOTFOUND! 
+sapsf_eu  ERROR!  'NoneType' object has no attribute 'group' 66 lue has been marked as tainted! 
+
+casino_org  NOTFOUND! 
+innocenceproject_org  NOTFOUND! 
+volvocars_com  NOTFOUND! 
+lightrun_com  NOTFOUND! 
+newsbomb_gr  NOTFOUND! 
+id_me  NOTFOUND! 
+wine_com  NOTFOUND! 
+carousell_com  NOTFOUND! 
+entrega_su  NOTFOUND! 
+uib_no  NOTFOUND! 
+techbang_com  NOTFOUND! 
+tresensa_com  NOTFOUND! 
+unlayer_com  NOTFOUND! 
+albiononline_com  NOTFOUND! 
+futuretools_io  NOTFOUND! 
+citizengo_org  NOTFOUND! 
+biblegateway_com  NOTFOUND! 
+ctinsider_com  NOTFOUND! 
+keurig_com  NOTFOUND! 
+riverside_fm  NOTFOUND! 
+hbonow_com  NOTFOUND! 
+reurl_cc  NOTFOUND! 
+jsums_edu  NOTFOUND! 
+actionverb_com  NOTFOUND! 
+mediamatters_org  NOTFOUND! 
+albion_edu  NOTFOUND! 
+gismeteo_by  NOTFOUND! 
+scholasticahq_com  NOTFOUND! 
+litmos_com  NOTFOUND! 
+pncbank_com  NOTFOUND! 
+slacker_com  NOTFOUND! 
+sortiraparis_com  NOTFOUND! 
+pq_hosting  NOTFOUND! 
+crowdfunder_co.uk  NOTFOUND! 
+freckle_com  NOTFOUND! 
+bestfriends_org  NOTFOUND! 
+gen_xyz  NOTFOUND! 
+sportsv_net  NOTFOUND! 
+bates_edu  NOTFOUND! 
+searchanise_com  NOTFOUND! 
+csus_edu  NOTFOUND! 
+guitar_com  NOTFOUND! 
+sdv_fr  NOTFOUND! 
+theknot_com  NOTFOUND! 
+creativelive_com  NOTFOUND! 
+premiumtimesng_com  ERROR!  'NoneType' object has no attribute 'group' 80 String[16]: plsVisitorGeo=US> this key||value has been marked as tainted! 
+
+metro_net  NOTFOUND! 
+publico_es  NOTFOUND! 
+acuityscheduling_com  NOTFOUND! 
+ihrsa_org  NOTFOUND! 
+thesimpledollar_com  NOTFOUND! 
+hccs_edu  NOTFOUND! 
+learnwithhomer_com  NOTFOUND! 
+idea_int  NOTFOUND! 
+wpmudev_com  NOTFOUND! 
+centrepompidou_fr  NOTFOUND! 
+tfm_co.jp  NOTFOUND! 
+free-power-point-templates_com  NOTFOUND! 
+infusionsoft_com  NOTFOUND! 
+saloniris_com  NOTFOUND! 
+canvasworld_com  NOTFOUND! 
+usatf_org  NOTFOUND! 
+liftoff_io  NOTFOUND! 
+missouribotanicalgarden_org  NOTFOUND! 
+tabby_ai  NOTFOUND! 
+redcrossblood_org  NOTFOUND! 
+zid_com  NOTFOUND! 
+socialsecurity_gov  NOTFOUND! 
+hoster_kz  NOTFOUND! 
+alexu_edu.eg  NOTFOUND! 
+alemira_com  NOTFOUND! 
+joomshaper_com  NOTFOUND! 
+block_si  NOTFOUND! 
+fuseuniversal_com  NOTFOUND! 
+jumia_co.ke  NOTFOUND! 
+withjoy_com  NOTFOUND! 
+panthur_com  NOTFOUND! 
+williams_com  NOTFOUND! 
+wright_edu  NOTFOUND! 
+worldanvil_com  NOTFOUND! 
+minea_com  NOTFOUND! 
+expansion_mx  NOTFOUND! 
+redditblog_com  NOTFOUND! 
+mu_edu  NOTFOUND! 
+gadgethacks_com  ERROR!  'NoneType' object has no attribute 'group' 35 t=1> this key||value has been marked as tainted! 
+
+kitapyurdu_com  NOTFOUND! 
+atlantablackstar_com  NOTFOUND! 
+nycgovparks_org  NOTFOUND! 
+businessofapps_com  NOTFOUND! 
+9now_com.au  NOTFOUND! 
+aiche_org  NOTFOUND! 
+sportsmansguide_com  NOTFOUND! 
+cathaypacific_com  NOTFOUND! 
+gomlab_com  NOTFOUND! 
+planning_org  NOTFOUND! 
+esf_edu  NOTFOUND! 
+informs_org  NOTFOUND! 
+barbend_com  NOTFOUND! 
+podcastone_com  NOTFOUND! 
+harpers_org  NOTFOUND! 
+udlap_mx  NOTFOUND! 
+subscribers_com  NOTFOUND! 
+newpaltz_edu  NOTFOUND! 
+southbridge_ru  NOTFOUND! 
+marshalls_com  ERROR!  'NoneType' object has no attribute 'group' 47 79 <String[363]: bm_sz=4FD2A6C3BE4A6ED10BAFBA2BDCD87AD7~YAAQpZ0ZuIHtkMqKAQAApkNl3hVD+tv/VwURZdWA93SeAIyPPaPy4o9sSoUB6n0QijBndNb+Lnc3QF39J5Sq1dHLw6J4H0PUMRGN4ncILSvk7cs0txoUfnZzA+o55n2d+0FIlzd/MTZQWB4RYyxMk0VwctQWV2hk9APSlhpbeI4nCpERf2lg8KO8NdzpGGzvnENPej3PxIjS/LN+oJgvscmuE6vgN7CxRQi4xw59uWmhKHwxdD+laSrmV8MU0cxUPvMoxSfteNzfUsabjyNYb/AcxS4drbkXXUILhDeL42QpoCfDP+I=~4407859~3687223> this key||value has been marked as tainted! 
+
+wcupa_edu  NOTFOUND! 
+pressdemocrat_com  NOTFOUND! 
+goldderby_com  NOTFOUND! 
+fit_edu  NOTFOUND! 
+wef_org  NOTFOUND! 
+kuantokusta_pt  NOTFOUND! 
+timberland_co.uk  NOTFOUND! 
+swiss_com  NOTFOUND! 
+dwell_com  NOTFOUND! 
+snapfish_com  NOTFOUND! 
+hiltonmanage_com  NOTFOUND! 
+lendingclub_com  NOTFOUND! 
+freelancer_cn  NOTFOUND! 
+ncte_org  NOTFOUND! 
+vtdigger_org  NOTFOUND! 
+bravesites_com  NOTFOUND! 
+bridgemi_com  NOTFOUND! 
+oliveyoung_co.kr  NOTFOUND! 
+zenoti_com  NOTFOUND! 
+arcamax_com  NOTFOUND! 
+seatgeek_com  NOTFOUND! 
+autoexpress_co.uk  NOTFOUND! 
+nycgo_com  NOTFOUND! 
+oceana_org  NOTFOUND! 
+shopee_com.my  NOTFOUND! 
+pratt_edu  NOTFOUND! 
+cycleworld_com  NOTFOUND! 
+privatbank_ua  NOTFOUND! 
+skladchik_com  NOTFOUND! 
+ferguson_com  NOTFOUND! 
+dyson_es  NOTFOUND! 
+bw_edu  ERROR!  'NoneType' object has no attribute 'group' 54 0b6de3209 <String[78]: fpestid=7gD1XhLb43BXIkF7THEgUOfWiJ9atMFxom0oMJGatQkx9b0qfTMBq9OsImd_ILanGTFNbg> this key||value has been marked as tainted! 
+
+youpic_com  NOTFOUND! 
+geneseo_edu  NOTFOUND! 
+sweet_tv  NOTFOUND! 
+fortinet_com  NOTFOUND! 
+buffalostate_edu  NOTFOUND! 
+midi_org  NOTFOUND! 
+harvardmagazine_com  NOTFOUND! 
+frontegg_com  NOTFOUND! 
+mercedes-benz_com  NOTFOUND! 
+sheknows_com  NOTFOUND! 
+ldoceonline_com  NOTFOUND! 
+vision2030_gov.sa  NOTFOUND! 
+optimumdesk_com  NOTFOUND! 
+tui_co.uk  NOTFOUND! 
+sinsay_com  NOTFOUND! 
+sportsnet_ca  NOTFOUND! 
+youneedabudget_com  NOTFOUND! 
+tagheuer_com  NOTFOUND! 
+polskieradio_pl  NOTFOUND! 
+teacherspayteachers_com  NOTFOUND! 
+ctv_ca  NOTFOUND! 
+nuts_com  NOTFOUND! 
+exxen_com  NOTFOUND! 
+getclockwise_com  NOTFOUND! 
+gp_se  NOTFOUND! 
+khaleejtimes_com  NOTFOUND! 
+oraclecloud_com  ERROR!  'NoneType' object has no attribute 'group' 32 eeab0b550c8462b4dd> this key||value has been marked as tainted! 
+
+copymatic_ai  NOTFOUND! 
+singularityhub_com  NOTFOUND! 
+lacnic_net  NOTFOUND! 
+bullhornstaffing_com  NOTFOUND! 
+bnd_com  NOTFOUND! 
+westernunion_com  NOTFOUND! 
+oneok_com  NOTFOUND! 
+creativepro_com  NOTFOUND! 
+gilbarco_com  NOTFOUND! 
+heteml_jp  NOTFOUND! 
+domestika_org  NOTFOUND! 
+news_com.au  NOTFOUND! 
+slidemodel_com  NOTFOUND! 
+ucsusa_org  NOTFOUND! 
+travis-ci_com  NOTFOUND! 
+wpxhosting_com  NOTFOUND! 
+manychat_com  NOTFOUND! 
+evo_com  NOTFOUND! 
+newyorklife_com  NOTFOUND! 
+bjsrestaurants_com  NOTFOUND! 
+hobbylobby_com  NOTFOUND! 
+novosti_rs  NOTFOUND! 
+commonwealth_com  NOTFOUND! 
+eviivo_com  NOTFOUND! 
+junebugweddings_com  NOTFOUND! 
+mir4global_com  NOTFOUND! 
+bmw-motorrad_de  NOTFOUND! 
+lapatilla_com  NOTFOUND! 
+hover_com  NOTFOUND! 
+xprize_org  NOTFOUND! 
+eurodns_com  NOTFOUND! 
+tribecafilm_com  NOTFOUND! 
+comenity_net  NOTFOUND! 
+realgeeks_com  NOTFOUND! 
+hidemyass_com  NOTFOUND! 
+interaction-design_org  NOTFOUND! 
+fit-pay_com  NOTFOUND! 
+synology_com  NOTFOUND! 
+esputnik_com  NOTFOUND! 
+threatlocker_com  NOTFOUND! 
+musc_edu  NOTFOUND! 
+eventbrite_it  NOTFOUND! 
+educationworld_com  NOTFOUND! 
+pushwoosh_com  NOTFOUND! 
+twinprime_com  NOTFOUND! 
+downtoearth_org.in  NOTFOUND! 
+bleedinggreennation_com  NOTFOUND! 
+bell_ca  NOTFOUND! 
+undark_org  NOTFOUND! 
+monotaro_com  NOTFOUND! 
+nationaleatingdisorders_org  NOTFOUND! 
+startupindia_gov.in  NOTFOUND! 
+clicksoftware_com  NOTFOUND! 
+pons_com  NOTFOUND! 
+iphost_gr  NOTFOUND! 
+lawdepot_com  NOTFOUND! 
+shootproof_com  NOTFOUND! 
+sumome_com  NOTFOUND! 
+state_nj.us  NOTFOUND! 
+furnishedfinder_com  NOTFOUND! 
+podryad_tv  NOTFOUND! 
+snow_me  NOTFOUND! 
+pricespider_com  NOTFOUND! 
+cafe24_co.kr  NOTFOUND! 
+wondershare_com.br  NOTFOUND! 
+isu_edu  NOTFOUND! 
+middleeastmonitor_com  NOTFOUND! 
+snipfeed_co  NOTFOUND! 
+tbsnews_net  NOTFOUND! 
+care_com  NOTFOUND! 
+fragrancenet_com  NOTFOUND! 
+flocabulary_com  NOTFOUND! 
+foodallergy_org  NOTFOUND! 
+shareaholic_net  NOTFOUND! 
+businessinsider_co.za  NOTFOUND! 
+academicworks_com  NOTFOUND! 
+sitecore_com  NOTFOUND! 
+tpg_com.au  NOTFOUND! 
+tutorialspoint_com  NOTFOUND! 
+danas_rs  NOTFOUND! 
+chilipiper_com  NOTFOUND! 
+bluetooth_com  NOTFOUND! 
+invitedclubs_com  NOTFOUND! 
+nmu_edu  NOTFOUND! 
+coreldraw_com  NOTFOUND! 
+imax_com  NOTFOUND! 
+pwc_com  NOTFOUND! 
+furusato-tax_jp  NOTFOUND! 
+hackthebox_com  NOTFOUND! 
+cru_org  NOTFOUND! 
+citizensbank_com  ERROR!  'NoneType' object has no attribute 'group' 45 yf13/Z85H30meqYhOlOrk/62IrATDCKc7hBr0ZMGpQjUMWDHoqfFQFjLI70cjKaVAhuNZ6HwZQCPXKigjAQez00DbOM7jOIK718nQ==~4272952~4274502> this key||value has been marked as tainted! 
+
+intheknow_com  NOTFOUND! 
+radiosvoboda_org  ERROR!  'NoneType' object has no attribute 'group' 11 StartingLog... 0x3d2712620411 <String[8]: pageName> || 0xc1d3a09eb21 <String[80]\: rfe:ukr:r:homepage:\x440\x430\x434\x456\x43e \x441\x432\x43e\x431\x43e\x434\x430 \x443\x43a\x440\x430\x457\x43d\x430 \x2013 \x43d\x43e\x432\x438\x43d\x438, \x435\x43a\x441\x43a\x43b\x44e\x437\x438\x432\x438 \x456 \x43f\x435\x440\x435\x432\x456\x440\x435\x43d\x456 \x444\x430\x43a\x442\x438> this key||value has been marked as tainted! 
+
+ntv_com.tr  NOTFOUND! 
+gifts_com  NOTFOUND! 
+firstinspires_org  NOTFOUND! 
+christianitytoday_com  NOTFOUND! 
+ucr_edu  NOTFOUND! 
+weatherlive_info  NOTFOUND! 
+filefactory_com  NOTFOUND! 
+build_com  NOTFOUND! 
+trtworld_com  NOTFOUND! 
+weather-doc_com  NOTFOUND! 
+vps_net  NOTFOUND! 
+christianity_com  NOTFOUND! 
+donationalerts_com  NOTFOUND! 
+booooooom_com  NOTFOUND! 
+paulaschoice_com  NOTFOUND! 
+softline_com  NOTFOUND! 
+3cx_com  NOTFOUND! 
+rechargepayments_com  NOTFOUND! 
+blacknight_com  NOTFOUND! 
+bitdefender_co.uk  NOTFOUND! 
+poetryfoundation_org  NOTFOUND! 
+conjur_com.br  NOTFOUND! 
+recombee_com  NOTFOUND! 
+bakuelectronics_az  NOTFOUND! 
+recruitics_com  NOTFOUND! 
+wdc_com  NOTFOUND! 
+siteadvisor_com  NOTFOUND! 
+adblade_com  NOTFOUND! 
+al-monitor_com  NOTFOUND! 
+bplans_com  NOTFOUND! 
+luther_edu  NOTFOUND! 
+mtsu_edu  NOTFOUND! 
+insanelygoodrecipes_com  NOTFOUND! 
+advancedhosters_com  NOTFOUND! 
+dyson_com.au  ERROR!  'NoneType' object has no attribute 'group' 302 || 0x20d3d19750e9 <String[3]: gtm> this key||value has been marked as tainted! 
+
+genetec_com  NOTFOUND! 
+fiber_net  NOTFOUND! 
+westmarine_com  NOTFOUND! 
+infinitepay_io  NOTFOUND! 
+studypool_com  NOTFOUND! 
+desk_com  ERROR!  'NoneType' object has no attribute 'group' 54 g[1]: 1> this key||value has been marked as tainted! 
+
+pitchero_com  NOTFOUND! 
+vancouverisawesome_com  NOTFOUND! 
+stockcharts_com  NOTFOUND! 
+computer_org  NOTFOUND! 
+digi_com  NOTFOUND! 
+quadlayers_com  NOTFOUND! 
+stereogum_com  NOTFOUND! 
+ixsystems_com  NOTFOUND! 
+kotaku_com.au  NOTFOUND! 
+gold_org  ERROR!  'NoneType' object has no attribute 'group' 163 |value has been marked as tainted! 
+
+cms_gov  NOTFOUND! 
+nofilmschool_com  NOTFOUND! 
+oriontelekom_com  NOTFOUND! 
+narrativ_com  NOTFOUND! 
+honeywell_com  NOTFOUND! 
+join_chat  NOTFOUND! 
+xm_com  NOTFOUND! 
+jobs_ac.uk  NOTFOUND! 
+hostsailor_com  NOTFOUND! 
+diabetes_co.uk  NOTFOUND! 
+artisteer_com  NOTFOUND! 
+hult_edu  NOTFOUND! 
+mathworks_cn  NOTFOUND! 
+booth_pm  NOTFOUND! 
+apartmentfinder_com  NOTFOUND! 
+starbucks_ca  NOTFOUND! 
+omnicomm_ru  NOTFOUND! 
+rewardstyle_com  NOTFOUND! 
+finnair_com  NOTFOUND! 
+events_com  NOTFOUND! 
+wiu_edu  NOTFOUND! 
+tntech_edu  NOTFOUND! 
+wayne_edu  NOTFOUND! 
+thenewslens_com  NOTFOUND! 
+fairfield_edu  NOTFOUND! 
+wlink_com.np  NOTFOUND! 
+mol_im  ERROR!  'NoneType' object has no attribute 'group' 158 | 0x3b5ff0c1f249 <String[1]: 1> this key||value has been marked as tainted! 
+
+captivate_fm  NOTFOUND! 
+frieze_com  NOTFOUND! 
+forexpros_com  NOTFOUND! 
+hpe_com  NOTFOUND! 
+livechat_com  NOTFOUND! 
+cquotient_com  NOTFOUND! 
+sre_gob.mx  NOTFOUND! 
+chicagoreader_com  NOTFOUND! 
+transportenvironment_org  NOTFOUND! 
+patriotsoftware_com  NOTFOUND! 
+everyaction_com  NOTFOUND! 
+celer_network  NOTFOUND! 
+bpmonline_com  ERROR!  'NoneType' object has no attribute 'group' 28 StartingLog... 0x5df54fb7f81 <String[1]: 0> || 0xcf889f94201 <Very long string[3081]> this key||value has been marked as tainted! 
+
+target_com.au  NOTFOUND! 
+productplan_com  NOTFOUND! 
+namely_com  NOTFOUND! 
+canadianwebhosting_com  NOTFOUND! 
+clubexpress_com  NOTFOUND! 
+revolt_tv  NOTFOUND! 
+speakerdeck_com  NOTFOUND! 
+dmagazine_com  NOTFOUND! 
+ebc_net.tw  NOTFOUND! 
+timescolonist_com  NOTFOUND! 
+mexicard_com  NOTFOUND! 
+flutterwave_com  NOTFOUND! 
+ouest-france_fr  NOTFOUND! 
+ssg_com  NOTFOUND! 
+purolator_com  NOTFOUND! 
+descript_com  NOTFOUND! 
+kirklands_com  NOTFOUND! 
+fixya_com  NOTFOUND! 
+referralcandy_com  NOTFOUND! 
+outtheboxthemes_com  NOTFOUND! 
+arkadium_com  NOTFOUND! 
+bharian_com.my  NOTFOUND! 
+muumuu-domain_com  NOTFOUND! 
+gmu_edu  NOTFOUND! 
+chromeriver_com  NOTFOUND! 
+news9_com  NOTFOUND! 
+sjsu_edu  NOTFOUND! 
+sharemylesson_com  NOTFOUND! 
+missingkids_com  NOTFOUND! 
+yesmagazine_org  NOTFOUND! 
+nato_int  NOTFOUND! 
+egyptair_com  NOTFOUND! 
+securly_com  NOTFOUND! 
+icicibank_com  NOTFOUND! 
+tailorbrands_com  NOTFOUND! 
+fout_jp  NOTFOUND! 
+convertri_com  NOTFOUND! 
+afar_com  NOTFOUND! 
+washingtontimes_com  ERROR!  'NoneType' object has no attribute 'group' 176 StartingLog... 0xd31515296f1 <String[11]: integration> || 0x2f76d0e51089 <String[3]: gtm> this key||value has been marked as tainted! 
+
+networkforgood_org  NOTFOUND! 
+hinet_tw  NOTFOUND! 
+fyers_in  NOTFOUND! 
+svsu_edu  NOTFOUND! 
+legaseriea_it  NOTFOUND! 
+livehelpnow_net  NOTFOUND! 
+fhsu_edu  NOTFOUND! 
+alltrails_com  NOTFOUND! 
+hevodata_com  NOTFOUND! 
+azerturkbank_az  NOTFOUND! 
+conviva_com  NOTFOUND! 
+wfu_edu  NOTFOUND! 
+costco_ca  NOTFOUND! 
+ndsplitter_com  NOTFOUND! 
+astate_edu  NOTFOUND! 
+enjin_com  NOTFOUND! 
+redehost_com.br  NOTFOUND! 
+crexi_com  NOTFOUND! 
+navy_com  NOTFOUND! 
+westernjournal_com  NOTFOUND! 
+ford_com.cn  NOTFOUND! 
+interactivebrokers_co.uk  NOTFOUND! 
+kyivpost_com  NOTFOUND! 
+nextit_com  NOTFOUND! 
+whoscored_com  NOTFOUND! 
+futabanet_jp  ERROR!  'NoneType' object has no attribute 'group' 16 StartingLog... 0x30acbdb1bd21 <String[1]: 0> || 0x134756841861 <String[17]: slick-initialized> this key||value has been marked as tainted! 
+
+londonist_com  NOTFOUND! 
+psychologicalscience_org  NOTFOUND! 
+cvs_com  ERROR!  'NoneType' object has no attribute 'group' 11 StartingLog... 0x19927b58c589 <String[7]: version> || 0x164af8a7c239 <String[7]: 1.737.0> this key||value has been marked as tainted! 
+
+alo_rs  NOTFOUND! 
+mediatek_com  NOTFOUND! 
+bonanza_com  NOTFOUND! 
+intistele_com  NOTFOUND! 
+hamariweb_com  NOTFOUND! 
+columbia_com  NOTFOUND! 
+geckoboard_com  NOTFOUND! 
+amplifi_com  NOTFOUND! 
+istation_com  NOTFOUND! 
+edweek_org  NOTFOUND! 
+westerncape_gov.za  NOTFOUND! 
+rankmywriter_com  NOTFOUND! 
+mos_org  NOTFOUND! 
+ezvizlife_com  NOTFOUND! 
+snhu_edu  NOTFOUND! 
+zzounds_com  NOTFOUND! 
+bankone_com  NOTFOUND! 
+vyond_com  NOTFOUND! 
+netapp_com  ERROR!  'NoneType' object has no attribute 'group' 68 <String[21]: //173bf109.akstat.io/> this key||value has been marked as tainted! 
+
+arket_com  NOTFOUND! 
+scotts_com  NOTFOUND! 
+lightstep_com  ERROR!  'NoneType' object has no attribute 'group' 68 ]: z=1&dm=servicenow.com&si=ab69fb4d-3c6a-4fa0-b4c3-ba9fbccc73a2&ss=ln3oy5sr&sl=0&tt=0&bcn=%2F%2F173bf10d.akstat.io%2F> this key||value has been marked as tainted! 
+
+sce_com  NOTFOUND! 
+bankwest_com.au  NOTFOUND! 
+feathr_co  NOTFOUND! 
+sportico_com  NOTFOUND! 
+peninsuladailynews_com  NOTFOUND! 
+theweek_co.uk  NOTFOUND! 
+caffeine_tv  NOTFOUND! 
+roadtrippers_com  NOTFOUND! 
+fera_ai  NOTFOUND! 
+macworld_com  NOTFOUND! 
+bmwusa_com  NOTFOUND! 
+thehustle_co  NOTFOUND! 
+funnyordie_com  NOTFOUND! 
+whatnot_com  NOTFOUND! 
+iie_org  NOTFOUND! 
+wisconsinhistory_org  NOTFOUND! 
+cjr_org  NOTFOUND! 
+pardot_com  NOTFOUND! 
+hagerty_com  NOTFOUND! 
+tn_gov  NOTFOUND! 
+tennis_com  NOTFOUND! 
+deliverr_com  NOTFOUND! 
+guitarworld_com  NOTFOUND! 
+phnompenhpost_com  NOTFOUND! 
+la-z-boy_com  NOTFOUND! 
+thecarconnection_com  NOTFOUND! 
+viz_com  NOTFOUND! 
+thetimes_co.uk  NOTFOUND! 
+slotomania_com  NOTFOUND! 
+coindesk_com  NOTFOUND! 
+logos_com  NOTFOUND! 
+jornada_com.mx  NOTFOUND! 
+samsungmax_com  NOTFOUND! 
+thehartford_com  NOTFOUND! 
+nsa_gov  NOTFOUND! 
+huji_ac.il  NOTFOUND! 
+problogger_net  NOTFOUND! 
+bms_com  NOTFOUND! 
+christianbook_com  NOTFOUND! 
+smashballoon_com  NOTFOUND! 
+gunosy_com  NOTFOUND! 
+resume_io  NOTFOUND! 
+mtb_com  NOTFOUND! 
+tri-c_edu  NOTFOUND! 
+healthcareitnews_com  NOTFOUND! 
+kurashiru_com  NOTFOUND! 
+uark_edu  NOTFOUND! 
+pepperjam_com  NOTFOUND! 
+mediaite_com  NOTFOUND! 
+rd_com  NOTFOUND! 
+blacklivesmatter_com  NOTFOUND! 
+dacast_com  NOTFOUND! 
+bnymellon_com  NOTFOUND! 
+blocksite_co  NOTFOUND! 
+independent_org  NOTFOUND! 
+taxguru_in  NOTFOUND! 
+hechingerreport_org  NOTFOUND! 
+massagebook_com  NOTFOUND! 
+cyberport_de  NOTFOUND! 
+guidestar_org  NOTFOUND! 
+ispsystem_com  NOTFOUND! 
+lufthansa_com  NOTFOUND! 
+schedulicity_com  NOTFOUND! 
+dyndns-ip_com  NOTFOUND! 
+homegoods_com  NOTFOUND! 
+globalsources_com  NOTFOUND! 
+nola_com  NOTFOUND! 
+wwd_com  NOTFOUND! 
+pissedconsumer_com  NOTFOUND! 
+yenisafak_com  NOTFOUND! 
+offcourse_co  NOTFOUND! 
+rebel_ca  NOTFOUND! 
+uqam_ca  NOTFOUND! 
+trafficroots_com  NOTFOUND! 
+consequenceofsound_net  NOTFOUND! 
+lifelock_com  NOTFOUND! 
+sendowl_com  NOTFOUND! 
+dyson_com.ro  NOTFOUND! 
+hiphopdx_com  NOTFOUND! 
+kodekloud_com  NOTFOUND! 
+advanceautoparts_com  NOTFOUND! 
+wlv_ac.uk  NOTFOUND! 
+sap-ag_de  ERROR!  'NoneType' object has no attribute 'group' 127 > || 0x39ebd5c57d81 <String[7]: custom1> this key||value has been marked as tainted! 
+
+mobon_net  NOTFOUND! 
+dnsalias_net  NOTFOUND! 
+bluedot_io  NOTFOUND! 
+hypebae_com  NOTFOUND! 
+dpworld_com  NOTFOUND! 
+truity_com  NOTFOUND! 
+municode_com  NOTFOUND! 
+npc_gov.cn  NOTFOUND! 
+qualified_com  NOTFOUND! 
+weddingbee_com  NOTFOUND! 
+vegnews_com  NOTFOUND! 
+revouninstaller_com  NOTFOUND! 
+starity_hu  NOTFOUND! 
+phoenixnewtimes_com  NOTFOUND! 
+iq_pl  NOTFOUND! 
+g5e_com  NOTFOUND! 
+jumpcloud_com  NOTFOUND! 
+scotland_gov.uk  NOTFOUND! 
+te_eg  NOTFOUND! 
+davidson_edu  NOTFOUND! 
+rzp_io  NOTFOUND! 
+hammacher_com  NOTFOUND! 
+bankofscotland_co.uk  NOTFOUND! 
+jointherealworld_com  NOTFOUND! 
+chairish_com  NOTFOUND! 
+zeno_fm  NOTFOUND! 
+brandcrowd_com  NOTFOUND! 
+stamford_edu  NOTFOUND! 
+jewishpress_com  NOTFOUND! 
+nami_org  NOTFOUND! 
+kissflow_com  NOTFOUND! 
+netent_com  NOTFOUND! 
+jungledisk_com  NOTFOUND! 
+acmicpc_net  NOTFOUND! 
+ndsu_edu  NOTFOUND! 
+engineering_com  NOTFOUND! 
+tcd_ie  NOTFOUND! 
+sap_com  NOTFOUND! 
+centerpointenergy_com  NOTFOUND! 
+pupperish_com  NOTFOUND! 
+pcgarage_ro  NOTFOUND! 
+thesun_ie  NOTFOUND! 
+aena_es  NOTFOUND! 
+infobox_ru  NOTFOUND! 
+startribune_com  NOTFOUND! 
+deepdreamgenerator_com  NOTFOUND! 
+kerbalspaceprogram_com  NOTFOUND! 
+longdom_org  NOTFOUND! 
+travelzoo_com  NOTFOUND! 
+radisson_com  NOTFOUND! 
+containerstore_com  NOTFOUND! 
+edsource_org  NOTFOUND! 
+suicidegirls_com  NOTFOUND! 
+norma_uz  NOTFOUND! 
+jcrew_com  NOTFOUND! 
+geeky-gadgets_com  NOTFOUND! 
+rollercoin_com  NOTFOUND! 
+listindiario_com  NOTFOUND! 
+etapestry_com  NOTFOUND! 
+socialmediaweek_org  NOTFOUND! 
+wm_com  NOTFOUND! 
+mailtrap_io  NOTFOUND! 
+accentuate_io  NOTFOUND! 
+nec_com  NOTFOUND! 
+qsrmagazine_com  NOTFOUND! 
+projectmanager_com  NOTFOUND! 
+aec_gov.au  NOTFOUND! 
+bestlawyers_com  NOTFOUND! 
+garmin_com  NOTFOUND! 
+csc_com  NOTFOUND! 
+yum_com  NOTFOUND! 
+close_com  NOTFOUND! 
+baseballhall_org  NOTFOUND! 
+mckinsey_com  NOTFOUND! 
+tsheets_com  NOTFOUND! 
+njit_edu  NOTFOUND! 
+alvolante_it  NOTFOUND! 
+smore_com  NOTFOUND! 
+smartpay_com  NOTFOUND! 
+wbez_org  NOTFOUND! 
+concur_com  NOTFOUND! 
+vz_lt  NOTFOUND! 
+bankmandiri_co.id  ERROR!  'NoneType' object has no attribute 'group' 29 StartingLog... 0x2da996633349 <String[1]: 0> || 0x499db73b7a1 <Very long string[3081]> this key||value has been marked as tainted! 
+
+newzealand_com  NOTFOUND! 
+ruangguru_com  NOTFOUND! 
+triphobo_com  NOTFOUND! 
+consumeraffairs_com  NOTFOUND! 
+cibc_com  NOTFOUND! 
+streema_com  NOTFOUND! 
+ath_cx  NOTFOUND! 
+alter_com  NOTFOUND! 
+dailypaws_com  NOTFOUND! 
+isc2_org  NOTFOUND! 
+aircanada_com  NOTFOUND! 
+cbsi_com  NOTFOUND! 
+kwejk_pl  NOTFOUND! 
+digg_com  NOTFOUND! 
+gba_gob.ar  NOTFOUND! 
+bigissue_com  NOTFOUND! 
+agingcare_com  NOTFOUND! 
+insidehighered_com  NOTFOUND! 
+rtl_de  NOTFOUND! 
+rosewoodhotels_com  NOTFOUND! 
+marja_az  NOTFOUND! 
+netic_dk  NOTFOUND! 
+bgr_in  NOTFOUND! 
+cryptology_com  NOTFOUND! 
+makeshop_com  NOTFOUND! 
+itmedia_co.jp  NOTFOUND! 
+geni_us  NOTFOUND! 
+berklee_edu  NOTFOUND! 
+hodinkee_com  NOTFOUND! 
+wisconsin_edu  NOTFOUND! 
+iol_pt  NOTFOUND! 
+aitcom_net  NOTFOUND! 
+sleep_org  NOTFOUND! 
+linux_com  NOTFOUND! 
+fomo_com  NOTFOUND! 
+the-house_com  NOTFOUND! 
+golfgalaxy_com  NOTFOUND! 
+caltech_edu  NOTFOUND! 
+i2pdf_com  NOTFOUND! 
+dyndns_tv  NOTFOUND! 
+consequence_net  NOTFOUND! 
+montevideo_com.uy  NOTFOUND! 
+beritaharian_sg  NOTFOUND! 
+empowher_com  NOTFOUND! 
+mexc_com  ERROR!  'NoneType' object has no attribute 'group' 29 8a198f1 <String[113]: z=1&dm=www.mexc.com&si=e590d8e2-d340-412b-97e8-f4a224eb3cdb&ss=ln3q4had&sl=0&tt=0&bcn=%2F%2F173bf10f.akstat.io%2F> this key||value has been marked as tainted! 
+
+rollingstone_com  NOTFOUND! 
+dyson_se  NOTFOUND! 
+cincpro_com  NOTFOUND! 
+riverfronttimes_com  NOTFOUND! 
+muffingroup_com  NOTFOUND! 
+capital_gr  NOTFOUND! 
+blic_net  NOTFOUND! 
+netcore_co.in  NOTFOUND! 
+porch_com  NOTFOUND! 
+umbler_com  NOTFOUND! 
+gia_edu  NOTFOUND! 
+voachinese_com  ERROR!  'NoneType' object has no attribute 'group' 19 StartingLog... 0x2605509d6eb9 <String[8]: pageName> || 0x2c8d273264e1 <String[35]\: voa:man:r:homepage:\x7f8e\x56fd\x4e4b\x97f3\x4e2d\x6587\x7f51 \x60a8\x53ef\x9760\x7684\x4fe1\x606f\x6765\x6e90> this key||value has been marked as tainted! 
+
+colonialwilliamsburg_org  NOTFOUND! 
+life_com.br  NOTFOUND! 
+tinybuddha_com  ERROR!  'NoneType' object has no attribute 'group' 75 tring[29]: fb.1.1695940170584.1957803671> this key||value has been marked as tainted! 
+
+thestudentroom_co.uk  NOTFOUND! 
+vsw_ru  NOTFOUND! 
+ibo_org  NOTFOUND! 
+kassir_ru  NOTFOUND! 
+samedayessay_com  NOTFOUND! 
+columbian_com  NOTFOUND! 
+asics_com  NOTFOUND! 
+se_pl  NOTFOUND! 
+thebump_com  NOTFOUND! 
+washingtonian_com  NOTFOUND! 
+piccoma_com  NOTFOUND! 
+informer_rs  NOTFOUND! 
+apn_net.au  NOTFOUND! 
+seedandspark_com  NOTFOUND! 
+planoly_com  NOTFOUND! 
+bookme_name  NOTFOUND! 
+pic-time_com  NOTFOUND! 
+powells_com  NOTFOUND! 
+mochahost_com  NOTFOUND! 
+audiusa_com  NOTFOUND! 
+cappex_com  NOTFOUND! 
+dysoncanada_ca  NOTFOUND! 
+royalholloway_ac.uk  NOTFOUND! 
+naeyc_org  NOTFOUND! 
+iii_org  NOTFOUND! 
+geetest_com  NOTFOUND! 
+purestorage_com  NOTFOUND! 
+aoa_org  NOTFOUND! 
+mapyourshow_com  NOTFOUND! 
+backerkit_com  NOTFOUND! 
+ymck_me  NOTFOUND! 
+zola_com  NOTFOUND! 
+tankionline_com  NOTFOUND! 
+dentsu_com  NOTFOUND! 
+auctiva_com  NOTFOUND! 
+dirt_com  NOTFOUND! 
+philo_com  NOTFOUND! 
+orientaltrading_com  NOTFOUND! 
+franklin_edu  NOTFOUND! 
+aep_com  NOTFOUND! 
+chambermaster_com  NOTFOUND! 
+caltex_com.au  NOTFOUND! 
+thenerdstash_com  NOTFOUND! 
+une_edu.au  NOTFOUND! 
+carousell_ph  NOTFOUND! 
+treas_gov  NOTFOUND! 
+smarthost_pl  NOTFOUND! 
+sony_net  NOTFOUND! 
+java_com  NOTFOUND! 
+almosafer_com  NOTFOUND! 
+fmcna_com  NOTFOUND! 
+mikmak_tv  NOTFOUND! 
+tk_de  NOTFOUND! 
+wialon_com  NOTFOUND! 
+mymove_com  ERROR!  'NoneType' object has no attribute 'group' 146 key||value has been marked as tainted! 
+
+pch_com  NOTFOUND! 
+cgdev_org  NOTFOUND! 
+mensxp_com  NOTFOUND! 
+marchofdimes_org  NOTFOUND! 
+asahq_org  NOTFOUND! 
+weekendhk_com  NOTFOUND! 
+availity_com  NOTFOUND! 
+crisp_chat  NOTFOUND! 
+iheartradio_ca  NOTFOUND! 
+logly_co.jp  NOTFOUND! 
+alphonso_tv  NOTFOUND! 
+dyson_com  NOTFOUND! 
+gbooking_ru  NOTFOUND! 
+candidthemes_com  NOTFOUND! 
+stcloudstate_edu  NOTFOUND! 
+spreaker_com  NOTFOUND! 
+gulf-times_com  NOTFOUND! 
+descubrapg_com.br  NOTFOUND! 
+teamspeak_com  NOTFOUND! 
+pima_edu  NOTFOUND! 
+dyson_de  NOTFOUND! 
+smartpaymentplan_com  NOTFOUND! 
+menufy_com  NOTFOUND! 
+ncat_edu  NOTFOUND! 
+thermaxglobal_com  NOTFOUND! 
+idx_lat  NOTFOUND! 
+ewu_edu  NOTFOUND! 
+philips_co.uk  NOTFOUND! 
+zagat_com  NOTFOUND! 
+silabs_com  NOTFOUND! 
+hubinternational_com  NOTFOUND! 
+analog_com  NOTFOUND! 
+fshare_vn  NOTFOUND! 
+pornmega_com  NOTFOUND! 
+montgomerycollege_edu  NOTFOUND! 
+thegrio_com  NOTFOUND! 
+studysmarter_de  NOTFOUND! 
+sh_com.tr  NOTFOUND! 
+stylecaster_com  NOTFOUND! 
+u-szeged_hu  NOTFOUND! 
+addsearch_com  NOTFOUND! 
+cnu_edu  NOTFOUND! 
+upland_me  NOTFOUND! 
+weblium_com  NOTFOUND! 
+epik_com  NOTFOUND! 
+crave_ca  NOTFOUND! 
+anothermag_com  NOTFOUND! 
+mine_nu  ERROR!  'NoneType' object has no attribute 'group' 32 1ee8c06791d9bff2e34> this key||value has been marked as tainted! 
+
+thetab_com  NOTFOUND! 
+footprintnetwork_org  NOTFOUND! 
+ric_edu  NOTFOUND! 
+expandedramblings_com  NOTFOUND! 
+nbc_com  NOTFOUND! 
+paradox_ai  NOTFOUND! 
+logmein_com  NOTFOUND! 
+premiumoutlets_com  NOTFOUND! 
+smartrecruiters_com  NOTFOUND! 
+invisionapp_com  NOTFOUND! 
+lybrate_com  NOTFOUND! 
+crcpress_com  NOTFOUND! 
+dealerinspire_com  NOTFOUND! 
+iugu_com  NOTFOUND! 
+ebird_org  NOTFOUND! 
+bradley_edu  NOTFOUND! 
+mondelezinternational_com  NOTFOUND! 
+bulgari_com  NOTFOUND! 
+iqoption_com  NOTFOUND! 
+allaboutcircuits_com  ERROR!  'NoneType' object has no attribute 'group' 44 > this key||value has been marked as tainted! 
+
+blubrry_com  NOTFOUND! 
+cloudez_io  NOTFOUND! 
+skillbox_pro  NOTFOUND! 
+missingkids_org  NOTFOUND! 
+foody_vn  NOTFOUND! 
+boredpanda_com  NOTFOUND! 
+sportscasting_com  ERROR!  'NoneType' object has no attribute 'group' 105 lue has been marked as tainted! 
+
+dominios_ec  NOTFOUND! 
+wweek_com  NOTFOUND! 
+3amlabs_com  NOTFOUND! 
+goarmy_com  NOTFOUND! 
+bellevue_edu  NOTFOUND! 
+nic_club  NOTFOUND! 
+artofproblemsolving_com  NOTFOUND! 
+bling_com.br  NOTFOUND! 
+seoquake_com  NOTFOUND! 
+rfa_org  NOTFOUND! 
+pixieset_com  NOTFOUND! 
+perlego_com  NOTFOUND! 
+xfinity_com  NOTFOUND! 
+scu_edu.au  NOTFOUND! 
+freelogodesign_org  NOTFOUND! 
+coachfederation_org  NOTFOUND! 
+washington_org  NOTFOUND! 
+makeshop_co.kr  NOTFOUND! 
+avvo_com  NOTFOUND! 
+erac_com  NOTFOUND! 
+rescue_org  NOTFOUND! 
+adobe_co.jp  NOTFOUND! 
+thewrap_com  NOTFOUND! 
+streamelements_com  NOTFOUND! 
+tru_ca  NOTFOUND! 
+esteelauder_com  NOTFOUND! 
+bmw_de  NOTFOUND! 
+telematica_at  NOTFOUND! 
+videobyte_com  NOTFOUND! 
+expressnews_com  NOTFOUND! 
+winnipegfreepress_com  NOTFOUND! 
+vianet_com.np  NOTFOUND! 
+seekout_io  NOTFOUND! 
+pullandbear_com  NOTFOUND! 
+24-7pressrelease_com  NOTFOUND! 
+shopee_co.id  NOTFOUND! 
+fan-topia_com  NOTFOUND! 
+miami_com  NOTFOUND! 
+tvinsider_com  NOTFOUND! 
+utc_com  NOTFOUND! 
+proofhub_com  NOTFOUND! 
+locotech_ru  NOTFOUND! 
+icontact_com  NOTFOUND! 
+healthifyme_com  NOTFOUND! 
+digitimes_com.tw  NOTFOUND! 
+echosign_com  NOTFOUND! 
+thomascook_com  NOTFOUND! 
+testout_com  NOTFOUND! 
+perkinelmer_com  NOTFOUND! 
+mediaroom_com  NOTFOUND! 
+lefties_com  NOTFOUND! 
+portent_com  NOTFOUND! 
+nur_kz  NOTFOUND! 
+jamesbeard_org  NOTFOUND! 
+prb_org  NOTFOUND! 
+kohler_com  NOTFOUND! 
+risebroadband_com  NOTFOUND! 
+olivegarden_com  NOTFOUND! 
+aoc_com  NOTFOUND! 
+unibet_fr  NOTFOUND! 
+croma_com  NOTFOUND! 
+alexanderstreet_com  NOTFOUND! 
+apha_org  NOTFOUND! 
+nea_org  NOTFOUND! 
+ebay_com.sg  NOTFOUND! 
+gocache_com.br  NOTFOUND! 
+qikify_com  NOTFOUND! 
+alienwarearena_com  NOTFOUND! 
+rcseng_ac.uk  NOTFOUND! 
+athome_com  NOTFOUND! 
+pitchbook_com  NOTFOUND! 
+sealedair_com  NOTFOUND! 
+voxer_com  NOTFOUND! 
+sc_edu  NOTFOUND! 
+manning_com  NOTFOUND! 
+ebsco_com  NOTFOUND! 
+guinnessworldrecords_com  NOTFOUND! 
+clalit_co.il  NOTFOUND! 
+vans_com  NOTFOUND! 
+gizmodo_com.au  NOTFOUND! 
+adobelogin_com  NOTFOUND! 
+fiba_basketball  NOTFOUND! 
+avito_ma  NOTFOUND! 
+screamingfrog_co.uk  NOTFOUND! 
+floridabar_org  NOTFOUND! 
+heritage_org  NOTFOUND! 
+michaeljfox_org  NOTFOUND! 
+theworlds50best_com  NOTFOUND! 
+clinch_co  NOTFOUND! 
+reolink_com  NOTFOUND! 
+muji_com  NOTFOUND! 
+totalwine_com  NOTFOUND! 
+memrise_com  NOTFOUND! 
+wpmucdn_com  NOTFOUND! 
+bitmaster_ru  NOTFOUND! 
+interviewbit_com  NOTFOUND! 
+comm100_com  NOTFOUND! 
+arthritis_org  NOTFOUND! 
+thesun_co.uk  NOTFOUND! 
+photoshelter_com  NOTFOUND! 
+insead_edu  NOTFOUND! 
+pcrm_org  NOTFOUND! 
+homesnap_com  NOTFOUND! 
+easy_gr  NOTFOUND! 
+beusable_net  NOTFOUND! 
+shoutcast_com  NOTFOUND! 
+dailytrust_com  NOTFOUND! 
+comparis_ch  NOTFOUND! 
+drugstore_com  NOTFOUND! 
+davidsbridal_com  NOTFOUND! 
+streak_com  NOTFOUND! 
+century21_com  NOTFOUND! 
+iezvu_com  NOTFOUND! 
+muckrack_com  NOTFOUND! 
+megaplan_ru  NOTFOUND! 
+inyourpocket_com  NOTFOUND! 
+rmi_org  NOTFOUND! 
+nova_rs  NOTFOUND! 
+futurism_com  NOTFOUND! 
+sfdcsec_com  NOTFOUND! 
+lance_com.br  NOTFOUND! 
+iaai_com  NOTFOUND! 
+mfa_org  NOTFOUND! 
+key_com  NOTFOUND! 
+overdrive_com  NOTFOUND! 
+lbry_com  NOTFOUND! 
+surlatable_com  NOTFOUND! 
+imaginet_co.za  NOTFOUND! 
+greatplacetowork_com  NOTFOUND! 
+hotfile_com  NOTFOUND! 
+topcashback_com  NOTFOUND! 
+wlo_link  NOTFOUND! 
+hi5_com  NOTFOUND! 
+translated_net  NOTFOUND! 
+eatel_net  NOTFOUND! 
+searchserverapi_com  NOTFOUND! 
+titan_email  NOTFOUND! 
+payfort_com  NOTFOUND! 
+towebs_com  NOTFOUND! 
+navyfcu_org  NOTFOUND! 
+manofmany_com  NOTFOUND! 
+southparkstudios_com  NOTFOUND! 
+chatelaine_com  NOTFOUND! 
+tolna_net  NOTFOUND! 
+samharris_org  NOTFOUND! 
+ports_se  NOTFOUND! 
+bgr_com  NOTFOUND! 
+authorize_net  NOTFOUND! 
+lsbu_ac.uk  NOTFOUND! 
+cookappsgames_com  NOTFOUND! 
+dyson_at  NOTFOUND! 
+workspaceair_com  NOTFOUND! 
+awwwards_com  NOTFOUND! 
+zenmarket_jp  NOTFOUND! 
+likuid_com  NOTFOUND! 
+torontomu_ca  NOTFOUND! 
+vcn_com  NOTFOUND! 
+overwolf_com  NOTFOUND! 
+romania-insider_com  NOTFOUND! 
+uc_pt  NOTFOUND! 
+nfm_com  NOTFOUND! 
+cinemark_com  NOTFOUND! 
+tomford_com  NOTFOUND! 
+wcs_org  NOTFOUND! 
+deepdyve_com  NOTFOUND! 
+memphis_edu  NOTFOUND! 
+seetickets_us  NOTFOUND! 
+getbeamer_com  NOTFOUND! 
+nextiva_com  NOTFOUND! 
+penguinrandomhouse_ca  NOTFOUND! 
+cohere_so  NOTFOUND! 
+startupmatcher_com  NOTFOUND! 
+grindr_com  NOTFOUND! 
+interactivebrokers_com  NOTFOUND! 
+forocoches_com  NOTFOUND! 
+infoq_com  NOTFOUND! 
+overwatch_com  NOTFOUND! 
+eurosport_de  NOTFOUND! 
+quakeroats_com  NOTFOUND! 
+whitehousehistory_org  NOTFOUND! 
+hrsa_gov  NOTFOUND! 
+collegevine_com  NOTFOUND! 
+thefactual_com  NOTFOUND! 
+blizzard_com  NOTFOUND! 
+dur_ac.uk  NOTFOUND! 
+matbao_vn  NOTFOUND! 
+thenewsminute_com  NOTFOUND! 
+dyson_pt  NOTFOUND! 
+emojixd_com  NOTFOUND! 
+ukit_com  NOTFOUND! 
+smc_edu  NOTFOUND! 
+apa_az  NOTFOUND! 
+pirelli_com  NOTFOUND! 
+radissonblu_com  NOTFOUND! 
+timesinternet_in  NOTFOUND! 
+payproglobal_com  NOTFOUND! 
+firstenergycorp_com  NOTFOUND! 
+successfactors_eu  NOTFOUND! 
+hemingwayapp_com  NOTFOUND! 
+omnisend_com  NOTFOUND! 
+trinity_edu  NOTFOUND! 
+hallmarkchannel_com  NOTFOUND! 
+sudoku_com  NOTFOUND! 
+samakal_com  NOTFOUND! 
+chat2desk_com  NOTFOUND! 
+jamaicaobserver_com  NOTFOUND! 
+wttc_org  NOTFOUND! 
+wpmet_com  NOTFOUND! 
+imvu_com  NOTFOUND! 
+kotsovolos_gr  NOTFOUND! 
+risd_edu  NOTFOUND! 
+madamenoire_com  NOTFOUND! 
+sim-networks_com  NOTFOUND! 
+observer_com  NOTFOUND! 
+zaxaa_com  NOTFOUND! 
+rpi_edu  NOTFOUND! 
+pixelx_de  NOTFOUND! 
+renttherunway_com  NOTFOUND! 
+carthrottle_com  NOTFOUND! 
+tallysolutions_com  NOTFOUND! 
+chargepoint_com  NOTFOUND! 
+alteryx_com  NOTFOUND! 
+oxfamamerica_org  NOTFOUND! 
+olympic_org  ERROR!  'NoneType' object has no attribute 'group' 111 String[1]: z> || 0xd51f39cf2e9 <String[1]: 1> this key||value has been marked as tainted! 
+
+coolblue_nl  NOTFOUND! 
+fiercebiotech_com  NOTFOUND! 
+practicalmoneyskills_com  NOTFOUND! 
+creativemarket_com  NOTFOUND! 
+group-ib_com  NOTFOUND! 
+generalmills_com  NOTFOUND! 
+mytuner-radio_com  NOTFOUND! 
+homedns_org  NOTFOUND! 
+law_com  NOTFOUND! 
+blogto_com  NOTFOUND! 
+percipio_com  NOTFOUND! 
+warthunder_ru  NOTFOUND! 
+lloydsbank_co.uk  ERROR!  'NoneType' object has no attribute 'group' 117 [21]: //173bf111.akstat.io/> this key||value has been marked as tainted! 
+
+brafton_com  NOTFOUND! 
+technical_ly  NOTFOUND! 
+dreamlab_pl  NOTFOUND! 
+wradio_com.co  NOTFOUND! 
+voot_com  NOTFOUND! 
+fubiz_net  NOTFOUND! 
+ny1_com  NOTFOUND! 
+poperblocker_com  NOTFOUND! 
+jerseymikes_com  NOTFOUND! 
+novelhi_com  NOTFOUND! 
+boingo_com  NOTFOUND! 
+churchofjesuschrist_org  NOTFOUND! 
+iihs_org  NOTFOUND! 
+bitrix24_kz  NOTFOUND! 
+veteranscrisisline_net  NOTFOUND! 
+bellevuereporter_com  NOTFOUND! 
+gumtree_com.au  NOTFOUND! 
+iastate_edu  NOTFOUND! 
+tkassets_com  NOTFOUND! 
+savingplaces_org  NOTFOUND! 
+jegs_com  NOTFOUND! 
+namesilo_com  NOTFOUND! 
+artic_edu  NOTFOUND! 
+mybuilder_com  NOTFOUND! 
+vkpay_io  NOTFOUND! 
+swatch_com  NOTFOUND! 
+axway_com  NOTFOUND! 
+sneakernews_com  NOTFOUND! 
+hiltonjapan_co.jp  NOTFOUND! 
+socialsnap_com  NOTFOUND! 
+prosites_com  NOTFOUND! 
+nzherald_co.nz  NOTFOUND! 
+lacounty_gov  NOTFOUND! 
+d-id_com  NOTFOUND! 
+mom_com  NOTFOUND! 
+nationalgrid_com  NOTFOUND! 
+uhg_com  ERROR!  'NoneType' object has no attribute 'group' 60 key||value has been marked as tainted! 
+
+magoosh_com  NOTFOUND! 
+planetary_org  NOTFOUND! 
+vladlink_net  ERROR!  'NoneType' object has no attribute 'group' 14 StartingLog... 0x1cc9d6fddcf1 <String[1]: 0> || 0x5ce36bbb4d9 <Very long string[2414]> this key||value has been marked as tainted! 
+
+amplify_com  NOTFOUND! 
+buyessay_net  NOTFOUND! 
+fivetran_com  NOTFOUND! 
+broadsign_com  NOTFOUND! 
+alamy_com  NOTFOUND! 
+animesup_biz  NOTFOUND! 
+jackboxgames_com  NOTFOUND! 
+foodbusinessnews_net  NOTFOUND! 
+sky_de  NOTFOUND! 
+endocrine_org  NOTFOUND! 
+blendlabs_com  NOTFOUND! 
+cspinet_org  NOTFOUND! 
+grattis_ru  NOTFOUND! 
+fanatik_com.tr  NOTFOUND! 
+kitco_com  NOTFOUND! 
+realtime_email  NOTFOUND! 
+wisdmlabs_com  NOTFOUND! 
+standard_com  NOTFOUND! 
+boosty_to  NOTFOUND! 
+medicare_gov  NOTFOUND! 
+plerdy_com  NOTFOUND! 
+merlion_ru  NOTFOUND! 
+zilliqa_com  NOTFOUND! 
+austincc_edu  NOTFOUND! 
+jamesclear_com  NOTFOUND! 
+gohawaii_com  NOTFOUND! 
+curve_app  NOTFOUND! 
+americantowns_com  NOTFOUND! 
+govexec_com  NOTFOUND! 
+hitachivantara_com  NOTFOUND! 
+filmfreeway_com  NOTFOUND! 
+toptenreviews_com  NOTFOUND! 
+lavoz_com.ar  NOTFOUND! 
+nominalia_com  NOTFOUND! 
+petersons_com  NOTFOUND! 
+invoicehome_com  NOTFOUND! 
+doctor_com  NOTFOUND! 
+itproportal_com  NOTFOUND! 
+record_pt  NOTFOUND! 
+shefinds_com  NOTFOUND! 
+salisbury_edu  NOTFOUND! 
+snai_it  NOTFOUND! 
+telltalegames_com  NOTFOUND! 
+philstar_com  NOTFOUND! 
+cheatsheet_com  NOTFOUND! 
+sfmoma_org  NOTFOUND! 
+gigaserver_cz  NOTFOUND! 
+uottawa_ca  NOTFOUND! 
+stradivarius_com  NOTFOUND! 
+report_az  NOTFOUND! 
+petsmart_com  NOTFOUND! 
+stores_jp  NOTFOUND! 
+classplusapp_com  NOTFOUND! 
+animaker_com  NOTFOUND! 
+creditdonkey_com  NOTFOUND! 
+shop-links_co  NOTFOUND! 
+homes_co.jp  NOTFOUND! 
+portal_restaurant  NOTFOUND! 
+hotline_ua  NOTFOUND! 
+homeip_net  NOTFOUND! 
+helpjuice_com  NOTFOUND! 
+prensalibre_com  NOTFOUND! 
+hydrawise_com  NOTFOUND! 
+mypoints_com  NOTFOUND! 
+ewtn_com  NOTFOUND! 
+mobify_com  ERROR!  'NoneType' object has no attribute 'group' 54 g[1]: 1> this key||value has been marked as tainted! 
+
+kbcard_com  NOTFOUND! 
+opentext_com  NOTFOUND! 
+cuanschutz_edu  NOTFOUND! 
+oysho_com  NOTFOUND! 
+cpasitesolutions_com  NOTFOUND! 
+fundera_com  NOTFOUND! 
+studentclearinghouse_org  NOTFOUND! 
+unl_pt  NOTFOUND! 
+popsci_com  NOTFOUND! 
+israelpost_co.il  NOTFOUND! 
+catholicnewsagency_com  NOTFOUND! 
+whoi_edu  NOTFOUND! 
+csiro_au  NOTFOUND! 
+gettysburg_edu  NOTFOUND! 
+communitybrands_com  NOTFOUND! 
+monsterinsights_com  NOTFOUND! 
+knoema_com  NOTFOUND! 
+msc_org  NOTFOUND! 
+lumen5_com  NOTFOUND! 
+concert_io  NOTFOUND! 
+clearblue_com  NOTFOUND! 
+aflcio_org  NOTFOUND! 
+bafta_org  NOTFOUND! 
+legit_ng  NOTFOUND! 
+idsociety_org  NOTFOUND! 
+asiasociety_org  NOTFOUND! 
+dyson_no  NOTFOUND! 
+shopclues_com  NOTFOUND! 
+campusgroups_com  NOTFOUND! 
+historytoday_com  NOTFOUND! 
+carfax_com  NOTFOUND! 
+grisoft_com  NOTFOUND! 
+keap_com  NOTFOUND! 
+vevor_com  NOTFOUND! 
+homecredit_kz  NOTFOUND! 
+theoutbound_com  NOTFOUND! 
+restream_io  NOTFOUND! 
+universalstudioshollywood_com  NOTFOUND! 
+microchip_com  NOTFOUND! 
+vibe_com  NOTFOUND! 
+kamihq_com  NOTFOUND! 
+pagseguro_com.br  NOTFOUND! 
+digitalguardian_com  NOTFOUND! 
+hyros_com  NOTFOUND! 
+officevibe_com  NOTFOUND! 
+orst_edu  NOTFOUND! 
+autismspeaks_org  NOTFOUND! 
+civileats_com  NOTFOUND! 
+frontgatetickets_com  NOTFOUND! 
+instapage_com  NOTFOUND! 
+nic_it  NOTFOUND! 
+gorgias_com  NOTFOUND! 
+lokalise_co  NOTFOUND! 
+eurowings_com  NOTFOUND! 
+frontofficesports_com  NOTFOUND! 
+revjet_com  NOTFOUND! 
+alamo_com  NOTFOUND! 
+fing_com  NOTFOUND! 
+venturebeat_com  NOTFOUND! 
+autism-society_org  NOTFOUND! 
+truevalue_com  NOTFOUND! 
+gazetaprawna_pl  NOTFOUND! 
+manufacturing_net  NOTFOUND! 
+kpit_com  NOTFOUND! 
+computerworld_com  NOTFOUND! 
+salesforcescrt_com  NOTFOUND! 
+franchising_com  NOTFOUND! 
+ftmo_com  NOTFOUND! 
+secrel_com.br  NOTFOUND! 
+momjunction_com  NOTFOUND! 
+swin_edu.au  NOTFOUND! 
+braip_com  NOTFOUND! 
+la7_it  NOTFOUND! 
+kalibrr_com  NOTFOUND! 
+protocol_com  NOTFOUND! 
+silvermob_com  NOTFOUND! 
+tccd_edu  NOTFOUND! 
+undp_org  NOTFOUND! 
+thenorthface_co.uk  NOTFOUND! 
+binge_com.au  NOTFOUND! 
+landrover_co.uk  NOTFOUND! 
+familyhandyman_com  NOTFOUND! 
+frostbank_com  NOTFOUND! 
+shotkit_com  NOTFOUND! 
+pixelsquid_com  NOTFOUND! 
+kbb_com  NOTFOUND! 
+rbth_com  ERROR!  'NoneType' object has no attribute 'group' 74 769042.1755765533> this key||value has been marked as tainted! 
+
+soriana_com  ERROR!  'NoneType' object has no attribute 'group' 18 m&si=7fb7ef36-1aff-4a78-8c6f-b74ec469cef0&ss=ln3tsd85&sl=0&tt=0&bcn=%2F%2F173bf110.akstat.io%2F> this key||value has been marked as tainted! 
+
+srnhosting_net  NOTFOUND! 
+grundfos_com  NOTFOUND! 
+salesforce-experience_com  NOTFOUND! 
+lds_org  NOTFOUND! 
+inside-graph_com  NOTFOUND! 
+flypeach_com  NOTFOUND! 
+postach_io  NOTFOUND! 
+owllabs_com  NOTFOUND! 
+scorpion_co  NOTFOUND! 
+prada_com  NOTFOUND! 
+verdict_co.uk  NOTFOUND! 
+otempo_com.br  NOTFOUND! 
+eventbrite_de  NOTFOUND! 
+mubasher_info  NOTFOUND! 
+relish_com  NOTFOUND! 
+navistar_com  NOTFOUND! 
+greengeeks_com  NOTFOUND! 
+thewire_in  ERROR!  'NoneType' object has no attribute 'group' 29 StartingLog... 0x2b06e946bb61 <String[1]: 0> || 0x70c73ab1121 <Very long string[1621]> this key||value has been marked as tainted! 
+
+thenation_com  NOTFOUND! 
+australiangeographic_com.au  NOTFOUND! 
+jhu_edu  NOTFOUND! 
+opencv_org  NOTFOUND! 
+cosentino_com  NOTFOUND! 
+serasaexperian_com.br  ERROR!  'NoneType' object has no attribute 'group' 21 StartingLog... 0x257e473fff59 <String[1]: 0> || 0x1aed77df7649 <Very long string[3081]> this key||value has been marked as tainted! 
+
+louisiana_edu  NOTFOUND! 
+brandpa_com  NOTFOUND! 
+freshdirect_com  NOTFOUND! 
+granify_com  NOTFOUND! 
+pcworld_com  NOTFOUND! 
+zing_vn  NOTFOUND! 
+wimbledon_com  NOTFOUND! 
+wondershare_com  NOTFOUND! 
+zara_com  NOTFOUND! 
+spicejet_com  NOTFOUND! 
+cadence_com  NOTFOUND! 
+nuwireinvestor_com  NOTFOUND! 
+skybroadband_com.ph  NOTFOUND! 
+webhost1_ru  NOTFOUND! 
+tvtime_com  NOTFOUND! 
+livejapan_com  NOTFOUND! 
+thehealthy_com  NOTFOUND! 
+touchtunes_com  NOTFOUND! 
+todayonline_com  NOTFOUND! 
+taxjar_com  NOTFOUND! 
+subsplash_com  NOTFOUND! 
+directtv_com  NOTFOUND! 
+radford_edu  NOTFOUND! 
+sweatco_in  NOTFOUND! 
+ezyvet_com  NOTFOUND! 
+mirohost_net  NOTFOUND! 
+caracol_com.co  NOTFOUND! 
+anu_edu.au  NOTFOUND! 
+porofessor_gg  NOTFOUND! 
+ratemds_com  NOTFOUND! 
+stellar_org  NOTFOUND! 
+hitc_com  NOTFOUND! 
+bidmc_org  NOTFOUND! 
+vietcombank_com.vn  NOTFOUND! 
+citadel_edu  NOTFOUND! 
+fsb_org.uk  ERROR!  'NoneType' object has no attribute 'group' 11 StartingLog... 0x284845781731 <String[1]: 0> || 0x24816818f0a1 <Very long string[1337]> this key||value has been marked as tainted! 
+
+restaurant_org  NOTFOUND! 
+ionos_co.uk  NOTFOUND! 
+gkg_net  NOTFOUND! 
+getgocdn_com  NOTFOUND! 
+digital-photography-school_com  NOTFOUND! 
+creativefabrica_com  NOTFOUND! 
+tirerack_com  NOTFOUND! 
+consumerlab_com  NOTFOUND! 
+otter_ai  NOTFOUND! 
+idxbroker_com  NOTFOUND! 
+alinma_com  NOTFOUND! 
+netprint_ru  NOTFOUND! 
+jeffbullas_com  NOTFOUND! 
+onlinemektep_org  NOTFOUND! 
+travis-ci_org  NOTFOUND! 
+sandiego_org  NOTFOUND! 
+essentiallysports_com  NOTFOUND! 
+kcrw_com  NOTFOUND! 
+redrobin_com  NOTFOUND! 
+jumia_ma  NOTFOUND! 
+virginia_edu  NOTFOUND! 
+elcolombiano_com  NOTFOUND! 
+paltalk_com  NOTFOUND! 
+qgiv_com  NOTFOUND! 
+earthjustice_org  NOTFOUND! 
+gapinc_com  NOTFOUND! 
+elserver_com  NOTFOUND! 
+dnainfo_com  NOTFOUND! 
+campsite_bio  NOTFOUND! 
+sun_com  NOTFOUND! 
+martinku_cn  NOTFOUND! 
+reserved_com  NOTFOUND! 
+showclix_com  NOTFOUND! 
+vinmec_com  NOTFOUND! 
+salesforceiq_com  NOTFOUND! 
+hrw_org  NOTFOUND! 
+colehaan_com  NOTFOUND! 
+indoleads_com  NOTFOUND! 
+wpbakery_com  NOTFOUND! 
+berryglobal_com  NOTFOUND! 
+pbtech_co.nz  NOTFOUND! 
+purpleads_io  NOTFOUND! 
+skyteam_com  NOTFOUND! 
+protv_ro  NOTFOUND! 
+neoserv_si  NOTFOUND! 
+financialexpress_com  NOTFOUND! 
+st_com  NOTFOUND! 
+visi_com  NOTFOUND! 
+jcu_edu.au  NOTFOUND! 
+lut_fi  NOTFOUND! 
+kajabi_com  NOTFOUND! 
+pentair_com  NOTFOUND! 
+getharvest_com  NOTFOUND! 
+ehealthmedicare_com  NOTFOUND! 
+wfp_org  NOTFOUND! 
+leagueapps_com  NOTFOUND! 
+virsec_com  NOTFOUND! 
+eventbrite_co.uk  NOTFOUND! 
+sfchronicle_com  NOTFOUND! 
+drhorton_com  NOTFOUND! 
+stylecraze_com  NOTFOUND! 
+patheos_com  NOTFOUND! 
+nippon_com  NOTFOUND! 
+cafe24_com  NOTFOUND! 
+theweek_com  NOTFOUND! 
+camsonline_com  NOTFOUND! 
+venatusmedia_com  NOTFOUND! 
+keen_io  NOTFOUND! 
+mailenable_com  NOTFOUND! 
+pagesuite_com  NOTFOUND! 
+likeshop_me  NOTFOUND! 
+iol_co.za  NOTFOUND! 
+philips_de  NOTFOUND! 
+yelpwifi_com  NOTFOUND! 
+frontpagemag_com  NOTFOUND! 
+dreadcentral_com  NOTFOUND! 
+nortonlifelock_com  NOTFOUND! 
+arukereso_com  NOTFOUND! 
+bookingexperts_nl  NOTFOUND! 
+daytondailynews_com  NOTFOUND! 
+tapresearch_com  NOTFOUND! 
+bounceexchange_com  NOTFOUND! 
+newseum_org  NOTFOUND! 
+webself_net  NOTFOUND! 
+quickanddirtytips_com  NOTFOUND! 
+fetchrewards_com  NOTFOUND! 
+jvc_com  NOTFOUND! 
+1inch_io  NOTFOUND! 
+amobee_com  NOTFOUND! 
+ama_org  NOTFOUND! 
+metalinjection_net  NOTFOUND! 
+ctee_com.tw  NOTFOUND! 
+additudemag_com  NOTFOUND! 
+tatacliq_com  NOTFOUND! 
+mobily_com.sa  NOTFOUND! 
+newyorkfed_org  ERROR!  'NoneType' object has no attribute 'group' 69 [1]: 1> this key||value has been marked as tainted! 
+
+sallybeauty_com  ERROR!  'NoneType' object has no attribute 'group' 310 6b05238959e64d786b987e0d=ERHdHOB5AqcpAl79j8n7WJKFAQ17AEKIvmE%3D|dw-only|||USD|false|US%2FCentral|true> this key||value has been marked as tainted! 
+
+payfit_com  NOTFOUND! 
+bravehost_com  NOTFOUND! 
+foreflight_com  NOTFOUND! 
+khn_org  NOTFOUND! 
+dyn_com  NOTFOUND! 
+bancogalicia_com.ar  NOTFOUND! 
+dhakatribune_com  NOTFOUND! 
+crosswalk_com  NOTFOUND! 
+dollartree_com  NOTFOUND! 
+renderosity_com  NOTFOUND! 
+citizensbankonline_com  NOTFOUND! 
+crainsnewyork_com  NOTFOUND! 
+mda_org  NOTFOUND! 
+unacademy_com  NOTFOUND! 
+ae_com  NOTFOUND! 
+melmagazine_com  NOTFOUND! 
+uwyo_edu  NOTFOUND! 
+hosting-australia_com  NOTFOUND! 
+canadahelps_org  NOTFOUND! 
+worksmobile_com  NOTFOUND! 
+tutor_com  NOTFOUND! 
+revize_com  NOTFOUND! 
+dallasisd_org  NOTFOUND! 
+vodafone_com.eg  NOTFOUND! 
+familydestinationsguide_com  NOTFOUND! 
+p-bandai_jp  NOTFOUND! 
+electroneum_com  NOTFOUND! 
+nerdfitness_com  NOTFOUND! 
+pwr_edu.pl  NOTFOUND! 
+rnp_br  NOTFOUND! 
+mayoclinic_com  NOTFOUND! 
+stan_com.au  NOTFOUND! 
+asla_org  NOTFOUND! 
+stuff_tv  NOTFOUND! 
+ysu_edu  NOTFOUND! 
+upgradedpoints_com  NOTFOUND! 
+eprize_com  NOTFOUND! 
+blackcrow_ai  NOTFOUND! 
+transparent_com  NOTFOUND! 
+just2trade_online  NOTFOUND! 
+missionlane_com  NOTFOUND! 
+renesas_com  NOTFOUND! 
+jci_com  NOTFOUND! 
+saturdaydownsouth_com  NOTFOUND! 
+milanote_com  NOTFOUND! 
+mixmag_net  NOTFOUND! 
+donorschoose_org  NOTFOUND! 
+dtcc_edu  NOTFOUND! 
+tomtom_com  NOTFOUND! 
+adelaidenow_com.au  NOTFOUND! 
+sipnet_ru  NOTFOUND! 
+explorelearning_com  NOTFOUND! 
+news247_gr  NOTFOUND! 
+hh_kz  NOTFOUND! 
+moshtix_com.au  NOTFOUND! 
+iinethosting_net.au  NOTFOUND! 
+westhost_com  NOTFOUND! 
+participant_com  NOTFOUND! 
+greetingsisland_com  NOTFOUND! 
+ainonline_com  NOTFOUND! 
+samaritanspurse_org  NOTFOUND! 
+ljworld_com  NOTFOUND! 
+granbluefantasy_jp  NOTFOUND! 
+aiaa_org  NOTFOUND! 
+ithemes_com  NOTFOUND! 
+alldatasheet_com  NOTFOUND! 
+burpee_com  NOTFOUND! 
+animeflv_one  NOTFOUND! 
+mechacomic_jp  NOTFOUND! 
+sierraclub_org  NOTFOUND! 
+versobooks_com  NOTFOUND! 
+itworldcanada_com  NOTFOUND! 
+livescores_biz  NOTFOUND! 
+texasroadhouse_com  NOTFOUND! 
+motorolamobility_com  ERROR!  'NoneType' object has no attribute 'group' 31 .1695948697634.820590269> this key||value has been marked as tainted! 
+
+jacobinmag_com  NOTFOUND! 
+toysfortots_org  NOTFOUND! 
+usccb_org  NOTFOUND! 
+lidl_com  NOTFOUND! 
+retargetly_com  NOTFOUND! 
+wlu_ca  NOTFOUND! 
+affordableconnectivity_gov  NOTFOUND! 
+paloaltoonline_com  NOTFOUND! 
+hrc_org  NOTFOUND! 
+intouchweekly_com  NOTFOUND! 
+bluradio_com  NOTFOUND! 
+ssa_gov  NOTFOUND! 
+belairinternet_com  NOTFOUND! 
+imobie_com  NOTFOUND! 
+sirved_com  NOTFOUND! 
+bebo_com  NOTFOUND! 
+orlandomagazine_com  NOTFOUND! 
+revenuecat_com  NOTFOUND! 
+nseindia_com  NOTFOUND! 
+anm_co.uk  NOTFOUND! 
+zeplin_io  NOTFOUND! 
+gospelcom_net  NOTFOUND! 
+stanford_io  NOTFOUND! 
+bigbadtoystore_com  NOTFOUND! 
+firstthings_com  NOTFOUND! 
+intellectualreserveinc_org  NOTFOUND! 
+fgcu_edu  NOTFOUND! 
+fairfaxcounty_gov  ERROR!  'NoneType' object has no attribute 'group' 131 StartingLog... 0x20a7e8b44211 <String[1]: 0> || 0x2731ec3db8a1 <String[12]: slick-active> this key||value has been marked as tainted! 
+
+netrefer_com  NOTFOUND! 
+navexglobal_com  NOTFOUND! 
+nhk_jp  NOTFOUND! 
+gameanalytics_com  NOTFOUND! 
+mail-order-bride_net  NOTFOUND! 
+variety_com  NOTFOUND! 
+worldcrunch_com  NOTFOUND! 
+wpmudev_org  NOTFOUND! 
+exceedlms_com  NOTFOUND! 
+waves_com  NOTFOUND! 
+csp_edu  NOTFOUND! 
+sptimes_com  NOTFOUND! 
+osteopathic_org  NOTFOUND! 
+cyberscoop_com  ERROR!  'NoneType' object has no attribute 'group' 71 41 <String[29]: fb.1.1695937513064.1658953770> this key||value has been marked as tainted! 
+
+goguardian_com  NOTFOUND! 
+savings_com  NOTFOUND! 
+orlandoweekly_com  NOTFOUND! 
+firebox_com  NOTFOUND! 
+lokalise_com  NOTFOUND! 
+yellowpages_com.au  NOTFOUND! 
+backup_com  ERROR!  'NoneType' object has no attribute 'group' 62 0x18490e738779 <String[7]: custom0> this key||value has been marked as tainted! 
+
+gopetition_com  NOTFOUND! 
+mamamia_com.au  NOTFOUND! 
+pacific_edu  NOTFOUND! 
+zeelandnet_nl  NOTFOUND! 
+getnitropack_com  NOTFOUND! 
+ocbc_com  NOTFOUND! 
+ajol_info  NOTFOUND! 
+mhcampus_com  NOTFOUND! 
+majorgeeks_com  NOTFOUND! 
+nursingtimes_net  NOTFOUND! 
+mobilon_ru  NOTFOUND! 
+mondo_rs  NOTFOUND! 
+adl_org  NOTFOUND! 
+ripio_com  NOTFOUND! 
+constructconnect_com  NOTFOUND! 
+nrf_com  NOTFOUND! 
+eleconomista_com.mx  NOTFOUND! 
+mcgill_ca  NOTFOUND! 
+themerex_net  NOTFOUND! 
+citrix_com  NOTFOUND! 
+neolms_com  NOTFOUND! 
+mrporter_com  NOTFOUND! 
+stylemepretty_com  NOTFOUND! 
+winthrop_edu  NOTFOUND! 
+ou_edu  NOTFOUND! 
+pixilart_com  NOTFOUND! 
+cloud86_nl  NOTFOUND! 
+ultradns_org  NOTFOUND! 
+imweb_me  NOTFOUND! 
+heraldsun_com.au  NOTFOUND! 
+weworkremotely_com  NOTFOUND! 
+checkout_com  NOTFOUND! 
+contentstack_io  NOTFOUND! 
+wisebread_com  NOTFOUND! 
+theconversation_com  NOTFOUND! 
+planetofhotels_com  NOTFOUND! 
+sportsnaut_com  NOTFOUND! 
+passkey_com  NOTFOUND! 
+atlascopco_com  NOTFOUND! 
+johnsoncontrols_com  NOTFOUND! 
+instabio_cc  NOTFOUND! 
+wosp_org.pl  NOTFOUND! 
+krymr_com  ERROR!  'NoneType' object has no attribute 'group' 9 StartingLog... 0x37af3c7203e1 <String[8]: pageName> || 0x34ded0a75561 <String[42]\: rfe:cri:r:homepage:\x43a\x440\x44b\x43c.\x440\x435\x430\x43b\x438\x438 - krymr.com> this key||value has been marked as tainted! 
+
+fotocommunity_de  NOTFOUND! 
+apta_org  NOTFOUND! 
+hotspotshield_com  NOTFOUND! 
+acsm_org  NOTFOUND! 
+gilt_com  NOTFOUND! 
+uber_com  NOTFOUND! 
+thinkgeek_com  NOTFOUND! 
+infosys_com  NOTFOUND! 
+radissonhotels_com  NOTFOUND! 
+synopsys_com  NOTFOUND! 
+bsnsports_com  NOTFOUND! 
+networkworld_com  NOTFOUND! 
+webselfsite_net  NOTFOUND! 
+twingate_com  NOTFOUND! 
+wandera_com  NOTFOUND! 
+tagged_com  NOTFOUND! 
+scribehow_com  NOTFOUND! 
+bitdefender_net  NOTFOUND! 
+datanyze_com  NOTFOUND! 
+whisper_sh  NOTFOUND! 
+surfeasy_com  NOTFOUND! 
+unmc_edu  NOTFOUND! 
+mycast_io  NOTFOUND! 
+utah_com  NOTFOUND! 
+helium10_com  NOTFOUND! 
+rontar_com  NOTFOUND! 
+drishtiias_com  NOTFOUND! 
+liketoknow_it  NOTFOUND! 
+deakin_edu.au  NOTFOUND! 
+ziniao_com  NOTFOUND! 
+inkforall_com  NOTFOUND! 
+lojavirtualnuvem_com.br  NOTFOUND! 
+scite_ai  NOTFOUND! 
+urbanspoon_com  NOTFOUND! 
+znanylekarz_pl  NOTFOUND! 
+jalbum_net  NOTFOUND! 
+sportsbusinessjournal_com  NOTFOUND! 
+neoncrm_com  NOTFOUND! 
+ethoslife_com  NOTFOUND! 
+paramount_com  NOTFOUND! 
+jasper_ai  NOTFOUND! 
+oge_com  NOTFOUND! 
+dcu_ie  NOTFOUND! 
+propertyfinder_ae  ERROR!  'NoneType' object has no attribute 'group' 82  custom7> this key||value has been marked as tainted! 
+
+aceee_org  NOTFOUND! 
+okmagazine_com  NOTFOUND! 
+uphe_com  NOTFOUND! 
+certainteed_com  NOTFOUND! 
+massmutual_com  NOTFOUND! 
+freepress_net  NOTFOUND! 
+kwai_com  NOTFOUND! 
+antuit_ai  ERROR!  'NoneType' object has no attribute 'group' 46 1]: 0> || 0x39d32d370541 <String[28]: fb.1.1695937823022.144773180> this key||value has been marked as tainted! 
+
+southernlinc_com  NOTFOUND! 
+fozzy_com  NOTFOUND! 
+rollcall_com  NOTFOUND! 
+thetech_org  NOTFOUND! 
+embedit_cz  NOTFOUND! 
+counseling_org  NOTFOUND! 
+logme_in  NOTFOUND! 
+taskrabbit_com  NOTFOUND! 
+mediapost_com  NOTFOUND! 
+eduzz_com  NOTFOUND! 
+idsc_gov.eg  NOTFOUND! 
+splice_com  NOTFOUND! 
+terminix_com  NOTFOUND! 
+alaskapublic_org  NOTFOUND! 
+giftya_com  NOTFOUND! 
+convinceandconvert_com  NOTFOUND! 
+flexjobs_com  NOTFOUND! 
+straight_com  NOTFOUND! 
+coinhako_com  NOTFOUND! 
+nemzetisport_hu  NOTFOUND! 
+smartraveller_gov.au  NOTFOUND! 
+privateschoolreview_com  NOTFOUND! 
+statesman_com  NOTFOUND! 
+radissonhotelsamericas_com  NOTFOUND! 
+allaboutbirds_org  NOTFOUND! 
+kadencewp_com  NOTFOUND! 
+communityimpact_com  NOTFOUND! 
+reviewgeek_com  NOTFOUND! 
+localwp_com  NOTFOUND! 
+comedycentral_com  NOTFOUND! 
+peacecorps_gov  NOTFOUND! 
+nh-hotels_com  NOTFOUND! 
+jimmyjohns_com  NOTFOUND! 
+saltwire_com  NOTFOUND! 
+svpressa_ru  NOTFOUND! 
+simmons_edu  NOTFOUND! 
+taager_com  NOTFOUND! 
+bfwpub_com  NOTFOUND! 
+ebizautos_net  NOTFOUND! 
+stockhouse_com  NOTFOUND! 
+loccitane_com  NOTFOUND! 
+humanesociety_org  NOTFOUND! 
+seti_org  NOTFOUND! 
+mnsu_edu  NOTFOUND! 
+anyword_com  NOTFOUND! 
+biblia_com  NOTFOUND! 
+thebulletin_org  NOTFOUND! 
+ualr_edu  NOTFOUND! 
+strikingly_com  NOTFOUND! 
+blk-app_com  NOTFOUND! 
+xola_com  NOTFOUND! 
+tiendanube_com  NOTFOUND! 
+webhostingpad_com  NOTFOUND! 
+texasobserver_org  NOTFOUND! 
+ptrack1_com  NOTFOUND! 
+wpx_net  NOTFOUND! 
+dxc_technology  NOTFOUND! 
+instyle_com  NOTFOUND! 
+bitrix24_net  NOTFOUND! 
+adb_org  NOTFOUND! 
+vans_mx  NOTFOUND! 
+forgerock_com  NOTFOUND! 
+setn_com  NOTFOUND! 
+propertypanorama_com  NOTFOUND! 
+eds_com  ERROR!  'NoneType' object has no attribute 'group' 145 2f80a418579 <String[13]: at_check=true> this key||value has been marked as tainted! 
+
+awardspace_com  NOTFOUND! 
+suny_edu  NOTFOUND! 
+collegefactual_com  NOTFOUND! 
+stylemixthemes_com  NOTFOUND! 
+crosscut_com  NOTFOUND! 
+gtbank_com  NOTFOUND! 
+modernhealthcare_com  NOTFOUND! 
+expo2020dubai_com  NOTFOUND! 
+cfjump_com  NOTFOUND! 
+pixels_com  NOTFOUND! 
+opb_org  NOTFOUND! 
+roland_com  NOTFOUND! 
+between_us  NOTFOUND! 
+as_me  NOTFOUND! 
+hibu_com  NOTFOUND! 
+fuze_com  NOTFOUND! 
+dagospia_com  NOTFOUND! 
+coppel_com  ERROR!  'NoneType' object has no attribute 'group' 94 : _abck=3CF53B61F8B44EBA32D02FD788ADBA73~-1~YAAQ1utwaMKp88uKAQAAYnUP3gpB5PU78aPWaW2G0xcfCzfnXfGCj8JinjaP1/ngNCfhYPI+LxGTXw7vZTRv/rT9qhpDJQAKgzYdTVGpuQyOCvMP9Io0GBk9Mux1espKGn4J8FbqSUkqFLYFrWXYUdqf82r75F/cZyhGkhkxrQ/8K7cUS7ntT5dwuRkI0gBwF34Gsl7Zw4TBF2jnq5um8FAxwOgM1nliMviVbjo9HEJPLwfNOOVJttMAblFPTlxtoBI1IQo6A+ET+ZhBxVE8YvM3mofDnjkHmPkbjGDgQq7sR3g8dLw4EqVRMzgPNGqqX5fG/U0QtrI6Plglp22yCTmzIZWAvA==~-1~-1~-1> this key||value has been marked as tainted! 
+
+iisd_org  NOTFOUND! 
+vodafoneidea_com  NOTFOUND! 
+fullfact_org  NOTFOUND! 
+veritas_com  NOTFOUND! 
+postscript_io  NOTFOUND! 
+usablenet_com  NOTFOUND! 
+merca20_com  NOTFOUND! 
+womansworld_com  NOTFOUND! 
+humanrights_gov.au  NOTFOUND! 
+brightlocal_com  NOTFOUND! 
+givelively_org  NOTFOUND! 
+core77_com  NOTFOUND! 
+dziennik_pl  NOTFOUND! 
+suntimes_com  NOTFOUND! 
+books2read_com  NOTFOUND! 
+3s_pl  NOTFOUND! 
+theinfatuation_com  NOTFOUND! 
+ascd_org  NOTFOUND! 
+vouchercodes_co.uk  NOTFOUND! 
+uca_edu  NOTFOUND! 
+justapinch_com  NOTFOUND! 
+pgmall_my  NOTFOUND! 
+tcsion_com  NOTFOUND! 
+teamworkonline_com  NOTFOUND! 
+mercedes-benz_de  NOTFOUND! 
+good_is  NOTFOUND! 
+internationalliving_com  NOTFOUND! 
+mitpressjournals_org  NOTFOUND! 
+janeapp_com  NOTFOUND! 
+josbank_com  NOTFOUND! 
+dbeaver_io  NOTFOUND! 
+techstars_com  NOTFOUND! 
+best-hashtags_com  NOTFOUND! 
+lunarpages_com  NOTFOUND! 
+umsl_edu  NOTFOUND! 
+unas_eu  NOTFOUND! 
+roboforex_com  NOTFOUND! 
+vanta_com  NOTFOUND! 
+forceusercontent_com  ERROR!  'NoneType' object has no attribute 'group' 80 79931 <String[1]: 1> this key||value has been marked as tainted! 
+
+avaya_com  NOTFOUND! 
+aig_com  NOTFOUND! 
+industrybuying_com  NOTFOUND! 
+mypillow_com  NOTFOUND! 
+interestingengineering_com  NOTFOUND! 
+lumens_com  NOTFOUND! 
+deseret_com  NOTFOUND! 
+insurancesaver_com  NOTFOUND! 
+ets_org  NOTFOUND! 
+trilltrill_jp  NOTFOUND! 
+magticom_ge  NOTFOUND! 
+pioneerelectronics_com  NOTFOUND! 
+lmgtfy_app  NOTFOUND! 
+opentechnology_ru  NOTFOUND! 
+quillette_com  NOTFOUND! 
+hvg_hu  NOTFOUND! 
+aus_com  NOTFOUND! 
+fredericknewspost_com  NOTFOUND! 
+adaa_org  NOTFOUND! 
+absher_sa  NOTFOUND! 
+asm_org  NOTFOUND! 
+pga_com  NOTFOUND! 
+topix_com  NOTFOUND! 
+cannondale_com  NOTFOUND! 
+saddleback_edu  NOTFOUND! 
+wtfast_com  NOTFOUND! 
+commsec_com.au  NOTFOUND! 
+jn_pt  NOTFOUND! 
+perfil_com  NOTFOUND! 
+omelete_com.br  ERROR!  'NoneType' object has no attribute 'group' 34 www.omelete.com.br/%22%2C%22referrer%22%3A%22%22%7D> this key||value has been marked as tainted! 
+
+janssen_com  NOTFOUND! 
+griffith_edu.au  NOTFOUND! 
+esbnyc_com  NOTFOUND! 
+givingtuesday_org  NOTFOUND! 
+myjewishlearning_com  NOTFOUND! 
+upgrade_com  NOTFOUND! 
+masteryconnect_com  NOTFOUND! 
+fuelbuddy_in  NOTFOUND! 
+hud_ac.uk  NOTFOUND! 
+dailyrazor_com  NOTFOUND! 
+site_com  ERROR!  'NoneType' object has no attribute 'group' 223 [1]: z> || 0x4b0a2c8f699 <String[1]: 1> this key||value has been marked as tainted! 
+
+caregiver_org  NOTFOUND! 
+therealreal_com  NOTFOUND! 
+virginatlantic_com  ERROR!  'NoneType' object has no attribute 'group' 84 key||value has been marked as tainted! 
+
+autozone_com  NOTFOUND! 
+digitalpacific_com.au  NOTFOUND! 
+babylist_com  NOTFOUND! 
+datorama_com  NOTFOUND! 
+stylitics_com  NOTFOUND! 
+rebel_com  NOTFOUND! 
+motortrend_com  NOTFOUND! 
+nxp_net  NOTFOUND! 
+lincoln_com  NOTFOUND! 
+radaronline_com  NOTFOUND! 
+etopaz_az  NOTFOUND! 
+prx_org  NOTFOUND! 
+civicplus_com  NOTFOUND! 
+force-user-content_com  NOTFOUND! 
+rspca_org.uk  NOTFOUND! 
+oann_com  NOTFOUND! 
+ajax_systems  NOTFOUND! 
+avayacloud_com  NOTFOUND! 
+displate_com  NOTFOUND! 
+givebutter_com  NOTFOUND! 
+staysafeonline_org  NOTFOUND! 
+montblanc_com  NOTFOUND! 
+truth-out_org  NOTFOUND! 
+southalabama_edu  NOTFOUND! 
+conversionbear_com  NOTFOUND! 
+buyma_com  NOTFOUND! 
+jambase_com  NOTFOUND! 
+billmoyers_com  NOTFOUND! 
+clevescene_com  NOTFOUND! 
+hellobar_com  NOTFOUND! 
+shopltk_com  NOTFOUND! 
+dnchosting_com  NOTFOUND! 
+sms-activate_org  NOTFOUND! 
+jibjab_com  NOTFOUND! 
+grapeshot_co.uk  NOTFOUND! 
+tlc_com  NOTFOUND! 
+unfpa_org  NOTFOUND! 
+deadlinefunnel_com  NOTFOUND! 
+angelo_edu  NOTFOUND! 
+walkerart_org  NOTFOUND! 
+cunard_com  NOTFOUND! 
+plasticsurgery_org  NOTFOUND! 
+donordrive_com  NOTFOUND! 
+cashfree_com  NOTFOUND! 
+eventbrite_es  NOTFOUND! 
+racgp_org.au  NOTFOUND! 
+rhul_ac.uk  NOTFOUND! 
+rafflecopter_com  NOTFOUND! 
+unirioja_es  NOTFOUND! 
+lloydsbank_com  NOTFOUND! 
+onmogul_com  NOTFOUND! 
+billoreilly_com  NOTFOUND! 
+blikk_hu  NOTFOUND! 
+cmu_edu  NOTFOUND! 
+starbucks_com  NOTFOUND! 
+grasshopper_com  NOTFOUND! 
+lexmark_com  NOTFOUND! 
+firstpromoter_com  NOTFOUND! 
+halleonard_com  NOTFOUND! 
+ncsasports_org  NOTFOUND! 
+thefader_com  NOTFOUND! 
+southwestern_edu  NOTFOUND! 
+rferl_org  NOTFOUND! 
+gazeta_uz  NOTFOUND! 
+conncoll_edu  NOTFOUND! 
+votesmart_org  NOTFOUND! 
+tapad_com  ERROR!  'NoneType' object has no attribute 'group' 50 StartingLog... 0x5521e717039 <String[1]: 0> || 0x2daa74898999 <Very long string[3081]> this key||value has been marked as tainted! 
+
+bingx_com  NOTFOUND! 
+bershka_cn  NOTFOUND! 
+garyvaynerchuk_com  NOTFOUND! 
+lanebryant_com  NOTFOUND! 
+makerfaire_com  NOTFOUND! 
+bestlifeonline_com  NOTFOUND! 
+nissannews_com  NOTFOUND! 
+gotomypc_com  NOTFOUND! 
+bna_com.ar  NOTFOUND! 
+idntimes_com  NOTFOUND! 
+rmbl_ws  NOTFOUND! 
+mondialrelay_fr  NOTFOUND! 
+shsu_edu  NOTFOUND! 
+visitdubai_com  NOTFOUND! 
+wprost_pl  NOTFOUND! 
+atomicorp_com  NOTFOUND! 
+yadvashem_org  NOTFOUND! 
+coolermaster_com  NOTFOUND! 
+sony_co.jp  NOTFOUND! 
+smartwaiver_com  NOTFOUND! 
+metrotimes_com  NOTFOUND! 
+ksp_co.il  NOTFOUND! 
+upei_ca  NOTFOUND! 
+link-assistant_com  NOTFOUND! 
+wgtn_ac.nz  NOTFOUND! 
+e-junkie_com  NOTFOUND! 
+cio_com  NOTFOUND! 
+nraila_org  NOTFOUND! 
+massimodutti_com  NOTFOUND! 
+unsw_edu.au  NOTFOUND! 
+problogger_com  NOTFOUND! 
+
+statnews_com  NOTFOUND! 
+siteforce_com  NOTFOUND! 
+963haofm_sg  NOTFOUND! 
+superb_net  NOTFOUND! 
+monobank_ua  NOTFOUND! 
+zcubes_com  NOTFOUND! 
+konmari_com  NOTFOUND! 
+1and1_co.uk  NOTFOUND! 
+tuko_co.ke  NOTFOUND! 
+bloomingdales_com  NOTFOUND! 
+gba_gov.ar  NOTFOUND! 
+scranton_edu  NOTFOUND! 
+timesleader_com  NOTFOUND! 
+universalorlando_com  NOTFOUND! 
+facebookblueprint_com  NOTFOUND! 
+sysco_com  NOTFOUND! 
+doubledowncasino_com  NOTFOUND! 
+easterseals_com  NOTFOUND! 
+fotocasa_es  NOTFOUND! 
+telerama_fr  NOTFOUND! 
+the74million_org  NOTFOUND! 
+homeguide_com  NOTFOUND! 
+brandwatch_com  NOTFOUND! 
+nationaljournal_com  NOTFOUND! 
+capitalgroup_com  NOTFOUND! 
+nesine_com  NOTFOUND! 
+theranest_com  NOTFOUND! 
+squiz_net  NOTFOUND! 
+rds_ca  NOTFOUND! 
+nfhsnetwork_com  NOTFOUND! 
+franceinter_fr  NOTFOUND! 
+imgur_io  NOTFOUND! 
+uleth_ca  NOTFOUND! 
+hltv_org  NOTFOUND! 
+kiotviet_vn  NOTFOUND! 
+turbologo_com  NOTFOUND! 
+startuptalky_com  NOTFOUND! 
+pib_gov.in  NOTFOUND! 
+eurosport_co.uk  NOTFOUND! 
+e-gov_az  NOTFOUND! 
+ticketspice_com  NOTFOUND! 
+xserver_ne.jp  NOTFOUND! 
+shop-pro_jp  NOTFOUND! 
+oregonstate_edu  NOTFOUND! 
+msstate_edu  NOTFOUND! 
+crossout_net  NOTFOUND! 
+cambridgeenglish_org  NOTFOUND! 
+constellix_net  NOTFOUND! 
+360psg_com  NOTFOUND! 
+jobscan_co  NOTFOUND! 
+hampshire_edu  NOTFOUND! 
+keenthemes_com  NOTFOUND! 
+alchetron_com  NOTFOUND! 
+hostnet_lv  NOTFOUND! 
+keywordblocks_com  NOTFOUND! 
+duetdisplay_com  NOTFOUND! 
+goodwill_org  NOTFOUND! 
+orlando_gov  NOTFOUND! 
+unitedway_org  NOTFOUND! 
+markkystreams_com  NOTFOUND! 
+spitogatos_gr  NOTFOUND! 
+dyndns_com  NOTFOUND! 
+animate-onlineshop_jp  NOTFOUND! 
+execulink_com  NOTFOUND! 
+bestvpn_org  NOTFOUND! 
+nationalreview_com  NOTFOUND! 
+fitonapp_com  NOTFOUND! 
+dyson_dk  NOTFOUND! 
+startech_com.bd  NOTFOUND! 
+bintray_com  NOTFOUND! 
+hinative_com  NOTFOUND! 
+tower_jp  NOTFOUND! 
+wada-ama_org  NOTFOUND! 
+agilecrm_com  NOTFOUND! 
+successfactors_com  ERROR!  'NoneType' object has no attribute 'group' 194 e has been marked as tainted! 
+
+liveperson_com  NOTFOUND! 
+kendallhunt_com  NOTFOUND! 
+blinkit_com  NOTFOUND! 
+neterra_net  NOTFOUND! 
+evansville_edu  NOTFOUND! 
+tilda_cc  NOTFOUND! 
+discovercard_com  NOTFOUND! 
+abt_com  NOTFOUND! 
+bytemark_co.uk  NOTFOUND! 
+airbus_com  NOTFOUND! 
+dyson_nl  NOTFOUND! 
+podio_com  NOTFOUND! 
+ana_net  NOTFOUND! 
+centrify_com  NOTFOUND! 
+insidethegames_biz  NOTFOUND! 
+xe_com  NOTFOUND! 
+gismeteo_kz  NOTFOUND! 
+monotype_com  NOTFOUND! 
+nextdoor_com  NOTFOUND! 
+dcfever_com  NOTFOUND! 
+stay22_com  NOTFOUND! 
+chatbot_com  NOTFOUND! 
+swiftcapital_com  NOTFOUND! 
+soranews24_com  ERROR!  'NoneType' object has no attribute 'group' 24 b.1.1695938048788.1330411409> this key||value has been marked as tainted! 
+
+resilio_com  NOTFOUND! 
+jpmchase_com  NOTFOUND! 
+crazyegg_com  NOTFOUND! 
+unco_edu  NOTFOUND! 
+sumo_com  NOTFOUND! 
+cl_ly  NOTFOUND! 
+armani_com  NOTFOUND! 
+mun_ca  NOTFOUND! 
+mingpao_com  NOTFOUND! 
+journalism_co.uk  NOTFOUND! 
+philips_com  NOTFOUND! 
+swarajyamag_com  NOTFOUND! 
+wishpond_com  NOTFOUND! 
+cambridgeinternational_org  NOTFOUND! 
+nutror_com  NOTFOUND! 
+heartland_us  NOTFOUND! 
+hkust_edu.hk  NOTFOUND! 
+ocnk_net  NOTFOUND! 
+flvs_net  NOTFOUND! 
+milanuncios_com  NOTFOUND! 
+wedmegood_com  NOTFOUND! 
+zonedns_vn  NOTFOUND! 
+thebay_com  NOTFOUND! 
+unescap_org  NOTFOUND! 
+bd_com  NOTFOUND! 
+l0n_news  NOTFOUND! 
+databreakers_com  NOTFOUND! 
+bettycrocker_com  NOTFOUND! 
+pc-builds_com  NOTFOUND! 
+trustwave_com  NOTFOUND! 
+southparkstudios_co.uk  NOTFOUND! 
+bancomundial_org  NOTFOUND! 
+mercatus_org  NOTFOUND! 
+ihi_org  NOTFOUND! 
+happyscribe_com  NOTFOUND! 
+rvlife_com  NOTFOUND! 
+taimi_com  NOTFOUND! 
+moonpay_com  NOTFOUND! 
+rj_com  NOTFOUND! 
+closte_com  NOTFOUND! 
+playtech_ro  NOTFOUND! 
+cato_org  NOTFOUND! 
+rakuten-card_co.jp  NOTFOUND! 
+cartoonstock_com  NOTFOUND! 
+meo_pt  NOTFOUND! 
+ionos_mx  NOTFOUND! 
+corteva_com  NOTFOUND! 
+dish_com  NOTFOUND! 
+wellnessliving_com  NOTFOUND! 
+thechive_com  NOTFOUND! 
+eatthismuch_com  NOTFOUND! 
+trthaber_com  NOTFOUND! 
+usap_gov  NOTFOUND! 
+inshur_com  NOTFOUND! 
+ball_com  NOTFOUND! 
+maxon_net  NOTFOUND! 
+virtualglobetrotting_com  NOTFOUND! 
+free-ebooks_net  NOTFOUND! 
+mercycorps_org  NOTFOUND! 
+amtrak_com  NOTFOUND! 
+its_gov.az  NOTFOUND! 
+s7_ru  NOTFOUND! 
+seacoastonline_com  NOTFOUND! 
+dxc_com  NOTFOUND! 
+netcoresmartech_com  NOTFOUND! 
+streeteasy_com  NOTFOUND! 
+ascrs_org  NOTFOUND! 
+fidh_org  NOTFOUND! 
+dan_hosting  NOTFOUND! 
+neighborhoodscout_com  NOTFOUND! 
+tim_blog  NOTFOUND! 
+bb_com.br  NOTFOUND! 
+superhuman_com  NOTFOUND! 
+dunyanews_tv  NOTFOUND! 
+interviewmagazine_com  NOTFOUND! 
+net-a-porter_com  NOTFOUND! 
+sundance_org  NOTFOUND! 
+express-scripts_com  NOTFOUND! 
+dyndns_info  NOTFOUND! 
+shopee_vn  NOTFOUND! 
+splonline_com.sa  NOTFOUND! 
+inet_vn  NOTFOUND! 
+managebac_cn  NOTFOUND! 
+chunichi_co.jp  NOTFOUND! 
+audible_de  NOTFOUND! 
+nationalobserver_com  NOTFOUND! 
+sonicdrivein_com  NOTFOUND! 
+literatureandlatte_com  NOTFOUND! 
+gazetadopovo_com.br  NOTFOUND! 
+vcommission_com  NOTFOUND! 
+dataquest_io  NOTFOUND! 
+southerncompany_com  NOTFOUND! 
+sandbox_game  NOTFOUND! 
+welcome_to  NOTFOUND! 
+brobible_com  NOTFOUND! 
+ulster_ac.uk  NOTFOUND! 
+tubefilter_com  NOTFOUND! 
+phonefactor_net  NOTFOUND! 
+reut_rs  NOTFOUND! 
+arzdigital_com  NOTFOUND! 
+onlinenic_com  NOTFOUND! 
+joomag_com  NOTFOUND! 
+alorica_com  NOTFOUND! 
+bkdns_vn  NOTFOUND! 
+kayako_com  NOTFOUND! 
+milwaukeetool_com  NOTFOUND! 
+hungama_com  NOTFOUND! 
+cosme_net  NOTFOUND! 
+zim_com  NOTFOUND! 
+kylos_pl  NOTFOUND! 
+creately_com  NOTFOUND! 
+bootbarn_com  NOTFOUND! 
+superhosting_bg  NOTFOUND! 
+mediabistro_com  NOTFOUND! 
+biblestudytools_com  NOTFOUND! 
+podomatic_com  NOTFOUND! 
+triblive_com  NOTFOUND! 
+pvamu_edu  NOTFOUND! 
+rocket_chat  NOTFOUND! 
+fineartamerica_com  NOTFOUND! 
+selfip_com  NOTFOUND! 
+8b_io  NOTFOUND! 
+redflagdeals_com  NOTFOUND! 
+sfn_org  NOTFOUND! 
+elfsight_com  NOTFOUND! 
+elfinanciero_com.mx  NOTFOUND! 
+marketleader_com  NOTFOUND! 
+joinhomebase_com  NOTFOUND! 
+h5r2dzdwqk_com  NOTFOUND! 
+originality_ai  NOTFOUND! 
+soreto_com  NOTFOUND! 
+zdnet_com  NOTFOUND! 
+unocha_org  NOTFOUND! 
+spie_org  NOTFOUND! 
+leevalley_com  NOTFOUND! 
+penfed_org  NOTFOUND! 
+gusto_com  NOTFOUND! 
+edubirdie_com  NOTFOUND! 
+tnt_com  NOTFOUND! 
+planetradio_co.uk  NOTFOUND! 
+hotel-bb_com  NOTFOUND! 
+photoshop_com  ERROR!  'NoneType' object has no attribute 'group' 113 this key||value has been marked as tainted! 
+
+intego_com  NOTFOUND! 
+vitals_com  NOTFOUND! 
+vu_edu.pk  NOTFOUND! 
+sprint_com  NOTFOUND! 
+wvi_org  NOTFOUND! 
+tildacdn_com  NOTFOUND! 
+hlj_com  NOTFOUND! 
+thinkorswim_com  NOTFOUND! 
+icmarkets_com  NOTFOUND! 
+crossway_org  NOTFOUND! 
+expedient_com  NOTFOUND! 
+letudiant_fr  NOTFOUND! 
+detik_com  NOTFOUND! 
+mindray_com  NOTFOUND! 
+showroom-live_com  NOTFOUND! 
+kayzen_io  NOTFOUND! 
+aps_com  NOTFOUND! 
+iapp_org  NOTFOUND! 
+golfchannel_com  NOTFOUND! 
+roberthalf_com  ERROR!  'NoneType' object has no attribute 'group' 25 +28+2023+17%3A32%3A30+GMT-0400+()&version=202308.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=86c1dd8f-2549-47b0-bd1a-6a8fb40d7e3f&interactionCount=0&landingPath=https%3A%2F%2Fwww.roberthalf.com%2Fus%2Fen> this key||value has been marked as tainted! 
+
+------------------ below is Phase 2 dict stats ----------------
+phase2_dict length is:  751
+file_not_found_count is:  0
+error_count is:  114
+found_count is:  1051
+not_found_count is:  3676
+Generating result (strict match) dict ...
+result_dict length is:  186

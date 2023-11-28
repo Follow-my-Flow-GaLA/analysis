@@ -1,0 +1,525 @@
+1 teamunify.com inactive_notemplate_phase3_partial_logs, teamunify_com
+2 uar.net inactive_notemplate_phase3_partial_logs, uar_net
+3 southparkstudios.com inactive_notemplate_phase3_partial_logs, southparkstudios_com
+4 wordtune.com inactive_notemplate_phase3_partial_logs, wordtune_com
+5 blackrock.com inactive_notemplate_phase3_partial_logs, blackrock_com
+6 undeveloped.com inactive_notemplate_phase3_partial_logs, undeveloped_com
+7 drugvokrug.ru inactive_notemplate_phase3_partial_logs, drugvokrug_ru
+8 agilent.com inactive_notemplate_phase3_partial_logs, agilent_com
+9 my-personaltrainer.it inactive_notemplate_phase3_partial_logs, my-personaltrainer_it
+10 pagesperso-orange.fr inactive_notemplate_phase3_partial_logs, pagesperso-orange_fr
+Waiting to clean 10 and prev 10 windows ... 
+10 and prev 10 windows cleaned! 
+11 carlsbergsverige.se inactive_notemplate_phase3_partial_logs, carlsbergsverige_se
+12 synchrony.com inactive_notemplate_phase3_partial_logs, synchrony_com
+13 estacio.br inactive_notemplate_phase3_partial_logs, estacio_br
+14 g2.com inactive_notemplate_phase3_partial_logs, g2_com
+15 mango.com inactive_notemplate_phase3_partial_logs, mango_com
+16 gapinc.com inactive_notemplate_phase3_partial_logs, gapinc_com
+17 jacobs.com inactive_notemplate_phase3_partial_logs, jacobs_com
+18 mtb.com inactive_notemplate_phase3_partial_logs, mtb_com
+19 bnymellon.com inactive_notemplate_phase3_partial_logs, bnymellon_com
+20 tennessee.edu inactive_notemplate_phase3_partial_logs, tennessee_edu
+Waiting to clean 20 and prev 10 windows ... 
+20 and prev 10 windows cleaned! 
+21 td.com inactive_notemplate_phase3_partial_logs, td_com
+22 voanews.com inactive_notemplate_phase3_partial_logs, voanews_com
+23 unimelb.edu.au inactive_notemplate_phase3_partial_logs, unimelb_edu.au
+24 jeevansathi.com inactive_notemplate_phase3_partial_logs, jeevansathi_com
+25 mojim.com inactive_notemplate_phase3_partial_logs, mojim_com
+26 csmc.edu inactive_notemplate_phase3_partial_logs, csmc_edu
+27 westerndigital.com inactive_notemplate_phase3_partial_logs, westerndigital_com
+28 hagerty.com inactive_notemplate_phase3_partial_logs, hagerty_com
+29 goto.com inactive_notemplate_phase3_partial_logs, goto_com
+30 lastline.com inactive_notemplate_phase3_partial_logs, lastline_com
+Waiting to clean 30 and prev 10 windows ... 
+30 and prev 10 windows cleaned! 
+31 giantbomb.com inactive_notemplate_phase3_partial_logs, giantbomb_com
+32 ameritrade.com inactive_notemplate_phase3_partial_logs, ameritrade_com
+33 stradivarius.com inactive_notemplate_phase3_partial_logs, stradivarius_com
+34 enterprise.com inactive_notemplate_phase3_partial_logs, enterprise_com
+35 cio.com inactive_notemplate_phase3_partial_logs, cio_com
+36 sun.com inactive_notemplate_phase3_partial_logs, sun_com
+37 michaelkors.com inactive_notemplate_phase3_partial_logs, michaelkors_com
+38 shareaholic.com inactive_notemplate_phase3_partial_logs, shareaholic_com
+39 wpastra.com inactive_notemplate_phase3_partial_logs, wpastra_com
+40 hilton.com inactive_notemplate_phase3_partial_logs, hilton_com
+Waiting to clean 40 and prev 10 windows ... 
+inactive-phase3-auto-recursive.sh: line 97: 18550 Terminated              out/Inactive-release-phase1/chrome ${url} --js-flags="--taint_log_file=${SAVE_PATH}/${TAG}crawl/$NAME --no-crankshaft --no-turbo --no-ignition --inactive_conseq_log_enable" --user-data-dir=/tmp/${NAME} --load-extension=/home/zfk/Documents/crawler-extension-pp,/home/zfk/Documents/inject_pp_extension/ --new-window --no-sandbox --disable-gpu --enable-logging=stderr --disable-hang-monitor &> ${SAVE_PATH}/src/${TAG}logs/${NAME}_log_file
+40 and prev 10 windows cleaned! 
+41 swiftkey.com inactive_notemplate_phase3_partial_logs, swiftkey_com
+42 kron4.com inactive_notemplate_phase3_partial_logs, kron4_com
+43 travelandleisure.com inactive_notemplate_phase3_partial_logs, travelandleisure_com
+44 binance.us inactive_notemplate_phase3_partial_logs, binance_us
+45 cdc.gov inactive_notemplate_phase3_partial_logs, cdc_gov
+46 urbanaffairskerala.org inactive_notemplate_phase3_partial_logs, urbanaffairskerala_org
+47 fanbyte.com inactive_notemplate_phase3_partial_logs, fanbyte_com
+48 bitrix24.ru inactive_notemplate_phase3_partial_logs, bitrix24_ru
+49 nylas.com inactive_notemplate_phase3_partial_logs, nylas_com
+50 obsproject.com inactive_notemplate_phase3_partial_logs, obsproject_com
+Waiting to clean 50 and prev 10 windows ... 
+50 and prev 10 windows cleaned! 
+51 autonews.com inactive_notemplate_phase3_partial_logs, autonews_com
+52 wenming.cn inactive_notemplate_phase3_partial_logs, wenming_cn
+53 gartner.com inactive_notemplate_phase3_partial_logs, gartner_com
+54 capella.edu inactive_notemplate_phase3_partial_logs, capella_edu
+55 pytorch.org inactive_notemplate_phase3_partial_logs, pytorch_org
+56 bling.com.br inactive_notemplate_phase3_partial_logs, bling_com.br
+57 988lifeline.org inactive_notemplate_phase3_partial_logs, 988lifeline_org
+58 tass.ru inactive_notemplate_phase3_partial_logs, tass_ru
+59 spoti.fi inactive_notemplate_phase3_partial_logs, spoti_fi
+60 ansys.com inactive_notemplate_phase3_partial_logs, ansys_com
+Waiting to clean 60 and prev 10 windows ... 
+60 and prev 10 windows cleaned! 
+61 cleveland.com inactive_notemplate_phase3_partial_logs, cleveland_com
+62 the-sun.com inactive_notemplate_phase3_partial_logs, the-sun_com
+63 ascelibrary.org inactive_notemplate_phase3_partial_logs, ascelibrary_org
+64 zoom.us inactive_notemplate_phase3_partial_logs, zoom_us
+65 dyndns.com inactive_notemplate_phase3_partial_logs, dyndns_com
+66 agorapulse.com inactive_notemplate_phase3_partial_logs, agorapulse_com
+67 loopnet.com inactive_notemplate_phase3_partial_logs, loopnet_com
+68 cathaypacific.com inactive_notemplate_phase3_partial_logs, cathaypacific_com
+69 itech-group.ru inactive_notemplate_phase3_partial_logs, itech-group_ru
+70 outbrain.com inactive_notemplate_phase3_partial_logs, outbrain_com
+Waiting to clean 70 and prev 10 windows ... 
+70 and prev 10 windows cleaned! 
+71 mcafee.com inactive_notemplate_phase3_partial_logs, mcafee_com
+72 egnyte.com inactive_notemplate_phase3_partial_logs, egnyte_com
+73 hugoboss.com inactive_notemplate_phase3_partial_logs, hugoboss_com
+74 mountvernon.org inactive_notemplate_phase3_partial_logs, mountvernon_org
+75 arcot.com inactive_notemplate_phase3_partial_logs, arcot_com
+76 autotrader.ca inactive_notemplate_phase3_partial_logs, autotrader_ca
+77 uq.edu.au inactive_notemplate_phase3_partial_logs, uq_edu.au
+78 successfactors.eu inactive_notemplate_phase3_partial_logs, successfactors_eu
+79 vodacom.co.za inactive_notemplate_phase3_partial_logs, vodacom_co.za
+80 blogher.com inactive_notemplate_phase3_partial_logs, blogher_com
+Waiting to clean 80 and prev 10 windows ... 
+80 and prev 10 windows cleaned! 
+81 energystar.gov inactive_notemplate_phase3_partial_logs, energystar_gov
+82 apartmentguide.com inactive_notemplate_phase3_partial_logs, apartmentguide_com
+83 curtin.edu.au inactive_notemplate_phase3_partial_logs, curtin_edu.au
+84 terminix.com inactive_notemplate_phase3_partial_logs, terminix_com
+85 dh227.link inactive_notemplate_phase3_partial_logs, dh227_link
+86 pillsbury.com inactive_notemplate_phase3_partial_logs, pillsbury_com
+87 pearson.com inactive_notemplate_phase3_partial_logs, pearson_com
+88 bluestacks.com inactive_notemplate_phase3_partial_logs, bluestacks_com
+89 businesstimes.com.sg inactive_notemplate_phase3_partial_logs, businesstimes_com.sg
+90 celebritycruises.com inactive_notemplate_phase3_partial_logs, celebritycruises_com
+Waiting to clean 90 and prev 10 windows ... 
+90 and prev 10 windows cleaned! 
+91 wbur.org inactive_notemplate_phase3_partial_logs, wbur_org
+92 tn.gov.in inactive_notemplate_phase3_partial_logs, tn_gov.in
+93 csusb.edu inactive_notemplate_phase3_partial_logs, csusb_edu
+94 dnsmadeeasy.com inactive_notemplate_phase3_partial_logs, dnsmadeeasy_com
+95 anthem.com inactive_notemplate_phase3_partial_logs, anthem_com
+96 cbinsights.com inactive_notemplate_phase3_partial_logs, cbinsights_com
+97 fortinet.net inactive_notemplate_phase3_partial_logs, fortinet_net
+98 lamag.com inactive_notemplate_phase3_partial_logs, lamag_com
+99 liftoff.io inactive_notemplate_phase3_partial_logs, liftoff_io
+100 pitchbook.com inactive_notemplate_phase3_partial_logs, pitchbook_com
+Waiting to clean 100 and prev 10 windows ... 
+100 and prev 10 windows cleaned! 
+101 ysl.com inactive_notemplate_phase3_partial_logs, ysl_com
+102 msstate.edu inactive_notemplate_phase3_partial_logs, msstate_edu
+103 priceline.com inactive_notemplate_phase3_partial_logs, priceline_com
+104 science.org inactive_notemplate_phase3_partial_logs, science_org
+105 mutualofomaha.com inactive_notemplate_phase3_partial_logs, mutualofomaha_com
+106 phoronix.com inactive_notemplate_phase3_partial_logs, phoronix_com
+107 huffpost.com inactive_notemplate_phase3_partial_logs, huffpost_com
+108 threatpost.com inactive_notemplate_phase3_partial_logs, threatpost_com
+109 apc.com inactive_notemplate_phase3_partial_logs, apc_com
+110 salary.com inactive_notemplate_phase3_partial_logs, salary_com
+Waiting to clean 110 and prev 10 windows ... 
+110 and prev 10 windows cleaned! 
+111 tickettailor.com inactive_notemplate_phase3_partial_logs, tickettailor_com
+112 hotwire.com inactive_notemplate_phase3_partial_logs, hotwire_com
+113 credit-suisse.com inactive_notemplate_phase3_partial_logs, credit-suisse_com
+114 acer.com inactive_notemplate_phase3_partial_logs, acer_com
+115 zanox.com inactive_notemplate_phase3_partial_logs, zanox_com
+116 cosme.net inactive_notemplate_phase3_partial_logs, cosme_net
+117 syracuse.com inactive_notemplate_phase3_partial_logs, syracuse_com
+118 vtex.com inactive_notemplate_phase3_partial_logs, vtex_com
+119 appier.net inactive_notemplate_phase3_partial_logs, appier_net
+120 sdo.com inactive_notemplate_phase3_partial_logs, sdo_com
+Waiting to clean 120 and prev 10 windows ... 
+120 and prev 10 windows cleaned! 
+121 digicert.com inactive_notemplate_phase3_partial_logs, digicert_com
+122 mydrivers.com inactive_notemplate_phase3_partial_logs, mydrivers_com
+123 hiltonbusinessonline.com inactive_notemplate_phase3_partial_logs, hiltonbusinessonline_com
+124 draftkings.com inactive_notemplate_phase3_partial_logs, draftkings_com
+125 costar.com inactive_notemplate_phase3_partial_logs, costar_com
+126 dominos.com inactive_notemplate_phase3_partial_logs, dominos_com
+127 southwest.com inactive_notemplate_phase3_partial_logs, southwest_com
+128 iqvia.com inactive_notemplate_phase3_partial_logs, iqvia_com
+129 free-ebooks.net inactive_notemplate_phase3_partial_logs, free-ebooks_net
+130 networksolutions.com inactive_notemplate_phase3_partial_logs, networksolutions_com
+Waiting to clean 130 and prev 10 windows ... 
+130 and prev 10 windows cleaned! 
+131 shrinke.me inactive_notemplate_phase3_partial_logs, shrinke_me
+132 nsfw.xxx inactive_notemplate_phase3_partial_logs, nsfw_xxx
+133 whatfix.com inactive_notemplate_phase3_partial_logs, whatfix_com
+134 dan.com inactive_notemplate_phase3_partial_logs, dan_com
+135 alz.org inactive_notemplate_phase3_partial_logs, alz_org
+136 aiotechnical.com inactive_notemplate_phase3_partial_logs, aiotechnical_com
+137 dlpsgame.com inactive_notemplate_phase3_partial_logs, dlpsgame_com
+138 fireeye.com inactive_notemplate_phase3_partial_logs, fireeye_com
+139 appsflyer.com inactive_notemplate_phase3_partial_logs, appsflyer_com
+140 usps.com inactive_notemplate_phase3_partial_logs, usps_com
+Waiting to clean 140 and prev 10 windows ... 
+140 and prev 10 windows cleaned! 
+141 currys.co.uk inactive_notemplate_phase3_partial_logs, currys_co.uk
+142 texaschildrens.org inactive_notemplate_phase3_partial_logs, texaschildrens_org
+143 blacknight.com inactive_notemplate_phase3_partial_logs, blacknight_com
+144 audiusa.com inactive_notemplate_phase3_partial_logs, audiusa_com
+145 telus.com inactive_notemplate_phase3_partial_logs, telus_com
+146 wdc.com inactive_notemplate_phase3_partial_logs, wdc_com
+147 truste.com inactive_notemplate_phase3_partial_logs, truste_com
+148 myfico.com inactive_notemplate_phase3_partial_logs, myfico_com
+149 box.com inactive_notemplate_phase3_partial_logs, box_com
+150 dropbox.com inactive_notemplate_phase3_partial_logs, dropbox_com
+Waiting to clean 150 and prev 10 windows ... 
+150 and prev 10 windows cleaned! 
+151 gucci.com inactive_notemplate_phase3_partial_logs, gucci_com
+152 sussex.ac.uk inactive_notemplate_phase3_partial_logs, sussex_ac.uk
+153 homeip.net inactive_notemplate_phase3_partial_logs, homeip_net
+154 fox.com inactive_notemplate_phase3_partial_logs, fox_com
+155 youngliving.com inactive_notemplate_phase3_partial_logs, youngliving_com
+156 moodysanalytics.com inactive_notemplate_phase3_partial_logs, moodysanalytics_com
+157 norton.com inactive_notemplate_phase3_partial_logs, norton_com
+158 gotoassist.com inactive_notemplate_phase3_partial_logs, gotoassist_com
+159 wiu.edu inactive_notemplate_phase3_partial_logs, wiu_edu
+160 hxaa74.com inactive_notemplate_phase3_partial_logs, hxaa74_com
+Waiting to clean 160 and prev 10 windows ... 
+160 and prev 10 windows cleaned! 
+161 createjs.com inactive_notemplate_phase3_partial_logs, createjs_com
+162 worldofwarships.eu inactive_notemplate_phase3_partial_logs, worldofwarships_eu
+163 stryker.com inactive_notemplate_phase3_partial_logs, stryker_com
+164 lloydsbank.co.uk inactive_notemplate_phase3_partial_logs, lloydsbank_co.uk
+165 tinymce.com inactive_notemplate_phase3_partial_logs, tinymce_com
+166 microsoft.net inactive_notemplate_phase3_partial_logs, microsoft_net
+167 anthropologie.com inactive_notemplate_phase3_partial_logs, anthropologie_com
+168 elegantthemes.com inactive_notemplate_phase3_partial_logs, elegantthemes_com
+169 dy2018.com inactive_notemplate_phase3_partial_logs, dy2018_com
+170 ew.com inactive_notemplate_phase3_partial_logs, ew_com
+Waiting to clean 170 and prev 10 windows ... 
+170 and prev 10 windows cleaned! 
+171 loudersound.com inactive_notemplate_phase3_partial_logs, loudersound_com
+172 sapsf.com inactive_notemplate_phase3_partial_logs, sapsf_com
+173 skechers.com inactive_notemplate_phase3_partial_logs, skechers_com
+174 hrc.org inactive_notemplate_phase3_partial_logs, hrc_org
+175 governmentjobs.com inactive_notemplate_phase3_partial_logs, governmentjobs_com
+176 1drv.com inactive_notemplate_phase3_partial_logs, 1drv_com
+177 aajtak.in inactive_notemplate_phase3_partial_logs, aajtak_in
+178 rentry.co inactive_notemplate_phase3_partial_logs, rentry_co
+179 lyft.com inactive_notemplate_phase3_partial_logs, lyft_com
+180 sbicard.com inactive_notemplate_phase3_partial_logs, sbicard_com
+Waiting to clean 180 and prev 10 windows ... 
+180 and prev 10 windows cleaned! 
+181 adobesign.com inactive_notemplate_phase3_partial_logs, adobesign_com
+182 asos.com inactive_notemplate_phase3_partial_logs, asos_com
+183 cs-cart.com inactive_notemplate_phase3_partial_logs, cs-cart_com
+184 gumtree.co.za inactive_notemplate_phase3_partial_logs, gumtree_co.za
+185 eharmony.com inactive_notemplate_phase3_partial_logs, eharmony_com
+186 rogers.com inactive_notemplate_phase3_partial_logs, rogers_com
+187 ana.co.jp inactive_notemplate_phase3_partial_logs, ana_co.jp
+188 activemind.de inactive_notemplate_phase3_partial_logs, activemind_de
+189 redditblog.com inactive_notemplate_phase3_partial_logs, redditblog_com
+190 santander.co.uk inactive_notemplate_phase3_partial_logs, santander_co.uk
+Waiting to clean 190 and prev 10 windows ... 
+190 and prev 10 windows cleaned! 
+191 workspaceoneaccess.com inactive_notemplate_phase3_partial_logs, workspaceoneaccess_com
+192 scribbr.com inactive_notemplate_phase3_partial_logs, scribbr_com
+193 mind.org.uk inactive_notemplate_phase3_partial_logs, mind_org.uk
+194 sundaysky.com inactive_notemplate_phase3_partial_logs, sundaysky_com
+195 leadpages.net inactive_notemplate_phase3_partial_logs, leadpages_net
+196 investingchannel.com inactive_notemplate_phase3_partial_logs, investingchannel_com
+197 tickets.com inactive_notemplate_phase3_partial_logs, tickets_com
+198 abbott.com inactive_notemplate_phase3_partial_logs, abbott_com
+199 rakuten.com inactive_notemplate_phase3_partial_logs, rakuten_com
+200 turkishairlines.com inactive_notemplate_phase3_partial_logs, turkishairlines_com
+Waiting to clean 200 and prev 10 windows ... 
+200 and prev 10 windows cleaned! 
+201 asml.com inactive_notemplate_phase3_partial_logs, asml_com
+202 leica-camera.com inactive_notemplate_phase3_partial_logs, leica-camera_com
+203 snapwidget.com inactive_notemplate_phase3_partial_logs, snapwidget_com
+204 personio.de inactive_notemplate_phase3_partial_logs, personio_de
+205 sega.jp inactive_notemplate_phase3_partial_logs, sega_jp
+206 navarra.es inactive_notemplate_phase3_partial_logs, navarra_es
+207 vodafone.com inactive_notemplate_phase3_partial_logs, vodafone_com
+208 pioncoo.net inactive_notemplate_phase3_partial_logs, pioncoo_net
+209 sap-ag.de inactive_notemplate_phase3_partial_logs, sap-ag_de
+210 vmwareidentity.com inactive_notemplate_phase3_partial_logs, vmwareidentity_com
+Waiting to clean 210 and prev 10 windows ... 
+210 and prev 10 windows cleaned! 
+211 ferrero.com inactive_notemplate_phase3_partial_logs, ferrero_com
+212 vitacost.com inactive_notemplate_phase3_partial_logs, vitacost_com
+213 make.com inactive_notemplate_phase3_partial_logs, make_com
+214 zozo.jp inactive_notemplate_phase3_partial_logs, zozo_jp
+215 saksfifthavenue.com inactive_notemplate_phase3_partial_logs, saksfifthavenue_com
+216 lufthansa.com inactive_notemplate_phase3_partial_logs, lufthansa_com
+217 sehuatang.org inactive_notemplate_phase3_partial_logs, sehuatang_org
+218 dyson.com inactive_notemplate_phase3_partial_logs, dyson_com
+219 tesla.cn inactive_notemplate_phase3_partial_logs, tesla_cn
+220 eurosport.fr inactive_notemplate_phase3_partial_logs, eurosport_fr
+Waiting to clean 220 and prev 10 windows ... 
+220 and prev 10 windows cleaned! 
+221 smrtb.com inactive_notemplate_phase3_partial_logs, smrtb_com
+All windows cleaned!
+1 teamunify.com inactive_notemplate_phase3_partial_logs, teamunify_com
+2 uar.net inactive_notemplate_phase3_partial_logs, uar_net
+3 southparkstudios.com inactive_notemplate_phase3_partial_logs, southparkstudios_com
+4 wordtune.com inactive_notemplate_phase3_partial_logs, wordtune_com
+5 blackrock.com inactive_notemplate_phase3_partial_logs, blackrock_com
+6 undeveloped.com inactive_notemplate_phase3_partial_logs, undeveloped_com
+7 drugvokrug.ru inactive_notemplate_phase3_partial_logs, drugvokrug_ru
+8 agilent.com inactive_notemplate_phase3_partial_logs, agilent_com
+9 my-personaltrainer.it inactive_notemplate_phase3_partial_logs, my-personaltrainer_it
+10 pagesperso-orange.fr inactive_notemplate_phase3_partial_logs, pagesperso-orange_fr
+11 carlsbergsverige.se inactive_notemplate_phase3_partial_logs, carlsbergsverige_se
+12 synchrony.com inactive_notemplate_phase3_partial_logs, synchrony_com
+Waiting to clean 12 and prev 12 windows ... 
+12 and prev 12 windows cleaned! 
+13 estacio.br inactive_notemplate_phase3_partial_logs, estacio_br
+14 g2.com inactive_notemplate_phase3_partial_logs, g2_com
+15 mango.com inactive_notemplate_phase3_partial_logs, mango_com
+16 gapinc.com inactive_notemplate_phase3_partial_logs, gapinc_com
+17 jacobs.com inactive_notemplate_phase3_partial_logs, jacobs_com
+18 mtb.com inactive_notemplate_phase3_partial_logs, mtb_com
+19 bnymellon.com inactive_notemplate_phase3_partial_logs, bnymellon_com
+20 tennessee.edu inactive_notemplate_phase3_partial_logs, tennessee_edu
+21 td.com inactive_notemplate_phase3_partial_logs, td_com
+22 voanews.com inactive_notemplate_phase3_partial_logs, voanews_com
+23 unimelb.edu.au inactive_notemplate_phase3_partial_logs, unimelb_edu.au
+24 jeevansathi.com inactive_notemplate_phase3_partial_logs, jeevansathi_com
+Waiting to clean 24 and prev 12 windows ... 
+24 and prev 12 windows cleaned! 
+25 mojim.com inactive_notemplate_phase3_partial_logs, mojim_com
+26 csmc.edu inactive_notemplate_phase3_partial_logs, csmc_edu
+27 westerndigital.com inactive_notemplate_phase3_partial_logs, westerndigital_com
+28 hagerty.com inactive_notemplate_phase3_partial_logs, hagerty_com
+29 goto.com inactive_notemplate_phase3_partial_logs, goto_com
+30 lastline.com inactive_notemplate_phase3_partial_logs, lastline_com
+31 giantbomb.com inactive_notemplate_phase3_partial_logs, giantbomb_com
+32 ameritrade.com inactive_notemplate_phase3_partial_logs, ameritrade_com
+33 stradivarius.com inactive_notemplate_phase3_partial_logs, stradivarius_com
+34 enterprise.com inactive_notemplate_phase3_partial_logs, enterprise_com
+35 cio.com inactive_notemplate_phase3_partial_logs, cio_com
+36 sun.com inactive_notemplate_phase3_partial_logs, sun_com
+Waiting to clean 36 and prev 12 windows ... 
+36 and prev 12 windows cleaned! 
+37 michaelkors.com inactive_notemplate_phase3_partial_logs, michaelkors_com
+38 shareaholic.com inactive_notemplate_phase3_partial_logs, shareaholic_com
+39 wpastra.com inactive_notemplate_phase3_partial_logs, wpastra_com
+40 hilton.com inactive_notemplate_phase3_partial_logs, hilton_com
+41 swiftkey.com inactive_notemplate_phase3_partial_logs, swiftkey_com
+42 kron4.com inactive_notemplate_phase3_partial_logs, kron4_com
+43 travelandleisure.com inactive_notemplate_phase3_partial_logs, travelandleisure_com
+44 binance.us inactive_notemplate_phase3_partial_logs, binance_us
+45 cdc.gov inactive_notemplate_phase3_partial_logs, cdc_gov
+46 urbanaffairskerala.org inactive_notemplate_phase3_partial_logs, urbanaffairskerala_org
+47 fanbyte.com inactive_notemplate_phase3_partial_logs, fanbyte_com
+48 bitrix24.ru inactive_notemplate_phase3_partial_logs, bitrix24_ru
+Waiting to clean 48 and prev 12 windows ... 
+48 and prev 12 windows cleaned! 
+49 nylas.com inactive_notemplate_phase3_partial_logs, nylas_com
+50 obsproject.com inactive_notemplate_phase3_partial_logs, obsproject_com
+51 autonews.com inactive_notemplate_phase3_partial_logs, autonews_com
+52 wenming.cn inactive_notemplate_phase3_partial_logs, wenming_cn
+53 gartner.com inactive_notemplate_phase3_partial_logs, gartner_com
+54 capella.edu inactive_notemplate_phase3_partial_logs, capella_edu
+55 pytorch.org inactive_notemplate_phase3_partial_logs, pytorch_org
+56 bling.com.br inactive_notemplate_phase3_partial_logs, bling_com.br
+57 988lifeline.org inactive_notemplate_phase3_partial_logs, 988lifeline_org
+58 tass.ru inactive_notemplate_phase3_partial_logs, tass_ru
+59 spoti.fi inactive_notemplate_phase3_partial_logs, spoti_fi
+60 ansys.com inactive_notemplate_phase3_partial_logs, ansys_com
+Waiting to clean 60 and prev 12 windows ... 
+60 and prev 12 windows cleaned! 
+61 cleveland.com inactive_notemplate_phase3_partial_logs, cleveland_com
+62 the-sun.com inactive_notemplate_phase3_partial_logs, the-sun_com
+63 ascelibrary.org inactive_notemplate_phase3_partial_logs, ascelibrary_org
+64 zoom.us inactive_notemplate_phase3_partial_logs, zoom_us
+65 dyndns.com inactive_notemplate_phase3_partial_logs, dyndns_com
+66 agorapulse.com inactive_notemplate_phase3_partial_logs, agorapulse_com
+67 loopnet.com inactive_notemplate_phase3_partial_logs, loopnet_com
+68 cathaypacific.com inactive_notemplate_phase3_partial_logs, cathaypacific_com
+69 itech-group.ru inactive_notemplate_phase3_partial_logs, itech-group_ru
+70 outbrain.com inactive_notemplate_phase3_partial_logs, outbrain_com
+71 mcafee.com inactive_notemplate_phase3_partial_logs, mcafee_com
+72 egnyte.com inactive_notemplate_phase3_partial_logs, egnyte_com
+Waiting to clean 72 and prev 12 windows ... 
+72 and prev 12 windows cleaned! 
+73 hugoboss.com inactive_notemplate_phase3_partial_logs, hugoboss_com
+74 mountvernon.org inactive_notemplate_phase3_partial_logs, mountvernon_org
+75 arcot.com inactive_notemplate_phase3_partial_logs, arcot_com
+76 autotrader.ca inactive_notemplate_phase3_partial_logs, autotrader_ca
+77 uq.edu.au inactive_notemplate_phase3_partial_logs, uq_edu.au
+78 successfactors.eu inactive_notemplate_phase3_partial_logs, successfactors_eu
+79 vodacom.co.za inactive_notemplate_phase3_partial_logs, vodacom_co.za
+80 blogher.com inactive_notemplate_phase3_partial_logs, blogher_com
+81 energystar.gov inactive_notemplate_phase3_partial_logs, energystar_gov
+82 apartmentguide.com inactive_notemplate_phase3_partial_logs, apartmentguide_com
+83 curtin.edu.au inactive_notemplate_phase3_partial_logs, curtin_edu.au
+84 terminix.com inactive_notemplate_phase3_partial_logs, terminix_com
+Waiting to clean 84 and prev 12 windows ... 
+84 and prev 12 windows cleaned! 
+85 dh227.link inactive_notemplate_phase3_partial_logs, dh227_link
+86 pillsbury.com inactive_notemplate_phase3_partial_logs, pillsbury_com
+87 pearson.com inactive_notemplate_phase3_partial_logs, pearson_com
+88 bluestacks.com inactive_notemplate_phase3_partial_logs, bluestacks_com
+89 businesstimes.com.sg inactive_notemplate_phase3_partial_logs, businesstimes_com.sg
+90 celebritycruises.com inactive_notemplate_phase3_partial_logs, celebritycruises_com
+91 wbur.org inactive_notemplate_phase3_partial_logs, wbur_org
+92 tn.gov.in inactive_notemplate_phase3_partial_logs, tn_gov.in
+93 csusb.edu inactive_notemplate_phase3_partial_logs, csusb_edu
+94 dnsmadeeasy.com inactive_notemplate_phase3_partial_logs, dnsmadeeasy_com
+95 anthem.com inactive_notemplate_phase3_partial_logs, anthem_com
+96 cbinsights.com inactive_notemplate_phase3_partial_logs, cbinsights_com
+Waiting to clean 96 and prev 12 windows ... 
+96 and prev 12 windows cleaned! 
+97 fortinet.net inactive_notemplate_phase3_partial_logs, fortinet_net
+98 lamag.com inactive_notemplate_phase3_partial_logs, lamag_com
+99 liftoff.io inactive_notemplate_phase3_partial_logs, liftoff_io
+100 pitchbook.com inactive_notemplate_phase3_partial_logs, pitchbook_com
+101 ysl.com inactive_notemplate_phase3_partial_logs, ysl_com
+102 msstate.edu inactive_notemplate_phase3_partial_logs, msstate_edu
+103 priceline.com inactive_notemplate_phase3_partial_logs, priceline_com
+104 science.org inactive_notemplate_phase3_partial_logs, science_org
+105 mutualofomaha.com inactive_notemplate_phase3_partial_logs, mutualofomaha_com
+106 phoronix.com inactive_notemplate_phase3_partial_logs, phoronix_com
+107 huffpost.com inactive_notemplate_phase3_partial_logs, huffpost_com
+108 threatpost.com inactive_notemplate_phase3_partial_logs, threatpost_com
+Waiting to clean 108 and prev 12 windows ... 
+108 and prev 12 windows cleaned! 
+109 apc.com inactive_notemplate_phase3_partial_logs, apc_com
+110 salary.com inactive_notemplate_phase3_partial_logs, salary_com
+111 tickettailor.com inactive_notemplate_phase3_partial_logs, tickettailor_com
+112 hotwire.com inactive_notemplate_phase3_partial_logs, hotwire_com
+113 credit-suisse.com inactive_notemplate_phase3_partial_logs, credit-suisse_com
+114 acer.com inactive_notemplate_phase3_partial_logs, acer_com
+115 zanox.com inactive_notemplate_phase3_partial_logs, zanox_com
+116 cosme.net inactive_notemplate_phase3_partial_logs, cosme_net
+117 syracuse.com inactive_notemplate_phase3_partial_logs, syracuse_com
+118 vtex.com inactive_notemplate_phase3_partial_logs, vtex_com
+119 appier.net inactive_notemplate_phase3_partial_logs, appier_net
+120 sdo.com inactive_notemplate_phase3_partial_logs, sdo_com
+Waiting to clean 120 and prev 12 windows ... 
+120 and prev 12 windows cleaned! 
+121 digicert.com inactive_notemplate_phase3_partial_logs, digicert_com
+122 mydrivers.com inactive_notemplate_phase3_partial_logs, mydrivers_com
+123 hiltonbusinessonline.com inactive_notemplate_phase3_partial_logs, hiltonbusinessonline_com
+124 draftkings.com inactive_notemplate_phase3_partial_logs, draftkings_com
+125 costar.com inactive_notemplate_phase3_partial_logs, costar_com
+126 dominos.com inactive_notemplate_phase3_partial_logs, dominos_com
+127 southwest.com inactive_notemplate_phase3_partial_logs, southwest_com
+128 iqvia.com inactive_notemplate_phase3_partial_logs, iqvia_com
+129 free-ebooks.net inactive_notemplate_phase3_partial_logs, free-ebooks_net
+130 networksolutions.com inactive_notemplate_phase3_partial_logs, networksolutions_com
+131 shrinke.me inactive_notemplate_phase3_partial_logs, shrinke_me
+132 nsfw.xxx inactive_notemplate_phase3_partial_logs, nsfw_xxx
+Waiting to clean 132 and prev 12 windows ... 
+132 and prev 12 windows cleaned! 
+133 whatfix.com inactive_notemplate_phase3_partial_logs, whatfix_com
+134 dan.com inactive_notemplate_phase3_partial_logs, dan_com
+135 alz.org inactive_notemplate_phase3_partial_logs, alz_org
+136 aiotechnical.com inactive_notemplate_phase3_partial_logs, aiotechnical_com
+137 dlpsgame.com inactive_notemplate_phase3_partial_logs, dlpsgame_com
+138 fireeye.com inactive_notemplate_phase3_partial_logs, fireeye_com
+139 appsflyer.com inactive_notemplate_phase3_partial_logs, appsflyer_com
+140 usps.com inactive_notemplate_phase3_partial_logs, usps_com
+141 currys.co.uk inactive_notemplate_phase3_partial_logs, currys_co.uk
+142 texaschildrens.org inactive_notemplate_phase3_partial_logs, texaschildrens_org
+143 blacknight.com inactive_notemplate_phase3_partial_logs, blacknight_com
+144 audiusa.com inactive_notemplate_phase3_partial_logs, audiusa_com
+Waiting to clean 144 and prev 12 windows ... 
+144 and prev 12 windows cleaned! 
+145 telus.com inactive_notemplate_phase3_partial_logs, telus_com
+146 wdc.com inactive_notemplate_phase3_partial_logs, wdc_com
+147 truste.com inactive_notemplate_phase3_partial_logs, truste_com
+148 myfico.com inactive_notemplate_phase3_partial_logs, myfico_com
+149 box.com inactive_notemplate_phase3_partial_logs, box_com
+150 dropbox.com inactive_notemplate_phase3_partial_logs, dropbox_com
+151 gucci.com inactive_notemplate_phase3_partial_logs, gucci_com
+152 sussex.ac.uk inactive_notemplate_phase3_partial_logs, sussex_ac.uk
+153 homeip.net inactive_notemplate_phase3_partial_logs, homeip_net
+154 fox.com inactive_notemplate_phase3_partial_logs, fox_com
+155 youngliving.com inactive_notemplate_phase3_partial_logs, youngliving_com
+156 moodysanalytics.com inactive_notemplate_phase3_partial_logs, moodysanalytics_com
+Waiting to clean 156 and prev 12 windows ... 
+156 and prev 12 windows cleaned! 
+157 norton.com inactive_notemplate_phase3_partial_logs, norton_com
+158 gotoassist.com inactive_notemplate_phase3_partial_logs, gotoassist_com
+159 wiu.edu inactive_notemplate_phase3_partial_logs, wiu_edu
+160 hxaa74.com inactive_notemplate_phase3_partial_logs, hxaa74_com
+161 createjs.com inactive_notemplate_phase3_partial_logs, createjs_com
+162 worldofwarships.eu inactive_notemplate_phase3_partial_logs, worldofwarships_eu
+163 stryker.com inactive_notemplate_phase3_partial_logs, stryker_com
+164 lloydsbank.co.uk inactive_notemplate_phase3_partial_logs, lloydsbank_co.uk
+165 tinymce.com inactive_notemplate_phase3_partial_logs, tinymce_com
+166 microsoft.net inactive_notemplate_phase3_partial_logs, microsoft_net
+167 anthropologie.com inactive_notemplate_phase3_partial_logs, anthropologie_com
+168 elegantthemes.com inactive_notemplate_phase3_partial_logs, elegantthemes_com
+Waiting to clean 168 and prev 12 windows ... 
+168 and prev 12 windows cleaned! 
+169 dy2018.com inactive_notemplate_phase3_partial_logs, dy2018_com
+170 ew.com inactive_notemplate_phase3_partial_logs, ew_com
+171 loudersound.com inactive_notemplate_phase3_partial_logs, loudersound_com
+172 sapsf.com inactive_notemplate_phase3_partial_logs, sapsf_com
+173 skechers.com inactive_notemplate_phase3_partial_logs, skechers_com
+174 hrc.org inactive_notemplate_phase3_partial_logs, hrc_org
+175 governmentjobs.com inactive_notemplate_phase3_partial_logs, governmentjobs_com
+176 1drv.com inactive_notemplate_phase3_partial_logs, 1drv_com
+177 aajtak.in inactive_notemplate_phase3_partial_logs, aajtak_in
+178 rentry.co inactive_notemplate_phase3_partial_logs, rentry_co
+179 lyft.com inactive_notemplate_phase3_partial_logs, lyft_com
+180 sbicard.com inactive_notemplate_phase3_partial_logs, sbicard_com
+Waiting to clean 180 and prev 12 windows ... 
+180 and prev 12 windows cleaned! 
+181 adobesign.com inactive_notemplate_phase3_partial_logs, adobesign_com
+182 asos.com inactive_notemplate_phase3_partial_logs, asos_com
+183 cs-cart.com inactive_notemplate_phase3_partial_logs, cs-cart_com
+184 gumtree.co.za inactive_notemplate_phase3_partial_logs, gumtree_co.za
+185 eharmony.com inactive_notemplate_phase3_partial_logs, eharmony_com
+186 rogers.com inactive_notemplate_phase3_partial_logs, rogers_com
+187 ana.co.jp inactive_notemplate_phase3_partial_logs, ana_co.jp
+188 activemind.de inactive_notemplate_phase3_partial_logs, activemind_de
+189 redditblog.com inactive_notemplate_phase3_partial_logs, redditblog_com
+190 santander.co.uk inactive_notemplate_phase3_partial_logs, santander_co.uk
+191 workspaceoneaccess.com inactive_notemplate_phase3_partial_logs, workspaceoneaccess_com
+192 scribbr.com inactive_notemplate_phase3_partial_logs, scribbr_com
+Waiting to clean 192 and prev 12 windows ... 
+192 and prev 12 windows cleaned! 
+193 mind.org.uk inactive_notemplate_phase3_partial_logs, mind_org.uk
+194 sundaysky.com inactive_notemplate_phase3_partial_logs, sundaysky_com
+195 leadpages.net inactive_notemplate_phase3_partial_logs, leadpages_net
+196 investingchannel.com inactive_notemplate_phase3_partial_logs, investingchannel_com
+197 tickets.com inactive_notemplate_phase3_partial_logs, tickets_com
+198 abbott.com inactive_notemplate_phase3_partial_logs, abbott_com
+199 rakuten.com inactive_notemplate_phase3_partial_logs, rakuten_com
+200 turkishairlines.com inactive_notemplate_phase3_partial_logs, turkishairlines_com
+201 asml.com inactive_notemplate_phase3_partial_logs, asml_com
+202 leica-camera.com inactive_notemplate_phase3_partial_logs, leica-camera_com
+203 snapwidget.com inactive_notemplate_phase3_partial_logs, snapwidget_com
+204 personio.de inactive_notemplate_phase3_partial_logs, personio_de
+Waiting to clean 204 and prev 12 windows ... 
+204 and prev 12 windows cleaned! 
+205 sega.jp inactive_notemplate_phase3_partial_logs, sega_jp
+206 navarra.es inactive_notemplate_phase3_partial_logs, navarra_es
+207 vodafone.com inactive_notemplate_phase3_partial_logs, vodafone_com
+208 pioncoo.net inactive_notemplate_phase3_partial_logs, pioncoo_net
+209 sap-ag.de inactive_notemplate_phase3_partial_logs, sap-ag_de
+210 vmwareidentity.com inactive_notemplate_phase3_partial_logs, vmwareidentity_com
+211 ferrero.com inactive_notemplate_phase3_partial_logs, ferrero_com
+212 vitacost.com inactive_notemplate_phase3_partial_logs, vitacost_com
+213 make.com inactive_notemplate_phase3_partial_logs, make_com
+214 zozo.jp inactive_notemplate_phase3_partial_logs, zozo_jp
+215 saksfifthavenue.com inactive_notemplate_phase3_partial_logs, saksfifthavenue_com
+216 lufthansa.com inactive_notemplate_phase3_partial_logs, lufthansa_com
+Waiting to clean 216 and prev 12 windows ... 
+216 and prev 12 windows cleaned! 
+217 sehuatang.org inactive_notemplate_phase3_partial_logs, sehuatang_org
+218 dyson.com inactive_notemplate_phase3_partial_logs, dyson_com
+219 tesla.cn inactive_notemplate_phase3_partial_logs, tesla_cn
+220 eurosport.fr inactive_notemplate_phase3_partial_logs, eurosport_fr
+221 smrtb.com inactive_notemplate_phase3_partial_logs, smrtb_com
+All windows cleaned!

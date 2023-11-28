@@ -1,0 +1,31 @@
+Generating Phase 3 dict ...
+phase 3 dict length is  217
+Generating Payload Value dict ...
+------------------ below is Defined Value dict stats ----------------
+total number of sites:  177
+number of sites with more than 1 def_val:  168
+max num of def_val:  91
+------------------ above is Defined Value dict stats ----------------
+Generating phase 4 dict ...
+ana_co.jp  ERROR! Key_VALUE not found! 562 StartingLog... <String[4]: mbox> || <String[103]: session#eddcd2ebe7a04fa9bb7a22739c3eaef7#1700075923|PC#eddcd2ebe7a04fa9A Parser-blocking, cross-origin script, https://assets.adobedtm.com/99ab9d5e7462/a3dead752610/launch-2d01a727282f.min.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+A Parser-blocking, cross-origin script, https://assets.adobedtm.com/99ab9d5e7462/a3dead752610/launch-2d01a727282f.min.js, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+A Parser-blocking, cross-origin script, https://ana.demdex.net/event?d_stuff=1&d_dst=1&d_rtbd=json&d_cb=aam_tnt_cb, is invoked via document.write. This may be blocked by the browser if the device has poor network connectivity.
+bb7a22739c3eaef7.32_0#1763318916> this key||value has been marked as tainted! 
+ Source code is:function t(e,t){if("undefined"!=typeof document){for(var n={},r=document.cookie?document.cookie.split("; "):[],i=0;i<r.length;i++){var o=r[i].split("="),a=o.slice(1).join("=");t||'"'!==a.charAt(0)||(a=a.slice(1,-1));try{var u=l(o[0]);if(a=(c.read||c)(a,u)||l(a),t)try{a=JSON.parse(a)}catch(s){}if(n[u]=a,e===u)break}catch(s){}}return e?n[e]:n}}
+ Line:7,4680
+ code_hash is:9b0594ef6e7d515ce81376341cedaaf522d9da778e4b7a857d37bcc40feb7a06 LogEnd
+
+------------------ below is phase 4 dict stats ----------------
+phase4_dict length is:  174
+file_not_found_count is:  0
+error_count is:  1
+found_count is:  372056
+flow_not_found_count is:  206939
+web_not_found_count is:  3
+unterminated_log_count is:  170
+very_long_string_count is:  16
+{'csmc_edu', 'shareaholic_com', 'stradivarius_com'}
+
+{'fortinet_net', 'kron4_com', 'whatfix_com', 'syracuse_com', 'alz_org', 'adobesign_com', 'voanews_com', 'pitchbook_com', 'vmwareidentity_com', 'leadpages_net', 'loopnet_com', 'pioncoo_net', 'rogers_com', 'wdc_com', 'cleveland_com', 'ascelibrary_org', 'governmentjobs_com', 'pearson_com', 'enterprise_com', 'mcafee_com', 'sega_jp', 'loudersound_com', 'createjs_com', 'autonews_com', 'lyft_com', 'curtin_edu.au', 'free-ebooks_net', 'youngliving_com', 'microsoft_net', 'wiu_edu', 'mtb_com', 'terminix_com', 'estacio_br', 'my-personaltrainer_it', 'hilton_com', 'wordtune_com', 'successfactors_eu', 'asml_com', 'capella_edu', 'tass_ru', 'carlsbergsverige_se', 'cosme_net', 'eharmony_com', 'ansys_com', 'aiotechnical_com', 'pillsbury_com', 'aajtak_in', 'pytorch_org', 'fireeye_com', 'hotwire_com', 'redditblog_com', 'uq_edu.au', 'synchrony_com', 'myfico_com', 'liftoff_io', 'huffpost_com', 'itech-group_ru', 'sussex_ac.uk', 'southparkstudios_com', 'blogher_com', 'swiftkey_com', 'arcot_com', 'iqvia_com', 'hiltonbusinessonline_com', 'rakuten_com', 'priceline_com', 'giantbomb_com', 'sun_com', 'michaelkors_com', 'hrc_org', 'anthem_com', 'bling_com.br', 'jeevansathi_com', 'ameritrade_com', 'tickets_com', 'audiusa_com', 'dlpsgame_com', 'the-sun_com', 'vtex_com', 'vitacost_com', 'santander_co.uk', 'stryker_com', '1drv_com', 'td_com', 'asos_com', 'ana_co.jp', 'credit-suisse_com', 'energystar_gov', 'undeveloped_com', 'fox_com', 'lloydsbank_co.uk', 'draftkings_com', 'teamunify_com', 'homeip_net', 'sapsf_com', 'zoom_us', 'texaschildrens_org', 'snapwidget_com', 'mind_org.uk', 'ysl_com', 'gartner_com', 'blacknight_com', 'currys_co.uk', 'tickettailor_com', 'tinymce_com', 'appsflyer_com', 'obsproject_com', 'digicert_com', 'gapinc_com', 'networksolutions_com', 'appier_net', 'usps_com', 'autotrader_ca', 'blackrock_com', 'skechers_com', 'unimelb_edu.au', 'agilent_com', 'zozo_jp', 'celebritycruises_com', 'sap-ag_de', 'mydrivers_com', 'make_com', 'abbott_com', 'cio_com', 'acer_com', 'box_com', 'ew_com', 'cdc_gov', 'zanox_com', 'cbinsights_com', 'msstate_edu', 'activemind_de', 'saksfifthavenue_com', 'mutualofomaha_com', 'sbicard_com', 'westerndigital_com', 'turkishairlines_com', 'truste_com', 'personio_de', 'businesstimes_com.sg', 'science_org', 'moodysanalytics_com', 'eurosport_fr', 'gucci_com', 'outbrain_com', 'norton_com', 'southwest_com', 'mountvernon_org', 'bluestacks_com', 'dyson_com', 'workspaceoneaccess_com', 'vodacom_co.za', 'investingchannel_com', 'egnyte_com', 'salary_com', 'cathaypacific_com', 'jacobs_com', 'nsfw_xxx', 'travelandleisure_com', 'binance_us', 'gotoassist_com', 'worldofwarships_eu', 'csusb_edu', 'hugoboss_com', 'urbanaffairskerala_org', 'bnymellon_com', 'goto_com', 'agorapulse_com', 'wpastra_com', 'gumtree_co.za', 'phoronix_com', 'sundaysky_com', 'nylas_com'}
+------------------ above is phase 4 dict stats ----------------
+Generating result (strict match) dict ...

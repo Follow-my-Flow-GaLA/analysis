@@ -1,0 +1,25 @@
+-- Reading payload value from records -- 
+Number of sites:  22
+Number of payloads:  55
+-- Find payload value in value_data  -- 
+Number of sites (should be the same as the num above):  22
+Total number of element in value_data:  128706
+Number of found:  3930
+Number of not found:  124776
+Number of unique element:  8
+('RT', '10', 'https://s.go-mpulse.net/boomerang/AZH8B-WP34K-EW2CF-6XVMH-NX5FB')
+[{'d'}, {'www.vitacost.com'}]
+('integration', '1', 'https://static.ads-twitter.com/uwt.js')
+[{'gtm'}, {'www.usps.com', 'www.cbinsights.com', 'www.mountvernon.org'}]
+('parentUrl', '6', 'https://capella.demdex.net/dest5.html?d_nsid=0')
+[{'gtm'}, {'www.capella.edu'}]
+('beacon_url', '10', 'https://s2.go-mpulse.net/boomerang/S9ASQ-G4N32-5WU5H-GLJH3-YANFZ')
+[{'d'}, {'www.gucci.com'}]
+('beacon_url', '10', 'https://s.go-mpulse.net/boomerang/AZH8B-WP34K-EW2CF-6XVMH-NX5FB')
+[{'d'}, {'www.vitacost.com'}]
+('he', '1', 'https://s.yimg.com/wi/ytc.js')
+[{'gtm'}, {'www.networksolutions.com', 'www.egnyte.com', 'www.capella.edu', 'www.ysl.com', 'www.lyft.com', 'www.businesstimes.com.sg', 'www.autotrader.ca', 'www.jeevansathi.com', 'www.goto.com', 'www.nylas.com', 'www.agorapulse.com', 'www.gotoassist.com', 'www.bluestacks.com', 'www.skechers.com', 'www.elegantthemes.com', 'www.audiusa.com'}]
+('beacon_url', '10', 'https://s.go-mpulse.net/boomerang/ULCF4-RBZRV-4JZ28-8X7RY-3TNU9')
+[{'d'}, {'www.cleveland.com'}]
+('RT', '10', 'https://s.go-mpulse.net/boomerang/ULCF4-RBZRV-4JZ28-8X7RY-3TNU9')
+[{'d'}, {'www.cleveland.com'}]
