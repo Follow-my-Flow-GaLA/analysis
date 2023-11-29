@@ -428,6 +428,6 @@ if __name__ == "__main__":
     # result_dict = strict_match_with_dummy_value (phase_1_dict, phase_2_dict)
     print("result_dict length is: ", len(result_dict))
     
-    with open("/home/zfk/Documents/inject_pp_extension/value_data_with_dummy.js", "w") as fw:
+    with open("/home/zfk/Documents/inject_pp_extension/value_data_test.js", "w") as fw:
         fw.write("data_to_change=")
         json.dump(result_dict, fw)
