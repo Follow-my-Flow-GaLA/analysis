@@ -54,7 +54,7 @@ do
             rm -rf /tmp/${NAME}
             echo "${idx} ${url} ${TAG}logs, ${NAME}" #_log_file sanchecker/${TAG}crawl/$NAME"
             out/Inactive-release-phase1/chrome ${url} --js-flags="--taint_log_file=${SAVE_PATH}/${TAG}crawl/$NAME --no-crankshaft --no-turbo --no-ignition --inactive_conseq_log_enable" \
-                     --user-data-dir=/tmp/${NAME} --load-extension=/home/zfk/Documents/crawler-extension-pp,/home/zfk/Documents/inject_pp_extension/ --new-window --no-sandbox --disable-gpu --enable-logging=stderr --disable-hang-monitor &>${SAVE_PATH}/src/${TAG}logs/${NAME}_log_file & #& pkill chrome > /dev/null &  #&>logs/${NAME}_log_file &
+                     --user-data-dir=/tmp/${NAME} --load-extension=/home/zfk/Documents/crawler-extension-pp,/home/zfk/Documents/inject_pp_extension/ --new-window --no-sandbox --disable-gpu --disable-hang-monitor &>${SAVE_PATH}/src/${TAG}logs/${NAME}_log_file & #& pkill chrome > /dev/null &  #&>logs/${NAME}_log_file &
             #--user-data-dir=/tmp/${NAME}
 
             if (( (idx - ($start_line)) % $max_num_window == 0 ))

@@ -1,10 +1,12 @@
 #out/Bytecode/chrome $URL --js-flags="--taint_log_file=/media/data1/zfk/Documents/sanchecker/crawl/testpath --no-crankshaft --no-turbo --no-ignition" --no-sandbox --disable-hang-monitor -enable-nacl&>log_file
 
-#usage: sudo bash inactive-phase4-auto-recursive.sh 0 10000 2 12 0 2>&1 | tee -a ./inactive_notemplate_phase2_crawling.log
+#usage: sudo bash inactive-phase3-auto-recursive.sh 0 222 2 12 0 2>&1 | tee -a ./inactive_phase3_crawling.log
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/media/data1/zfk/Documents/capnproto-install/lib
 # export SAVE_PATH=/home/zfk/Documents/sanchecker
-export SAVE_PATH=/media/datak/inactive/sanchecker
+export SAVE_PATH=/media/datak/inactive/sanchecker # /media/data1/zfk/Documents/sanchecker
+
+### Important: 1-177773 are under ~/.../, 177773-- are under /media/data1/.../
 
 start_line=$1
 end_line=$2
@@ -24,7 +26,7 @@ then
         rm -rf logs && mkdir logs
         TAG=""
 else
-        TAG="inactive_notemplate_phase4_partial_"
+        TAG="inactive_notemplate_phase3_iter2_partial_"
 	if ((if_flush == 0))
         then
                 rm -rf ../${TAG}crawl && mkdir ../${TAG}crawl && chmod 777 ../${TAG}crawl
@@ -43,11 +45,16 @@ do
     if (( idx > $start_line && idx <= $end_line ))
     then
             url="${url//[$'\t\r\n ']}" #remove newline from string
+            # Skip URLs ending with ".pl"
+                if [[ "$url" == *".pl" ]]
+                then
+                        continue
+                fi
             NAME="${url/./_}"
-        #     rm -rf /tmp/${NAME}
+            rm -rf /tmp/${NAME}
             echo "${idx} ${url} ${TAG}logs, ${NAME}" #_log_file sanchecker/${TAG}crawl/$NAME"
-            out/Inactive-release-phase2/chrome ${url} --js-flags="--taint_log_file=${SAVE_PATH}/${TAG}crawl/$NAME --no-crankshaft --no-turbo --no-ignition --undef_prop_dataset_file=/media/datak/inactive/analysis/phase3/output/undef_prop_dataset.json" \
-                     --user-data-dir=/tmp/${NAME} --load-extension=/home/zfk/Documents/crawler-extension-pp --new-window --no-sandbox --disable-gpu --disable-hang-monitor &>${SAVE_PATH}/src/${TAG}logs/${NAME}_log_file & #& pkill chrome > /dev/null &  #&>logs/${NAME}_log_file &
+            out/Inactive-release-phase1/chrome ${url} --js-flags="--taint_log_file=${SAVE_PATH}/${TAG}crawl/$NAME --no-crankshaft --no-turbo --no-ignition --inactive_conseq_log_enable" \
+                     --user-data-dir=/tmp/${NAME} --load-extension=/home/zfk/Documents/crawler-extension-pp,/home/zfk/Documents/inject_pp_phase3_iter2_extension/ --new-window --no-sandbox --disable-gpu --disable-hang-monitor &>${SAVE_PATH}/src/${TAG}logs/${NAME}_log_file & #& pkill chrome > /dev/null &  #&>logs/${NAME}_log_file &
             #--user-data-dir=/tmp/${NAME}
 
             if (( (idx - ($start_line)) % $max_num_window == 0 ))
@@ -58,18 +65,16 @@ do
                     sleep 80s
                     pkill chrome
                     sleep 2s
-                    pkill chrome
-                    sleep 2s
                     echo "$idx and prev $max_num_window windows cleaned! "
                     # remove user-data in /tmp/ ; remove useless downloaded files; drop caches
                     cd /tmp/
                     ls | grep -v systemd | xargs rm -rf
 		    # When not using taint log files in the crawl/
-		    if (( if_clear_taint_log_files == 1))
-		    then
-		    	rm -rf ${SAVE_PATH}/${TAG}crawl/*
+                    if (( if_clear_taint_log_files == 1))
+                    then
+                        rm -rf ${SAVE_PATH}/${TAG}crawl/*
                     fi
-		    rm -rf /home/zfk/Downloads/*
+		            rm -rf /home/zfk/Downloads/*
                     sync; sh -c "echo 1 > /proc/sys/vm/drop_caches"
                     cd /media/data1/zfk/Documents/sanchecker/src
 		#     rm -rf /tmp/*_com /tmp/*_net /tmp/*_org /tmp/*_io /tmp/*_edu* /tmp/*_cn /tmp/*_uk
@@ -89,10 +94,10 @@ do
     fi
 # Note: the current tranco_3Z3L.csv gets rid of websites with domain '.pl'
 # The bash cmd is: sudo sed -i.old '/.*\.pl/d' tranco_3Z3L.csv
-done < <(grep . ${SAVE_PATH}/src/site_list_phase3_partial.csv ) #/home/zfk/Documents/sanchecker/src/Inactive/sites_with_def_val_2.csv) #websites_total_to_pp_pattern1_600kto1m.txt) #42_websites_url_src_to_pp_again_0to600kplus.txt)  #websites_total_to_pp_pattern1_0to600kplus.txt #websites_to_pp_pattern1_0to200k.txt
+done < <(grep . ${SAVE_PATH}/src/site_list_phase3_partial.csv ) #tranco_253N9-1m.csv) #websites_total_to_pp_pattern1_600kto1m.txt) #42_websites_url_src_to_pp_again_0to600kplus.txt)  #websites_total_to_pp_pattern1_0to600kplus.txt #websites_to_pp_pattern1_0to200k.txt
 #/media/data1/zfk/Documents/sanchecker/src/recursive_pp_pattern1_rankmorethan10k_logs/websites_to_pp.txt #tranco_94Q2.csv
 sleep 80s
-pkill chrome 
+pkill chrome
 echo "All windows cleaned!"
 # Previous unsuccessful cmd FYI
 #export FILE="./logs/${NAME}_log_file"
