@@ -377,7 +377,7 @@ def strict_match (phase_1_dict, phase_2_dict, mode="", save_path="/home/zfk/Docu
                     for phase_2_varname in phase_2_varname_dict.keys():
                         if phase_2_varname in phase_1_varname_dict:
                             # print("varname matched")
-                            result_site = "www." + phase_1_site.replace('_', ".")
+                            result_site = "www." + phase_1_site.replace('_log_file', "").replace('_', ".")
                             result_dict = {
                                 "var_name": phase_2_varname, 
                                 "payload": [phase_2_varname_dict[phase_2_varname][0]], 

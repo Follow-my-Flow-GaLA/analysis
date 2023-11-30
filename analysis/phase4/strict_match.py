@@ -327,7 +327,7 @@ def strict_match (phase_3_dict, phase_4_dict, mode="", save_path="/home/zfk/Docu
                     for phase_4_varname in phase_4_varname_dict.keys():
                         if phase_4_varname in phase_3_varname_dict:
                             # print("varname matched")
-                            result_site = "www." + phase_3_site.replace('_', ".")
+                            result_site = "www." + phase_3_site.replace('_log_file', "").replace('_', ".")
                             result_dict = {
                                 "var_name": phase_4_varname, 
                                 "payload": [phase_4_varname_dict[phase_4_varname][0]], 
@@ -377,6 +377,6 @@ if __name__ == "__main__":
     # result_dict = strict_match_with_dummy_value (phase_3_dict, phase_4_dict)
     print("result_dict length is: ", len(result_dict))
     
-    with open("/home/zfk/Documents/inject_pp_phase3_tier2_extension/value_data.js", "w") as fw:
+    with open("/home/zfk/Documents/inject_pp_phase3_iter2_extension/value_data.js", "w") as fw:
         fw.write("data_to_change=")
         json.dump(result_dict, fw)
