@@ -23,7 +23,7 @@ class CONFIG:
     
     # regex for log
     LOG_KEY_VALUE_REG = re.compile("<String\[\d+].?: (.*?)>(.|\n)*?<String\[\d+].?: (.*?)>")
-    LOG_LN_REG = re.compile("Line:(\d+,\d+)")
+    LOG_LN_REG = re.compile("Line:(\d+,\d+)|Line:(\d+)")
     LOG_CODEHASH_REG = re.compile("code_hash is:(.*?) ")
      
         

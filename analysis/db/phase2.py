@@ -26,6 +26,33 @@ def add_log():
         return Response('Phase is not 2', status=400)
     
     msg = ""
+    
+    # add defined value to def_val_dataset
+    code_hash_obj = db["phase2"]["def_val_dataset"].find_one({"_id": request_body["code_hash"]})
+    if (code_hash_obj):
+        if (request_body["key"] in code_hash_obj["key_value_dict"]):
+            key_value_dict = code_hash_obj["key_value_dict"]
+            # if two values are available, leave the one with shorter length
+            if (len(key_value_dict[request_body["key"]]["value"]) > len(request_body["value"])):
+                key_value_dict[request_body["key"]] = {
+                    "value": request_body["value"],
+                    "sink_type": request_body["sink_type"],
+                    "site": request_body["site"]
+                }
+                db["phase2"]["def_val_dataset"].update_one({"_id": request_body["code_hash"]}, {"$set": {"key_value_dict": key_value_dict}})
+        else:
+            db["phase2"]["def_val_dataset"].update_one({"_id": request_body["code_hash"]}, {"$set": {"key_value_dict": {request_body["key"]: {"value": request_body["value"], "sink_type": request_body["sink_type"], "site": request_body["site"]}}}})
+    else:
+        db["phase2"]["def_val_dataset"].insert_one({
+            "_id": request_body["code_hash"],
+            "key_value_dict": {
+                request_body["key"]: {
+                    "value": request_body["value"],
+                    "sink_type": request_body["sink_type"],
+                    "site": request_body["site"], 
+                }
+            }
+        })
 
     # add log to phase_info
     site_obj = db["phase2"]["phase_info"].find_one({"_id": request_body["site"]})
@@ -65,7 +92,7 @@ def add_log():
                 }
             }
         })
-    
+        
     return msg
 
 @phase2_api.route('/phase_info', methods=['GET'])
@@ -79,3 +106,15 @@ def get_phase_info():
             return "Site not found"
     else:
         return "Missing site"
+
+@phase2_api.route('/def_val_dataset', methods=['GET'])
+def get_def_val_dataset():
+    code_hash = request.args.get('code_hash')
+    if (code_hash):
+        code_hash_obj = db["phase2"]["def_val_dataset"].find_one({"_id": code_hash})
+        if (code_hash_obj):
+            return code_hash_obj
+        else:
+            return "Code hash not found"
+    else:
+        return "Missing code hash"

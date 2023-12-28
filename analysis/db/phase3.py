@@ -8,7 +8,50 @@ phase3_api = Blueprint('phase3', __name__)
 def phase3():
     return "This is route for phase 3."
 
+# This add data_to_change 
+@phase3_api.route('/data_to_change', methods=['POST'])
+def add_data_to_change():
+    required_fields = ['phase', 'site', 'var_name', 'payload', 'row', 'col', 'file_name']
+    
+    # check if the request is in json format
+    if not request.json:
+        return Response('Data not in json format', status=400)
+    # get the request body
+    request_body = request.get_json()
+    # check if the request body contains all the required fields
+    for field in required_fields:
+        if field not in request_body:
+            return Response('Missing field: ' + field, status=400)
+    # check if the phase is 3
+    if request_body['phase'] != "3":
+        return Response('Phase is not 3', status=400)
+    
+    # add data_to_change
+    site_obj = db["phase3"]["data_to_change"].find_one({"_id": request_body["site"]})
+    if (site_obj):
+        site_obj["data_to_change"].append({
+            "var_name": request_body["var_name"],
+            "payload": request_body["payload"],
+            "line_num": request_body["row"],
+            "col_num": request_body["col"],
+            "file_name": request_body["file_name"]
+        })
+        db["phase3"]["data_to_change"].update_one({"_id": request_body["site"]}, {"$set": {"data_to_change": site_obj["data_to_change"]}})
+    else:
+        db["phase3"]["data_to_change"].insert_one({
+            "_id": request_body["site"],
+            "data_to_change": [{
+                "var_name": request_body["var_name"],
+                "payload": request_body["payload"],
+                "line_num": request_body["row"],
+                "col_num": request_body["col"],
+                "file_name": request_body["file_name"]
+            }]
+        })  
+    
+    return Response('Data added', status=200)
 
+# This works similar to the undefined_value in phase 1
 @phase3_api.route('/undefined_value', methods=['POST'])
 def add_undefined_value():
     required_fields = ['phase', 'start_key', 'site', 'key', 'func_name', 'js', 'row', 'col', 'func']
@@ -114,6 +157,7 @@ def add_undefined_value():
                 db["phase3"]["new_undefined_value"].update_one({"_id": request_body["site"]}, {"$set": {"code_hash_dict": undefined_value_obj["code_hash_dict"]}})
     return msg
 
+# This works similar to the log in phase 2
 @phase3_api.route('/payload', methods=['POST'])
 def add_payload():
     required_fields = ['phase', 'site', 'code_hash', 'key', 'value', 'row', 'col', 'sink_type']
@@ -173,7 +217,6 @@ def add_payload():
         })
     
     return msg
-
 
 @phase3_api.route('/phase_info', methods=['GET'])
 def get_phase_info():

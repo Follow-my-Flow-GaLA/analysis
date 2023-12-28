@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint, request, Response
+from flask import Flask, Blueprint, request, Response, jsonify
 import hashlib 
 from app import db
 
@@ -117,5 +117,10 @@ def get_undef_prop_dataset():
             return "Code hash not found"
     else:
         return "Missing code hash"
-    
+
+@phase1_api.route('/websites', methods=['GET'])
+def get_websites():
+    websites = db["phase1"]["phase_info"].find()
+    website_ids = [website["_id"] for website in websites]
+    return jsonify({"website_ids": website_ids})
 

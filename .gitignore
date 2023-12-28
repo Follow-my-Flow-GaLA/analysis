@@ -10,7 +10,7 @@ analysis/phase2/__pycache__/*
 analysis/phase3/__pycache__/*
 analysis/phase4/__pycache__/*
 analysis/db/__pycache__
-analysis/db/venv/*
+analysis/db/myenv/*
 
 analysis/phase1/logs/*
 analysis/phase2/logs/*
@@ -20,5 +20,7 @@ analysis/phase1/output/*
 analysis/phase2/output/*
 analysis/phase3/output/*
 analysis/phase4/output/*
+
+analysis/phase2/myenv/*
 
 *.env
