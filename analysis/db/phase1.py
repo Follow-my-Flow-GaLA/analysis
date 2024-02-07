@@ -22,34 +22,52 @@ def add_undefined_value():
     for field in required_fields:
         if field not in request_body:
             return Response('Missing field: ' + field, status=400)
+    
+    # create and open a log file
+    log_file = open("log/" + request_body['site'].replace(".", "_") + "_log.txt", "w")
+
     # check if the phase is 1
     if request_body['phase'] != "1":
+        log_file.write(request_body['site'], ": Phase is not 1\n")
         return Response('Phase is not 1', status=400)
     # check if the start_key is valid
     if request_body['start_key'] not in starting_keys:
+        log_file.write(request_body['site'], ": Invalid start key\n")
         return Response('Invalid start key', status=400)
 
     # hash the func using sha256
-    # the hash algorithm should match the one in the V8's runtime-object.cc
-    sha256_hash = hashlib.sha256()
-    sha256_hash.update(request_body["func"].encode('ascii'))
-    hash_func = sha256_hash.hexdigest()
+    # the hash algorithm and the encoding should match the one in the V8's runtime-object.cc and objects.cc
+    try:
+        sha256_hash = hashlib.sha256()
+        sha256_hash.update(request_body["func"].encode('utf-8'))
+        hash_func = sha256_hash.hexdigest()
+    except:
+        log_file.write(request_body['site'], ": Hashing failed\n")
+        return Response('Hashing failed', status=500)
 
     msg = ""
 
     # add log to undef_prop_dataset
     code_hash_obj = db["phase1"]["undef_prop_dataset"].find_one({"_id": hash_func})
+    row_col_str = request_body["row"] + ", " + request_body["col"]
     if (code_hash_obj):
         if (request_body["key"] in code_hash_obj["key_value_dict"]):
-            msg += "Key already exists in undef_prop_dataset (Key is " + request_body["key"] + ", Code hash is " + hash_func + "). \n"
+            # check if row and col are in the array
+            row_col_list = code_hash_obj["key_value_dict"][request_body["key"]]
+            if row_col_str in row_col_list:
+                msg += "Row and col already exists in undef_prop_dataset (Key is " + request_body["key"] + ", Code hash is " + hash_func + "). \n"
+            else:
+                row_col_list.append(row_col_str)
+                code_hash_obj["key_value_dict"][request_body["key"]] = row_col_list
+                db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}})
         else:
-            code_hash_obj["key_value_dict"][request_body["key"]] = request_body["row"] + ", " + request_body["col"]
+            code_hash_obj["key_value_dict"][request_body["key"]] = [row_col_str]
             db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}})
     else:
         db["phase1"]["undef_prop_dataset"].insert_one({
             "_id": hash_func,
             "key_value_dict": {
-                request_body["key"]: request_body["row"] + ", " + request_body["col"]
+                request_body["key"]: [row_col_str]
             }
         })
     
@@ -92,6 +110,9 @@ def add_undefined_value():
             }
         })
 
+    # write msg to log file and close the log file
+    log_file.write(msg)
+    log_file.close()
     return msg
 
 @phase1_api.route('/phase_info', methods=['GET'])
