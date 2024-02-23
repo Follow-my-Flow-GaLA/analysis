@@ -24,26 +24,38 @@ def add_undefined_value():
             return Response('Missing field: ' + field, status=400)
     
     # create and open a log file
-    log_file = open("log/" + request_body['site'].replace(".", "_") + "_log.txt", "w")
+    # log_file = open("log/" + request_body['site'].replace(".", "_") + "_log.txt", "a")
 
     # check if the phase is 1
     if request_body['phase'] != "1":
-        log_file.write(request_body['site'], ": Phase is not 1\n")
+        # log_file.write(request_body['site'], ": Phase is not 1\n")
         return Response('Phase is not 1', status=400)
     # check if the start_key is valid
     if request_body['start_key'] not in starting_keys:
-        log_file.write(request_body['site'], ": Invalid start key\n")
+        # log_file.write(request_body['site'], ": Invalid start key\n")
         return Response('Invalid start key', status=400)
 
-    # hash the func using sha256
-    # the hash algorithm and the encoding should match the one in the V8's runtime-object.cc and objects.cc
-    try:
-        sha256_hash = hashlib.sha256()
-        sha256_hash.update(request_body["func"].encode('utf-8'))
-        hash_func = sha256_hash.hexdigest()
-    except:
-        log_file.write(request_body['site'], ": Hashing failed\n")
-        return Response('Hashing failed', status=500)
+    # if code_hash is provided, use it, otherwise hash the func
+    if "code_hash" in request_body:
+        hash_func = request_body["code_hash"]
+    else:
+        # hash the func using sha256
+        # the hash algorithm and the encoding should match the one in the V8's runtime-object.cc and objects.cc
+        try:
+            sha256_hash = hashlib.sha256()
+            sha256_hash.update(request_body["func"].encode('utf-8'))
+            hash_func = sha256_hash.hexdigest()
+        except:
+            # log_file.write(request_body['site'], ": Hashing failed\n")
+            return Response('Hashing failed', status=500)
+        
+        # change . to %2E; change $ to %24 
+
+    request_body["site"] = request_body["site"].replace(".", "_")
+    request_body["key"] = request_body["key"].replace(".", "\\2E").replace("$", "\\24")
+    request_body["func_name"] = request_body["func_name"].replace(".", "\\2E").replace("$", "\\24")
+    request_body["js"] = request_body["js"].replace(".", "\\2E").replace("$", "\\24")
+    request_body["func"] = request_body["func"].replace(".", "\\2E").replace("$", "\\24")
 
     msg = ""
 
@@ -59,17 +71,19 @@ def add_undefined_value():
             else:
                 row_col_list.append(row_col_str)
                 code_hash_obj["key_value_dict"][request_body["key"]] = row_col_list
-                db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}})
+                db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}}, upsert=True)
         else:
             code_hash_obj["key_value_dict"][request_body["key"]] = [row_col_str]
-            db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}})
+            db["phase1"]["undef_prop_dataset"].update_one({"_id": hash_func}, {"$set": {"key_value_dict": code_hash_obj["key_value_dict"]}}, upsert=True)
     else:
-        db["phase1"]["undef_prop_dataset"].insert_one({
-            "_id": hash_func,
-            "key_value_dict": {
-                request_body["key"]: [row_col_str]
-            }
-        })
+        db["phase1"]["undef_prop_dataset"].update_one(
+            {"_id": hash_func},
+            {"$set": {
+                "key_value_dict": {
+                    request_body["key"]: [row_col_str]
+                }
+            }}
+        , upsert=True)
     
     # add log to phase_info
     site_obj = db["phase1"]["phase_info"].find_one({"_id": request_body["site"]})
@@ -84,7 +98,7 @@ def add_undefined_value():
                     request_body["func_name"],
                     request_body["func"]
                 ]
-                db["phase1"]["phase_info"].update_one({"_id": request_body["site"]}, {"$set": {"code_hash_dict": site_obj["code_hash_dict"]}})
+                db["phase1"]["phase_info"].update_one({"_id": request_body["site"]}, {"$set": {"code_hash_dict": site_obj["code_hash_dict"]}}, upsert=True)
         else:
             site_obj["code_hash_dict"][hash_func] = {
                 request_body["key"]: [
@@ -94,25 +108,27 @@ def add_undefined_value():
                     request_body["func"]
                 ]
             }
-            db["phase1"]["phase_info"].update_one({"_id": request_body["site"]}, {"$set": {"code_hash_dict": site_obj["code_hash_dict"]}})
+            db["phase1"]["phase_info"].update_one({"_id": request_body["site"]}, {"$set": {"code_hash_dict": site_obj["code_hash_dict"]}}, upsert=True)
     else: 
-        db["phase1"]["phase_info"].insert_one({
-            "_id": request_body["site"],
-            "code_hash_dict": {
-                hash_func: {
-                    request_body["key"]: [
-                        request_body["row"] + ", " + request_body["col"],
-                        request_body["js"],
-                        request_body["func_name"],
-                        request_body["func"]
-                    ]
+        db["phase1"]["phase_info"].update_one(
+            {"_id": request_body["site"]},
+            {"$set": {
+                "code_hash_dict": {
+                    hash_func: {
+                        request_body["key"]: [
+                            request_body["row"] + ", " + request_body["col"],
+                            request_body["js"],
+                            request_body["func_name"],
+                            request_body["func"]
+                        ]
+                    }
                 }
-            }
-        })
+            }}
+        , upsert=True)
 
     # write msg to log file and close the log file
-    log_file.write(msg)
-    log_file.close()
+    # log_file.write(msg)
+    # log_file.close()
     return msg
 
 @phase1_api.route('/phase_info', methods=['GET'])
@@ -141,7 +157,5 @@ def get_undef_prop_dataset():
 
 @phase1_api.route('/websites', methods=['GET'])
 def get_websites():
-    websites = db["phase1"]["phase_info"].find()
-    website_ids = [website["_id"] for website in websites]
-    return jsonify({"website_ids": website_ids})
-
+    websites = db["phase1"]["phase_info"].distinct("_id")
+    return jsonify(websites)
