@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.11.0/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
+<script src="/backbone.queryparams.js"></script>
+<script>
+  var AppRouter = Backbone.Router.extend({
+   routes: {
+       "*vars":                "test"
+   },
+   test: function(vars) {
+   }
+});
+var appRouter = new AppRouter();
+Backbone.history.start();
+</script>
+

