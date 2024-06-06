@@ -1,9 +1,14 @@
 sanchecker/inactive_0to100k_phase2_crawl
 sanchecker/inactive_notemplate_phase*
 sanchecker/record_inactive_notemplate_phase*
+sanchecker/inactive_0to100k_phase*
 
 sanchecker/src/inactive_0to100k_phase*
 sanchecker/src/inactive_notemplate_phase*
+
+sanchecker/*
+
+analysis/mongodb/*
 
 analysis/phase1/__pycache__/*
 analysis/phase2/__pycache__/*
@@ -11,6 +16,8 @@ analysis/phase3/__pycache__/*
 analysis/phase4/__pycache__/*
 analysis/db/__pycache__
 analysis/db/myenv/*
+analysis/db/env_cloud/*
+analysis/db/server*
 
 analysis/phase1/logs/*
 analysis/phase2/logs/*
@@ -21,6 +28,26 @@ analysis/phase2/output/*
 analysis/phase3/output/*
 analysis/phase4/output/*
 
+analysis/phase1_with_db/env/*
+analysis/phase1_with_db/env_3.7/*
+analysis/phase1_with_db/find_js/*
+analysis/phase1_with_db/mongo*/*
+
+analysis/find_js/myenv/*
 analysis/phase2/myenv/*
 
+external/persistent-clientside-xss/taintchrome/chrome/*
+
+*/.vscode/*
+.vscode/*
+
 *.env
+*.log
+*.txt
+11_29*
+12_29*
+*_log
+*.pyc
+*.pak
+*.zip
+*.json

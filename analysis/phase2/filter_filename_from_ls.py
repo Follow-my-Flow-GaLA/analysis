@@ -5,7 +5,7 @@ import os, re
 from tqdm import tqdm
 EXTRACT_SITES_REG = r"(.*_)\d*?_\d*?_\d"
 DB_PATH = "/media/datak/inactive/sanchecker"
-PREFIX = "inactive_notemplate_phase3_partial_"
+PREFIX = "oracle_1M_phase2_db_"
 
 def get_target_name_list():
     """

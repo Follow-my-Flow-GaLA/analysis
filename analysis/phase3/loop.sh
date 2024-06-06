@@ -47,15 +47,23 @@ wait_for_file() {
 # 5. runs inactive-phase4-auto-recursive.sh and wait till it ends. It will take the json from step 4 as an input.  But I don't know when it will stop running. Provide some code in .sh to help me determine if it stops
 # 6. After the sh stops, run filter_filename_from_ls.py and decode_capnp_.sh to decode some logs. Then call strict_match.py to generate a json file for future use
 
+# Workflow for Phase 3:
+# 1. detector-phase3-auto-recursive.sh
+# 2. Check which flow can reach the sink and which cannot
+# 3. Detect new undefined values and gen undef_list in db
+# Workflow for Phase 4: 
+# 4. oracle-phase4-auto-recursive.sh
+# 5. Determine the defined values for undef
+# 6. Match the defined with undef in Phase 3 and gen data_to_change in db
+
 for ((i=1; i<=5; i++)); do
-    # Phase 3
+    ##### Phase 3 #####
     echo "Running Phase 3 - Iteration $i"
 
-    # Run inactive-phase3-auto-recursive.sh
-    bash /media/datak/inactive/sanchecker/src/inactive-phase3-auto-recursive.sh 0 10000 2 12 0 2>&1 | tee -a ./inactive_phase3_crawling.log &
-
+    # Run detector-phase3-auto-recursive.sh
+    bash detector-phase3-auto-recursive.sh 0 1000000 2 16 0 2>&1 | grep -vE "Xlib:  extension \"RANDR\" missing on display \".*\"\.|Xlib:  extension \"XInputExtension\" missing on display \".*\"\.|ERROR:zygote_communication_linux.cc\(292\)\] Failed to" | tee -a ./detector_phase3_db_looping.log
     # Wait for the process to finish
-    wait_for_process "inactive-phase3-auto-recursive.sh"
+    wait_for_process "detector-phase3-auto-recursive.sh"
 
     # Call process.py to process logs
     echo "python process.py ... "
@@ -70,14 +78,13 @@ for ((i=1; i<=5; i++)); do
     echo "Phase 3 - Iteration $i completed"
 
 
-    ##### Phase 4
+    ##### Phase 4 #####
     echo "Running Phase 4 - Iteration $i"
 
-    # Run inactive-phase4-auto-recursive.sh
-    bash /media/datak/inactive/sanchecker/src/inactive-phase4-auto-recursive.sh 0 10000 2 12 0 2>&1 | tee -a ./inactive_phase4_crawling.log &
-
+    # Run oracle-phase4-auto-recursive.sh
+    bash oracle-phase4-auto-recursive.sh 0 500000 2 16 0 2>&1 | grep -vE "Xlib:  extension \"RANDR\" missing on display \".*\"\.|Xlib:  extension \"XInputExtension\" missing on display \".*\"\.|ERROR:zygote_communication_linux.cc\(292\)\] Failed to" | tee -a ./oracle_phase4_1M_looping.log
     # Wait for the process to finish
-    wait_for_process "inactive-phase4-auto-recursive.sh"
+    wait_for_process "oracle-phase4-auto-recursive.sh"
 
     # Rest of Phase 4...
 

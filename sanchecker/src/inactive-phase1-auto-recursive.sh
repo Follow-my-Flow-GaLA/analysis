@@ -1,6 +1,6 @@
 #out/Bytecode/chrome $URL --js-flags="--taint_log_file=/media/data1/zfk/Documents/sanchecker/crawl/testpath --no-crankshaft --no-turbo --no-ignition" --no-sandbox --disable-hang-monitor -enable-nacl&>log_file
 
-#usage: sudo bash inactive-auto-recursive.sh 0 1000000 2 25 1 2>&1 | tee -a ./inactive_release_phase1_crawling.log
+#usage: sudo bash inactive-phase1-auto-recursive.sh 0 1000000 2 25 1 2>&1 | tee -a ./inactive_release_phase1_crawling.log
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/media/data1/zfk/Documents/capnproto-install/lib
 # export SAVE_PATH=/home/zfk/Documents/sanchecker
@@ -27,7 +27,7 @@ then
         TAG=""
 else
         #TAG="check_pp_pattern1_0to600kplus_"
-        TAG="inactive_0to100k_phase1_"
+        TAG="inactive_1M_phase1_"
 	if ((if_flush == 0))
         then
                 rm -rf ../${TAG}crawl && mkdir ../${TAG}crawl && chmod 777 ../${TAG}crawl
