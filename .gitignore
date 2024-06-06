@@ -11,6 +11,7 @@ analysis/db/server*
 analysis/*/logs/*
 analysis/*/output/*
 
+external/persistent-clientside-xss/taintchrome/chrome/*
 
 sanchecker/inactive_0to100k_phase2_crawl
 sanchecker/inactive_notemplate_phase*
@@ -22,13 +23,10 @@ sanchecker/src/inactive_notemplate_phase*
 
 sanchecker/*
 
-external/persistent-clientside-xss/taintchrome/chrome/*
 
 *.env
 *.log
 *.txt
-11_29*
-12_29*
 *_log
 *.pyc
 *.pak
