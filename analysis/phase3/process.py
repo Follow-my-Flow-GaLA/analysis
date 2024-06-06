@@ -3,7 +3,7 @@ from __future__ import print_function
 import os, re, logging, argparse, codecs, hashlib
 import multiprocessing
 # from tqdm import tqdm
-from config import CONFIG
+from analysis.phase3.phase3_config import CONFIG
 import time
 # from helper_sha256 import sha256
 

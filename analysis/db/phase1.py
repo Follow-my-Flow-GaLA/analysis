@@ -146,14 +146,29 @@ def get_phase_info():
 @phase1_api.route('/undef_prop_dataset', methods=['GET'])
 def get_undef_prop_dataset():
     code_hash = request.args.get('code_hash')
-    if (code_hash):
-        code_hash_obj = db["phase1"]["undef_prop_dataset"].find_one({"_id": code_hash})
-        if (code_hash_obj):
-            return code_hash_obj
-        else:
-            return "Code hash not found"
-    else:
-        return "Missing code hash"
+    key = request.args.get('key').replace(".", "\\2E").replace("$", "\\24")
+    row_col = request.args.get('row_col')
+    
+    # check if the required args are provided
+    if not code_hash or not key or not row_col:
+        return Response('Missing args', status=400)
+
+    code_hash_obj = db["phase1"]["undef_prop_dataset"].find_one({"_id": code_hash})
+    
+    # check if the undefined property exists
+    if not code_hash_obj:
+        return Response('Code hash not found', status=404)
+    if not key in code_hash_obj["key_dict"]:
+        return Response('Key not found', status=404)
+    
+    # check if the row and col exists with the column number blurred (+- 5)
+    row_col_list = code_hash_obj["key_dict"][key]
+    row_col = row_col.split(",") # received from V8, format is ","
+    for row_col_item in list(map(lambda x: x.split(", "), row_col_list)): # retrieved from db, format is ", "
+        if row_col[0] == row_col_item[0] and (abs(int(row_col[1]) - int(row_col_item[1])) <= 5):
+            return Response('Undefined property found', status=200)
+    
+    return Response('Row_Col not found', status=404)
 
 @phase1_api.route('/websites', methods=['GET'])
 def get_websites():

@@ -39,7 +39,7 @@ def gen_def_val_dict(limit = -1):
     counter = 0
     
     os.chdir(CONFIG.PHASE2_RECORD_PATH)
-    for fpath in tqdm(glob.iglob("record_*")):
+    for fpath in tqdm(glob.iglob( "record_*" )): # "record_sap_de_23333_1695937573119_0")): # "record_voyeur-house_tv_21061_1695938337367_0")): # 
         # break when reached counter limit
         if (limit != -1 and counter >= limit):
             break
@@ -50,6 +50,7 @@ def gen_def_val_dict(limit = -1):
             lines = ff.readlines()
             z = fpath.split('_')
             site = '_'.join(z[1:len(z)-3])
+            pos_list = []
             for num, line in enumerate(lines, 0):
                 if 'type = inactive' in line: # get start_pos & end_pos
                     if 'start' in line: 
@@ -57,32 +58,66 @@ def gen_def_val_dict(limit = -1):
                     else:
                         start_pos = int(re.search(CONFIG.RECORD_START_REG, lines[num-2]).group(1))
                     search_end_pos_str = "".join(lines[num+1:num+6])
+                    # next start_pos is the end_pos for last entree
                     search_end_pos_result = re.search(CONFIG.RECORD_START_REG, search_end_pos_str)
                     if search_end_pos_result:
                         end_pos = int(search_end_pos_result.group(1))
                     else:
-                        end_pos = -1 # the last var is inactive
+                        end_pos = 4294967295 # the last var is inactive
                     inactive_flag = True
+                    pos_list.append((start_pos, end_pos))
                     continue
+                
                 if inactive_flag and 'targetString = (' in line: # extract var_val from content
                     inactive_flag = False
-                    content = re.search(CONFIG.RECORD_CONTENT_REG, lines[num+2]).group(1)
-                    if "\\" in content:
-                        content = eval(f'"{content}"')  
-                    if (end_pos == -1):
-                        var_val = content[start_pos::]
+                    content_list = []
+                    current_pos_list = pos_list
+                    pos_list = []
+                    # Find sink_type line first
+                    for sink_line_num, temp_line in enumerate(lines[ num+2 : ]):
+                        search_sink_type_result = re.search(CONFIG.RECORD_SINKTYPE_REG, temp_line)
+                        if (search_sink_type_result):
+                            sink_type = search_sink_type_result.group(1)
+                            break
                     else:
-                        var_val = content[start_pos:end_pos]
-                    search_sink_type_result = re.search(CONFIG.RECORD_SINKTYPE_REG, "".join(lines[num+3:num+6]))
-                    if (search_sink_type_result):
-                        sink_type = search_sink_type_result.group(1)
-                    else:
-                        sink_type = "javascript"
+                        # No sink_type provided. Abort
+                        print(f"Warning: Website {site} in {fpath} finds no sink_type from line {num}")
+                        continue
+                    
                     if sink_type in ["prototypePollution", "xmlhttprequest", "logical"]:
                         continue
-                    payload_val_set.add((var_val, sink_type))
+                    
+                    # Search for contents within that block: lines[ num+2 : sink_line_num ]
+                    sink_line_num += num + 2
+                    content_matches = re.findall(CONFIG.RECORD_CONTENT_REG, ''.join(lines[ num+2 : sink_line_num ]))
+                    if not content_matches:
+                        print(f"Warning: Website {site} in {fpath} finds no contents in line {num+2} to {sink_line_num}")
+                        continue
+                    
+                    for each_content, is_one_byte in content_matches:
+                        if is_one_byte == 'false':
+                            # Two-byte string. needs encoding
+                            each_content = each_content.replace('\\x00','')
+                            if "\\x" in each_content:
+                                try:
+                                    each_content = bytes(each_content, encoding='latin-1').decode('utf-16le')
+                                except (UnicodeDecodeError, ValueError) as e:
+                                    print(f"Error: Website {site} in {fpath} cannot handle two-byte {each_content} in line {num+2}")
+                        if "\\" in each_content:
+                            each_content = eval(f'"{each_content}"') 
+                        content_list.append(each_content) 
+                    content_list = ''.join(content_list)
+                    
+                    for start_pos, end_pos in current_pos_list:
+                        try:
+                            var_val = content_list[int(start_pos): int(end_pos)]
+                            payload_val_set.add((var_val, sink_type))  
+                        except ValueError:
+                            print(f"ValueError: {start_pos} or {end_pos} failed to str->int! Website {site} in {fpath} in line {num+2}. ")
+                            continue                  
+                    current_pos_list = []
                     continue
-        #ff closed
+        # ff closed
         if len(payload_val_set):
             payload_val_dict[site] = payload_val_set
             counter = counter + 1   
@@ -144,6 +179,7 @@ very_long_string_count = 0
 
 not_found_flow_site = set()
 not_found_web_site = set()
+not_found_flow_value = set()
 
 # phase 2 Data Structure: { site: {code_hash: {key_name: [def_value, line_num, sink_type]}}}
 # Function to generate a Phase 2 dictionary from log records and match with definition values
@@ -217,6 +253,8 @@ def gen_phase2_dict(def_val_dict, limit=-1):
                             continue
                         code_hash = search_codehash_result.group(1)
                         
+                        flow_found = False
+                        
                         for value_sink_pair in def_val_dict[site]:
                             # Approach 1: use mutual match
                             # if value in value_sink_pair[0] or value_sink_pair[0] in value: 
@@ -228,12 +266,17 @@ def gen_phase2_dict(def_val_dict, limit=-1):
                             match = matcher.find_longest_match(0, len(a), 0, len(b))
                             if match.size > 0:
                                 c = a[match.a:match.a + match.size]
-                                found_count = found_count + 1
                                 # TODO: record c for future use 
                                 key_value_list.append((key, a, value_sink_pair[1], ln, code_hash))
-                            else:
-                                flow_not_found_count = flow_not_found_count + 1
-                                not_found_flow_site.add(site)
+                                flow_found = True
+                        
+                        if flow_found:
+                            found_count = found_count + 1
+                        else:
+                            not_found_flow_site.add(site)
+                            flow_not_found_count = flow_not_found_count + 1
+                            not_found_flow_value.add((a,b))
+                                      
         except FileNotFoundError:
             file_not_found_count = file_not_found_count + 1
             continue
@@ -275,13 +318,36 @@ def summarize_phase2_dict(phase_2_dict):
     print(not_found_web_site)
     print()
     print(not_found_flow_site)
-    # with open("11_1_site_with_web_not_found", 'w') as file:
-    #     for item in not_found_web_site:
-    #         file.write(item + "\n")
+    with open("/media/datak/inactive/analysis/phase2/12_29_site_with_web_not_found", 'w') as file:
+        for item in not_found_web_site:
+            file.write(item + "\n")
     
-    # with open("11_1_site_with_flow_not_found", 'w') as file:
-    #     for item in not_found_flow_site:
-    #         file.write(item + "\n")
+    with open("/media/datak/inactive/analysis/phase2/12_29_site_with_flow_not_found", 'w') as file:
+        for item in not_found_flow_site:
+            file.write(item + "\n")
+    
+    # count unique key
+    key_name_set = set()
+    key_value_dict = {}
+    for site in phase_2_dict:
+        for code_hash in phase_2_dict[site]:
+            for key_name in phase_2_dict[site][code_hash]:
+                key_name_set.add(key_name)
+                if key_name in key_value_dict:
+                    key_value_dict[key_name].add(phase_2_dict[site][code_hash][key_name][0])
+                else:
+                    key_value_dict[key_name] = set([phase_2_dict[site][code_hash][key_name][0]])
+    print("number of unique key_name: ", len(key_name_set))
+    with open("/media/datak/inactive/analysis/phase2/12_29_phase2_key", 'w') as file:
+        for item in key_name_set:
+            file.write(item + "\n")
+            file.write("\t" + str(key_value_dict[item]) + "\n")
+    
+    # save flow_not_found_value
+    with open("/media/datak/inactive/analysis/phase2/12_29_flow_not_found_value", 'w') as file:
+        for item in not_found_flow_value:
+            file.write(str(item) + "\n")
+    print("number of unique flow_not_found_value: ", len(not_found_flow_value))
             
     print("------------------ above is Phase 2 dict stats ----------------")
 
@@ -409,6 +475,33 @@ def strict_match (phase_1_dict, phase_2_dict, mode="", save_path="/home/zfk/Docu
             json.dump(match_result_dict, fw)
     return match_result_dict
 
+# Function to summarize the result dictionary
+def summarize_result_dict(result_dict):
+    """
+    This function summarizes the result dictionary and provides statistics.
+
+    Parameters:
+    - result_dict: The result dictionary to be summarized.
+    """
+    print("------------------ below is result dict stats ----------------")
+    print("result_dict length is: ", len(result_dict))
+    # count the unique key_name and their corresponding payload
+    key_name_set = set()
+    key_value_dict = {}
+    for site in result_dict:
+        for data_dict in result_dict[site]:
+            key_name_set.add(data_dict["var_name"])
+            if data_dict["var_name"] in key_value_dict:
+                key_value_dict[data_dict["var_name"]].add(data_dict["payload"])
+            else:
+                key_value_dict[data_dict["var_name"]] = set([data_dict["payload"]])
+    print("number of unique key_name: ", len(key_name_set))
+    with open("/media/datak/inactive/analysis/phase2/12_29_unique_key", 'w') as file:
+        for item in key_name_set:
+            file.write(item + "\n")
+            file.write("\t" + str(key_value_dict[item]) + "\n")
+    print("------------------ above is result dict stats ----------------")
+
 
 if __name__ == "__main__":
     print("Generating Phase 1 dict ...")
@@ -426,8 +519,9 @@ if __name__ == "__main__":
     print("Generating result (strict match) dict ...")
     result_dict = strict_match (phase_1_dict, phase_2_dict, mode="")
     # result_dict = strict_match_with_dummy_value (phase_1_dict, phase_2_dict)
-    print("result_dict length is: ", len(result_dict))
+    summarize_result_dict(result_dict)
     
-    with open("/home/zfk/Documents/inject_pp_extension/value_data_test.js", "w") as fw:
-        fw.write("data_to_change=")
-        json.dump(result_dict, fw)
+    
+    # with open("/home/zfk/Documents/inject_pp_extension/value_data_test.js", "w") as fw:
+    #     fw.write("data_to_change=")
+    #     json.dump(result_dict, fw)

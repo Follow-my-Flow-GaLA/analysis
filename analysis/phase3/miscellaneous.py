@@ -3,7 +3,7 @@
 from __future__ import print_function
 import os, re, logging, argparse, codecs, json, glob, difflib, js2py
 from tqdm import tqdm
-from config import CONFIG
+from analysis.phase3.phase3_config import CONFIG
 from value_data import data_to_change # CAUTION: check if this file is up-to-date
 
 # Function to generate a dictionary of payload values from records

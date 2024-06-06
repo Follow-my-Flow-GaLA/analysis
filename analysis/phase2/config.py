@@ -5,20 +5,20 @@ class CONFIG:
     
     # This dir contains defined value (in the format of taint strings detected in sink functions)
     # PHASE2_RECORD_PATH = "/home/zfk/Documents/sanchecker/record_inactive_notemplate_phase2_crawl" 
-    PHASE2_RECORD_PATH = "/media/datak/inactive/sanchecker/record_inactive_notemplate_phase2_partial_crawl"
+    PHASE2_RECORD_PATH = "/media/datak/inactive/sanchecker/record_oracle_1M_phase2_db_crawl"
     # Example file: os.path.join(CONFIG.PHASE2_RECORD_PATH + "record_westhost_com_9270_1690585137839_0")
     
     # regex for record
     RECORD_START_REG = re.compile("start = (\d+),")
     RECORD_END_REG = re.compile("end = (\d+),")
-    RECORD_CONTENT_REG = re.compile("content = \"((\n|.)*)\",")
+    RECORD_CONTENT_REG = re.compile('content = \"((?:\n|.)*?)\",\s*?isOneByte = (true|false)') #re.compile("content = \"((\n|.)*)\",")
     RECORD_SINKTYPE_REG = re.compile("sinkType = (\w+),")
     SHOULD_EXCLUDE_SINKTYPE = ['sinkType = prototypePollution', 'sinkType = xmlhttprequest', 'sinkType = logical']
     
     
     
     # This dir contains all information but defined values: 
-    PHASE2_LOG_PATH = "/media/datak/inactive/sanchecker/src/inactive_notemplate_phase2_partial_logs/"
+    PHASE2_LOG_PATH = "/media/datak/inactive/sanchecker/src/oracle_1M_phase2_db_logs/"
     # Example file: os.path.join(CONFIG.PHASE2_LOG_PATH + "westhost_com_log_file")
     
     # regex for log
@@ -28,7 +28,7 @@ class CONFIG:
      
         
         
-    SCAN_ROOT_PATH = "/media/data1/zfk/Documents/sanchecker/src/inactive_0to100k_phase1_logs"
+    SCAN_ROOT_PATH = "/media/data1/zfk/Documents/sanchecker/src/detector_1M_phase1_db_logs"
     THIS_ROOT_PATH = "/media/datak/inactive/sanchecker/" #"/home/zfk/Documents/sanchecker/src/Inactive"
     
     

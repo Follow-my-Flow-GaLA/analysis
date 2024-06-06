@@ -1,19 +1,37 @@
 #!/bin/bash
-# To run: sudo bash decode_capnp_.sh
 
 PREFIX="record_"
 DB_ROOT="/media/datak/inactive/sanchecker/"
 ROOT="/media/datak/inactive/sanchecker/"
-TARGET_STR="inactive_notemplate_phase2_partial_" #"check_conseq_single_page_all_url_vul_" #"check_true_exploit_blackfan_"
-TARGET_CRAWL=${TARGET_STR}"crawl"
+TARGET_STR="validate_nonxss_phase3_db_" #"oracle_1M_phase2_db_" #"detector_1M_phase3_db_"
+TARGET_CRAWL="${TARGET_STR}crawl"
+TMP_WRITE_PATH="${TARGET_CRAWL}"
+MAX_JOBS=30  # Maximum number of parallel jobs
 
-TMP_WRITE_PATH=${TARGET_CRAWL}
-mkdir -p ${ROOT}${PREFIX}${TMP_WRITE_PATH}
+mkdir -p "${ROOT}${PREFIX}${TMP_WRITE_PATH}"
 
-while IFS=, read -r log_name
-do
-    # ls -lh '/home/zfk/Documents/sanchecker/check_pp_pattern1_0to600kplus_crawl/'${log_name}
+process_file() {
+    local file=$1
     /media/data1/zfk/Documents/capnproto-install/bin/capnp decode \
     /media/data1/zfk/Documents/sanchecker/src/v8/src/taint_tracking/protos/logrecord.capnp \
-    TaintLogRecord < ${DB_ROOT}${TARGET_CRAWL}/${log_name} > ${ROOT}${PREFIX}${TMP_WRITE_PATH}/${PREFIX}${log_name}
-done < <(grep . 'list_to_capnp_'${TARGET_STR}) #'list_to_capnp_inactive_0to100k_phase2.txt')  
+    TaintLogRecord < "${DB_ROOT}${TARGET_CRAWL}/${file}" > "${ROOT}${PREFIX}${TMP_WRITE_PATH}/${PREFIX}${file}"
+}
+
+export -f process_file
+export DB_ROOT TARGET_CRAWL ROOT PREFIX TMP_WRITE_PATH
+
+# Main loop
+idx=0
+while IFS= read -r file; do
+    echo "$idx processing $file"
+    idx=$((idx + 1))    
+    process_file "$file" &
+
+    # Limit number of background jobs
+    if [[ $(jobs -r | wc -l) -ge $MAX_JOBS ]]; then
+        wait -n  # Wait for at least one job to finish
+    fi
+done < <(grep . 'list_to_capnp_'${TARGET_STR})
+
+#wait  # Wait for all background jobs to finish
+
