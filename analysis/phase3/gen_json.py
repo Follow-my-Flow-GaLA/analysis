@@ -1,7 +1,7 @@
 #!python3
 # from __future__ import print_function
 import os, re, logging, argparse, codecs
-from config import CONFIG
+from analysis.phase3.phase3_config import CONFIG
 from tqdm import tqdm
 import json
 import time

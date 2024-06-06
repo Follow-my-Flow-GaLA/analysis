@@ -1,6 +1,6 @@
 #out/Bytecode/chrome $URL --js-flags="--taint_log_file=/media/data1/zfk/Documents/sanchecker/crawl/testpath --no-crankshaft --no-turbo --no-ignition" --no-sandbox --disable-hang-monitor -enable-nacl&>log_file
 
-#usage: sudo bash inactive-phase3-auto-recursive.sh 0 222 2 12 0 2>&1 | tee -a ./inactive_phase3_crawling.log
+#usage: sudo bash inactive-phase3-iter2-auto-recursive.sh 0 5000 2 10 0 2>&1 | tee -a ./inactive_phase3_crawling.log
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/media/data1/zfk/Documents/capnproto-install/lib
 # export SAVE_PATH=/home/zfk/Documents/sanchecker
@@ -94,7 +94,7 @@ do
     fi
 # Note: the current tranco_3Z3L.csv gets rid of websites with domain '.pl'
 # The bash cmd is: sudo sed -i.old '/.*\.pl/d' tranco_3Z3L.csv
-done < <(grep . ${SAVE_PATH}/src/site_list_phase3_partial.csv ) #tranco_253N9-1m.csv) #websites_total_to_pp_pattern1_600kto1m.txt) #42_websites_url_src_to_pp_again_0to600kplus.txt)  #websites_total_to_pp_pattern1_0to600kplus.txt #websites_to_pp_pattern1_0to200k.txt
+done < <(grep . ${SAVE_PATH}/src/site_list_phase3_iter2_partial.csv ) #tranco_253N9-1m.csv) #websites_total_to_pp_pattern1_600kto1m.txt) #42_websites_url_src_to_pp_again_0to600kplus.txt)  #websites_total_to_pp_pattern1_0to600kplus.txt #websites_to_pp_pattern1_0to200k.txt
 #/media/data1/zfk/Documents/sanchecker/src/recursive_pp_pattern1_rankmorethan10k_logs/websites_to_pp.txt #tranco_94Q2.csv
 sleep 80s
 pkill chrome
