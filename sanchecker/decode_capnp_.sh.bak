@@ -1,0 +1,22 @@
+#!/bin/bash
+# To run: sudo bash decode_capnp_.sh
+
+PREFIX="record_"
+DB_ROOT="/media/datak/inactive/sanchecker/"
+ROOT="/media/datak/inactive/sanchecker/"
+TARGET_STR="oracle_1M_phase2_db_"
+TARGET_CRAWL=${TARGET_STR}"crawl"
+
+TMP_WRITE_PATH=${TARGET_CRAWL}
+mkdir -p ${ROOT}${PREFIX}${TMP_WRITE_PATH}
+
+#parallel --dry-run "echo /media/data1/zfk/Documents/capnproto-install/bin/capnp decode /media/data1/zfk/Documents/sanchecker/src/v8/src/taint_tracking/protos/logrecord.capnp TaintLogRecord < '${DB_ROOT}${TARGET_CRAWL}/{}' > '${ROOT}${PREFIX}${TMP_WRITE_PATH}/${PREFIX}{}'" ::: $(grep -o '[^ ]+' "list_to_capnp_${TARGET_STR}")
+
+
+while IFS=, read -r log_name
+do
+    # ls -lh '/home/zfk/Documents/sanchecker/check_pp_pattern1_0to600kplus_crawl/'${log_name}
+    /media/data1/zfk/Documents/capnproto-install/bin/capnp decode \
+    /media/data1/zfk/Documents/sanchecker/src/v8/src/taint_tracking/protos/logrecord.capnp \
+    TaintLogRecord < ${DB_ROOT}${TARGET_CRAWL}/${log_name} > ${ROOT}${PREFIX}${TMP_WRITE_PATH}/${PREFIX}${log_name}
+done < <(grep . 'list_to_capnp_'${TARGET_STR}) #'list_to_capnp_inactive_0to100k_phase2.txt')  

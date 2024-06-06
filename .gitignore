@@ -13,16 +13,15 @@ analysis/*/output/*
 
 external/persistent-clientside-xss/taintchrome/chrome/*
 
-sanchecker/inactive_0to100k_phase2_crawl
-sanchecker/inactive_notemplate_phase*
-sanchecker/record_inactive_notemplate_phase*
-sanchecker/inactive_0to100k_phase*
+sanchecker/*_crawl/*
+sanchecker/list_*
+sanchecker/*.list
+sanchecker/*_com
 
-sanchecker/src/inactive_0to100k_phase*
-sanchecker/src/inactive_notemplate_phase*
-
-sanchecker/*
-
+sanchecker/src/*_logs/*
+sanchecker/src/libbson-1.3.5/*
+sanchecker/src/mongo-c-driver-1.3.5/
+sanchecker/src/mongo-cxx-driver-r3.0.3/
 
 *.env
 *.log
@@ -32,3 +31,5 @@ sanchecker/*
 *.pak
 *.zip
 *.json
+*_log_file
+*.tar.gz
