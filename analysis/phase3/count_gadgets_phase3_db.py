@@ -194,6 +194,27 @@ def generate_and_save_exploit(using_db_buffer=False, using_result_buffer=False):
     # print(result)
     
     # store to db
+    """
+    DB structure for phase3.exploit:
+    {
+        _id: site,
+        exploit_list: [
+            {
+                var_name: var_name,
+                row_col: row_col(array),
+                src_payload: src_payload,
+                file_name: file_name (sanitized),
+                sink_type: sink_type,
+                sink_payload: sink_payload,
+                start_pos: start_pos,
+                end_pos: end_pos,
+                sink_string: sink_string,
+                message_id: message_id,
+                code: exploit_code
+            }
+        ]
+    }
+    """
     for site, exploit_list in result.items():
         if exploit_list:
             db["exploit"].update_one(

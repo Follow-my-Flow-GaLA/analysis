@@ -9,7 +9,7 @@ allow_no_load_time_set = set()
 def get_show_time(fpath, time_write_file, recrawl_write_file, mode='add'):
     load_time_dict = {}
     site_to_recrawl = set()
-    for each_file in os.listdir(os.path.join("/media/datak/inactive/sanchecker/src", fpath)):
+    for each_file in tqdm(os.listdir(os.path.join("/media/datak/inactive/sanchecker/src", fpath))):
         if 'log_file' in each_file:
             with open(os.path.join("/media/datak/inactive/sanchecker/src", fpath, each_file), 'r') as fr:
                 site = each_file.replace('_log_file', '').replace('_', '.', 1)
@@ -40,8 +40,9 @@ def get_show_time(fpath, time_write_file, recrawl_write_file, mode='add'):
                 fwr.write(str(idx)+','+each_line+'\n')
 
 if __name__ == "__main__": 
-    get_show_time('show_load_time_legacy_chrome_1k_logs', 'load-time-legacy-chrome-1k.py', '', mode='add')
-    get_show_time('show_load_time_Fastchrome_key1key2_1k_logs', 'load-time-Fastchrome-1k.py', 'recrawl-ppchrome-1k.txt', mode='check')
-    get_show_time('show_load_time_Fastndss18_1k_logs', 'load-time-ndss18-1k.py', 'recrawl-ndss18-1k.txt', mode='check')
-    get_show_time('show_load_time_gala_1k_logs', 'load-time-gala-1k.py', 'recrawl-gala-1k.txt', mode='check')
+#    get_show_time('show_load_time_gala_1k_phase1_logs', 'load-time-gala-1k-phase1.py', '', mode='add')
+    get_show_time('show_load_time_gala_1k_logs', 'load-time-gala-1k-phase2.py', '', mode='add')
+#    get_show_time('show_load_time_Fastchrome_key1key2_1k_logs', 'load-time-Fastchrome-1k.py', 'recrawl-ppchrome-1k.txt', mode='check')
+#    get_show_time('show_load_time_Fastndss18_1k_logs', 'load-time-ndss18-1k.py', 'recrawl-ndss18-1k.txt', mode='check')
+#    get_show_time('show_load_time_gala_1k_logs', 'load-time-gala-1k.py', 'recrawl-gala-1k.txt', mode='check')
 
