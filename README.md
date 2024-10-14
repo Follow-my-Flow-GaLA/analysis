@@ -19,7 +19,7 @@ The artifacts in this repo comprise two main components: the adapted taint engin
 
 ### Adapted Taint Engine
 
-The source codes are under `./sanchecker/src`, adapted from prior taint engines [Melicher et al.]([URL](https://github.com/wrmelicher/ChromiumTaintTracking)) and [ProbetheProto]([URL](https://github.com/zifeng-kang/ProbetheProto)). 
+The source codes are under `./sanchecker/src`, adapted from prior taint engines [Melicher et al.](https://github.com/wrmelicher/ChromiumTaintTracking) and [ProbetheProto](https://github.com/zifeng-kang/ProbetheProto). 
 
 *Detailed instructions coming soon!*
 
