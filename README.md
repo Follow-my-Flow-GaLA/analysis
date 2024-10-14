@@ -5,7 +5,9 @@ In this paper, we design a dynamic analysis framework, called GaLA (<u>Ga</u>dge
 
 ## System Design Overview
 
-<img src="./pic/gadget-sys-arch-2-1.png" alt="Figure 1: System Architecture" width="750">
+<div style="text-align: center;">
+    <img src="./pic/gadget-sys-arch-2-1.png" alt="Figure 1: System Architecture" width="750">
+</div>
 
 
 System Architecture of GALA. There are three major phases: (i) Locating undefined properties, (ii) Assigning defined values, and (iii) Guiding dataflows for originally undefined properties. In Phase 1, GALA runs an instrumented JS runtime to output all the undefined properties; in Phase 2, GALA finds corresponding defined values in other executions (which could exist in the same or a different website) and assigns such values to undefined ones in Phase 1; in Phase 3, GALA uses these defined values to guide the execution with previously undefined values to reach the sink and discover gadgets. All the gadgets are validated automatically using a generated payload to ensure corresponding consequences are achieved.
