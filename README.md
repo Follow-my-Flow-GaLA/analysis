@@ -3,6 +3,8 @@
 In this paper, we design a dynamic analysis framework, called GaLA (<u>Ga</u>dget <u>L</u>ocator and <u>A</u>nalyzer)
 , to automatically detect client-side prototype pollution gadgets among real-world websites, and implement an open-source version of GaLA. Our key insight is to borrow existing defined values on non-vulnerable websites to victim ones where such values are undefined, thus guiding the property injection to flow to the sinks in gadgets. 
 
+Our paper has been accepted by [IEEE Security & Privacy 2025](https://sp2025.ieee-security.org/accepted-papers.html) and is accessible via [this link](https://www.yinzhicao.org/ProbetheProto/FollowMyFlow.pdf). 
+
 ## System Design Overview
 
 <div style="text-align: center;">
