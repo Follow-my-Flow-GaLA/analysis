@@ -34,8 +34,10 @@ Please follow instructions in [Melicher et al.]([https://github.com/wrmelicher/C
 2. **Disclaimer:** This engine is intended strictly for academic use. It is built upon an outdated version of Chromium and runs without sandboxing, and we therefore provide NO assurances regarding its security or privacy. 
 
 After installation, you can start with building an official Chromium. For example, building into `Official` dir requires: 
-`mkdir out/Official`
-then, ```cat <<EOF > args.gn
+`mkdir out/Official`; 
+Then, 
+```
+cat <<EOF > args.gn
 v8_interpreted_regexp = true
 
 is_component_build = true
@@ -46,8 +48,9 @@ remove_webcore_debug_symbols = true
 is_debug = false
 
 v8_capnp_include_dir = "/media/data1/zfk/Documents/capnproto-install"
-EOF```
-and finally `<path_to>/depot_tools/ninja -C out/Official chrome`
+EOF
+```
+; And finally `<path_to>/depot_tools/ninja -C out/Official chrome`
 
 **Step 2: Building Modified Chromium**
 
