@@ -79,7 +79,7 @@ The crawling generates two types of log files: (i) Files with suffix `_log_file`
 
 1. cd to `./sanchecker/`, check `filter_filename_from_ls.py`, change `DB_PATH` and `PREFIX` to your own paths, and execute `python3 filter_filename_from_ls.py`;
 2. Check `decode_capnp_.sh`, change `TARGET_STR` to your own name for the crawling, e.g., `"detector_1M_phase3_db_"` is for Phase 3. Change `/media/data1/zfk/Documents/capnproto-install/bin/capnp` and `/media/data1/zfk/Documents/sanchecker/src/v8/src/taint_tracking/protos/logrecord.capnp` to your own paths. 
-3. Run `sudo ./decode_capnp_.sh` to decode the information. The results will be stored in files with prefix `record_` in the `./sanchecker/*_crawl` dir. 
+3. Run `sudo ./decode_capnp_.sh` to decode the information. The results will be stored in files with prefix `record_` in the `./sanchecker/*_crawl` dir. Those results are taint flows that trigger a sink function and therefore are crucial for subsequent analysis! 
 
 ### Log Analysis
 
