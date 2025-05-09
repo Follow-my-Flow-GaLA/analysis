@@ -21,9 +21,47 @@ The artifacts in this repo comprise two main components: the adapted taint engin
 
 ### Adapted Taint Engine
 
-The source codes are under `./sanchecker/src`, adapted from prior taint engines [Melicher et al.](https://github.com/wrmelicher/ChromiumTaintTracking) and [ProbetheProto](https://github.com/zifeng-kang/ProbetheProto). 
+The engine used by GaLA is adapted from prior taint engines [Melicher et al.](https://github.com/wrmelicher/ChromiumTaintTracking) and [ProbetheProto](https://github.com/zifeng-kang/ProbetheProto). 
 
-*Detailed instructions coming soon!*
+**Step 1: Building Official Chromium and Installing Dependencies**
+
+Please follow instructions in [Melicher et al.]([https://github.com/wrmelicher/ChromiumTaintTracking/blob/master/TAINT_TRACKING_README]) to build a modified Chromium and install Capnp for encoding the taint byte information. Remember to install all the dependencies specified in that instruction. 
+
+**Important Notes:**
+
+1. Some version information: (i) My VM is running an old version of Ubuntu "16.04.7 LTS (Xenial Xerus)". Ubuntu 14.04 is also fine. Newer version may be incompatible with the taint engine because it is built on Chromium 54.0.2822.0, a very old version; (ii) `gclient` should be checked out using `gclient checkout 8d0c21dddbe95f83dc7323d749a9bcff9a84e020`; (iii) The libgcrypt deb file is `libgcrypt11_1.5.3-2ubuntu4_amd64.deb`. You can search for it, download it and then run `sudo dpkg -i <path_to_that_deb>/libgcrypt11_1.5.3-2ubuntu4_amd64.deb`. 
+
+2. **Disclaimer:** This engine is intended strictly for academic use. It is built upon an outdated version of Chromium and runs without sandboxing, and we therefore provide NO assurances regarding its security or privacy. 
+
+After installation, you can start with building an official Chromium. For example, building into `Official` dir requires: 
+`mkdir out/Official`
+`cat <<EOF > args.gn
+v8_interpreted_regexp = true
+
+is_component_build = true
+
+# Set this to 0 to disable symbols; is_debug = false to not debug
+symbol_level = 0
+enable_nacl = false
+remove_webcore_debug_symbols = true
+is_debug = false
+
+v8_capnp_include_dir = "/media/data1/zfk/Documents/capnproto-install"
+EOF`
+`<path_to>/depot_tools/ninja -C out/Official chrome`
+
+**Step 2: Building Modified Chromium**
+
+On the codebase of the official Chromium, you may apply the patches by Melicher et al. (chromium_patch and v8_patch) and build the Chromium again. Note that you may encounter lots of dependency errors; just solve them one by one, potentially with the help from LLM, and eventually you will get through all of those annoying errors! For example, you can install missing packages if ninja is complaining about them; or you can create symbolic links for a specific file when ninja says no symbolic link is found. We are also happy to help you with the dependency issues. 
+
+To apply the modifications by GaLA, you can either (i) pull the codes from [our V8 repo for GaLA]([https://github.com/Follow-my-Flow-GaLA/v8]) or, if that does not work, (ii) search for '// Add by Inactive' in that repo and aplly corresponding codes. Solution (ii) is also a convenient way to understand what modifications we have made for GaLA to work! 
+
+A (mostly comprehensive) list of files modified by GaLA: v8/src/objects.cc, v8/src/objects.h, v8/src/objects-inl.h, v8/src/runtime/runtime-object.cc & .h, v8/src
+/flag-definitions.h, v8/src/taint_tracking/protos/logrecord.capnp, and adding v8/src/SHA256.cc & .h. 
+
+**Step 3: Running Modified Chromium for Phases 1, 2 and 3**
+
+After successfully building the Chromium into three different repos, e.g., `out/Inactive-release-phase1/` for Phase 1, you can run the Chromium for each phase. 
 
 ### Log Analysis
 
