@@ -40,7 +40,6 @@ v8_interpreted_regexp = true
 
 is_component_build = true
 
-# Set this to 0 to disable symbols; is_debug = false to not debug
 symbol_level = 0
 enable_nacl = false
 remove_webcore_debug_symbols = true
