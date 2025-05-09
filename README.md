@@ -35,7 +35,7 @@ Please follow instructions in [Melicher et al.]([https://github.com/wrmelicher/C
 
 After installation, you can start with building an official Chromium. For example, building into `Official` dir requires: 
 `mkdir out/Official`
-`cat <<EOF > args.gn
+then, ```cat <<EOF > args.gn
 v8_interpreted_regexp = true
 
 is_component_build = true
@@ -47,8 +47,8 @@ remove_webcore_debug_symbols = true
 is_debug = false
 
 v8_capnp_include_dir = "/media/data1/zfk/Documents/capnproto-install"
-EOF`
-`<path_to>/depot_tools/ninja -C out/Official chrome`
+EOF```
+and finally `<path_to>/depot_tools/ninja -C out/Official chrome`
 
 **Step 2: Building Modified Chromium**
 
