@@ -90,7 +90,8 @@ The `analysis` directory contains various files, but not all are necessary for t
 **Prerequisites:**
 
 1. Run the Adapted Taint Engine for Phase 1 to generate site logs with undefined property information.
-2. Set up a local MongoDB server. This includes installing `mongod`, checking the instructions written in `analysis/db/app.py` (Lines 6-16), and following the instructions. Note that `flask run &>> flask.log` is for Phases 1 & 2; `flask run --cert=$FLASK_RUN_CERT --key=$FLASK_RUN_KEY &>> flask.log` is for Phase 3, because Phase 3 needs HTTPS. 
+2. Set up a local MongoDB server. This includes installing `mongod`, changing the configurations via `vim /etc/mongod.conf`, setting `storage:
+  dbPath: <path_to_gala>/analysis/mongodb` in that file, and starting mongod by `sudo service mongod start`. Note that you need to change the config each time the machine is rebooted. 
 
 **Steps:**
 
