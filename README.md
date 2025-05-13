@@ -56,14 +56,14 @@ And finally build Chromium using ninja: `<path_to>/depot_tools/ninja -C out/Offi
 
 On the codebase of the official Chromium, you may apply the patches by Melicher et al. (chromium_patch and v8_patch) and build the Chromium again. Note that you may encounter lots of dependency errors; just solve them one by one, potentially with the help from LLM, and eventually you will get through all of those annoying errors! For example, you can install missing packages if ninja is complaining about them; or you can create symbolic links for a specific file when ninja says no symbolic link is found. We are also happy to help you with the dependency issues. 
 
-To apply the modifications by GaLA, you can either (i) pull the codes from [our V8 repo for GaLA]([https://github.com/Follow-my-Flow-GaLA/v8]) or, if that does not work, (ii) search for '// Add by Inactive' in that repo and manually apply corresponding codes. Solution (ii) is also a convenient way to understand what modifications we have made for GaLA to work! 
+To apply the modifications by GaLA, you can either (i) pull the codes from [our V8 repo for GaLA](https://github.com/Follow-my-Flow-GaLA/v8) or, if that does not work, (ii) search for '// Add by Inactive' in that repo and manually apply corresponding codes. Solution (ii) is also a convenient way to understand what modifications we have made for GaLA to work! 
 
 A (mostly comprehensive) list of files modified by GaLA: v8/src/objects.cc, v8/src/objects.h, v8/src/objects-inl.h, v8/src/runtime/runtime-object.cc & .h, v8/src
 /flag-definitions.h, v8/src/taint_tracking/protos/logrecord.capnp, v8/include/v8.h (this file must be kept in sync with ../../third_party/WebKit/Source/wtf/text/TaintTracking.h) and adding v8/src/SHA256.cc & .h. Note: In `v8/include/v8.h` you may also find the taint byte design by Melicher et al.. 
 
 **Step 3: Running Modified Chromium for Phases 1, 2 and 3**
 
-After successfully building the Chromium into different repos, e.g., `out/Detector-release/` for Phase 1 in our codebase and `out/Oracle-release/` for Phase 2 and 3, you can run the Chromium for each phase. You don't need to change anything before building them into different repos, because each phase is controlled by different flags during runtime, i.e., `--inactive_conseq_log_enable` for Phase 1, `--inactive_taint_enable` for Phase 2, and `--phase3_enable` for Phase 3. 
+After successfully building the Chromium into different repos, e.g., `out/Detector-release/` for Phase 1 in our codebase and `out/Oracle-release/` for Phase 2 and 3, you can run the Chromium for each phase. You don't need to change anything before building them into different repos, because each phase is controlled by different flags during runtime, i.e., `--inactive_conseq_log_enable` for Phase 1, `--inactive_taint_enable` for Phase 2, and `--phase3_enable` for Phase 3. Note that these flags are defined in the file `v8/src/flag-definitions.h` (can be found in [our V8 repo for GaLA](https://github.com/Follow-my-Flow-GaLA/v8)) with their default values, among which some file paths, e.g., paths beginning with `/media/data1/zfk/`, should be altered. 
 
 Before running each phase, a mongodb server should be setup and running. We put these steps in "Phase 1: Locating Undefined Properties" in the "Log Analysis" section; please check them below. 
 
